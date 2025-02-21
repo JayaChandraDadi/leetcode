@@ -68,12 +68,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0118-pascals-triangle](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0152-maximum-product-subarray](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0152-maximum-product-subarray) |
+| [1013-fibonacci-number](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1013-fibonacci-number) |
 ## Math
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0048-rotate-image) |
 | [0189-rotate-array](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0268-missing-number) |
+| [1013-fibonacci-number](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1013-fibonacci-number) |
 ## Hash Table
 |  |
 | ------- |
@@ -143,4 +145,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0493-reverse-pairs](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0493-reverse-pairs) |
+## Recursion
+|  |
+| ------- |
+| [1013-fibonacci-number](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1013-fibonacci-number) |
+## Memoization
+|  |
+| ------- |
+| [1013-fibonacci-number](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1013-fibonacci-number) |
 <!---LeetCode Topics End-->
