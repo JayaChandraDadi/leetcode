@@ -1,3 +1,4 @@
+import math
 class Solution(object):
     def func(self,k,piles):
         total = 0
