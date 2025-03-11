@@ -6,13 +6,17 @@
 
 class Solution(object):
     def detectCycle(self, head):
-        temp = head
-        mapp = {}
-        while(temp!=None):
-            if temp in mapp:
-                return temp
-            mapp[temp] = 1
-            temp = temp.next
+        slow = head
+        fast = head
+        while(fast!=None and fast.next!=None):
+            slow = slow.next
+            fast = fast.next.next
+            if slow==fast:
+                slow = head
+                while(slow!=fast):
+                    slow = slow.next
+                    fast = fast.next
+                return slow
         return 
 
         
