@@ -9,20 +9,32 @@ class Node:
 
 class Solution(object):
     def copyRandomList(self, head):
-       hashmap = {}
-       temp = head
        if head==None:
-        return 
+        return
+       temp = head
        while(temp!=None):
         newnode = Node(temp.val)
-        hashmap[temp] = newnode
-        temp = temp.next
+        newnode.next = temp.next
+        temp.next = newnode
+        temp = temp.next.next
        temp = head
        while(temp!=None):
-        copynode = hashmap[temp]
-        copynode.next = hashmap.get(temp.next)
-        copynode.random = hashmap.get(temp.random)
+        copynode = temp.next
+        if temp.random==None:
+            copynode.random = None
+        else:
+            copynode.random = temp.random.next
+        temp = temp.next.next
+       dummynode = Node(-1)
+       res = dummynode
+       temp = head
+       while(temp!=None):
+        res.next = temp.next
+        temp.next = temp.next.next
+        res = res.next
         temp = temp.next
-       return hashmap[head]
+       return dummynode.next
+
+
 
         
