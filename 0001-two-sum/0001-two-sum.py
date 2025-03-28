@@ -1,10 +1,9 @@
 class Solution(object):
-    def twoSum(self, a, target):
-        presum = {}
-        for i in range(len(a)):
-            rem = target-a[i]
-            if rem in presum:
-                return [presum[rem],i]
-            else:
-                presum[a[i]] = i
-    
+    def twoSum(self, nums, target):
+        for i in range(len(nums)):
+            if i>=1 and nums[i]==nums[i-1]:
+                continue
+            for j in range(i+1,len(nums)):
+                if nums[i]+nums[j]==target:
+                    return [i,j]
+        return
