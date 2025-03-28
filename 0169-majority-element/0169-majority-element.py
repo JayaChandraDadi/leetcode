@@ -6,7 +6,7 @@ class Solution(object):
             if ct==0:
                 el = nums[i]
                 ct+=1
-            elif nums[i]==el:
+            elif el==nums[i]:
                 ct+=1
             else:
                 ct-=1
