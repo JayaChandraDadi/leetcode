@@ -1,13 +1,12 @@
 class Solution(object):
     def subset(self,nums,i,stack,res,n):
-        if i==n:
-            if stack not in res:
-                res.append(stack[:])
-            return
-        stack.append(nums[i])
-        self.subset(nums,i+1,stack,res,n)
-        stack.pop()
-        self.subset(nums,i+1,stack,res,n)
+        res.append(stack[:])
+        for j in range(i,n):
+            if j>i and nums[j]==nums[j-1]:
+                continue
+            stack.append(nums[j])
+            self.subset(nums,j+1,stack,res,n)
+            stack.pop()
     def subsetsWithDup(self, nums):
         n = len(nums)
         nums.sort()
