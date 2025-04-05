@@ -4,7 +4,7 @@ class Solution(object):
         sum1 = 0
         presummap = {}
         presummap[0] = 1
-        rem = -3
+        #rem = -3
         for i in range(len(nums)):
             sum1+=nums[i]
             rem = sum1-k
