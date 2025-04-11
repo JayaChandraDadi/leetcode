@@ -4,4 +4,3 @@ class Solution(object):
         for i in range(len(nums)):
             xor = xor^nums[i]
         return xor
-        
