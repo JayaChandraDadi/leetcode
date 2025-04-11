@@ -117,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1610-xor-operation-in-an-array](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1610-xor-operation-in-an-array) |
 | [2032-largest-odd-number-in-string](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2032-largest-odd-number-in-string) |
 | [2050-count-good-numbers](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2050-count-good-numbers) |
+| [2083-three-divisors](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2083-three-divisors) |
 ## Hash Table
 |  |
 | ------- |
@@ -294,4 +295,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0139-word-break](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0139-word-break) |
+## Enumeration
+|  |
+| ------- |
+| [2083-three-divisors](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2083-three-divisors) |
+## Number Theory
+|  |
+| ------- |
+| [2083-three-divisors](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2083-three-divisors) |
 <!---LeetCode Topics End-->
