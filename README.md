@@ -114,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0268-missing-number) |
 | [1013-fibonacci-number](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1013-fibonacci-number) |
+| [1610-xor-operation-in-an-array](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1610-xor-operation-in-an-array) |
 | [2032-largest-odd-number-in-string](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2032-largest-odd-number-in-string) |
 | [2050-count-good-numbers](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2050-count-good-numbers) |
 ## Hash Table
@@ -163,6 +164,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0136-single-number) |
 | [0231-power-of-two](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0268-missing-number) |
+| [1610-xor-operation-in-an-array](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1610-xor-operation-in-an-array) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2323-minimum-bit-flips-to-convert-number) |
 ## Divide and Conquer
 |  |
