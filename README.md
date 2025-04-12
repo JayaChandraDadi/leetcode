@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0162-find-peak-element) |
 | [0169-majority-element](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0189-rotate-array) |
+| [0204-count-primes](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0204-count-primes) |
 | [0216-combination-sum-iii](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0216-combination-sum-iii) |
 | [0229-majority-element-ii](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0229-majority-element-ii) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0240-search-a-2d-matrix-ii) |
@@ -111,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0050-powx-n) |
 | [0189-rotate-array](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0189-rotate-array) |
+| [0204-count-primes](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0268-missing-number) |
 | [1013-fibonacci-number](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1013-fibonacci-number) |
@@ -298,9 +300,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Enumeration
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0204-count-primes) |
 | [2083-three-divisors](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2083-three-divisors) |
 ## Number Theory
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0204-count-primes) |
 | [2083-three-divisors](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2083-three-divisors) |
 <!---LeetCode Topics End-->
