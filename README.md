@@ -256,6 +256,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0225-implement-stack-using-queues](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0234-palindrome-linked-list](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0234-palindrome-linked-list) |
 | [1078-remove-outermost-parentheses](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1078-remove-outermost-parentheses) |
 ## Linked List
@@ -307,4 +308,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0204-count-primes](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0204-count-primes) |
 | [2083-three-divisors](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2083-three-divisors) |
+## Design
+|  |
+| ------- |
+| [0225-implement-stack-using-queues](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0225-implement-stack-using-queues) |
+## Queue
+|  |
+| ------- |
+| [0225-implement-stack-using-queues](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0225-implement-stack-using-queues) |
 <!---LeetCode Topics End-->
