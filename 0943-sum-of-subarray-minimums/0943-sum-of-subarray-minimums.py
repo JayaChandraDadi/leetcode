@@ -6,7 +6,7 @@ class Solution(object):
         st = []
         total = 0
         for i in range(n-1,-1,-1):
-            while st and arr[st[-1]]>=arr[i]:
+            while st and arr[st[-1]]>arr[i]:
                 st.pop()
             if st:
                 nse[i] = st[-1]
@@ -15,7 +15,7 @@ class Solution(object):
             st.append(i)
         st = []
         for i in range(n):
-            while st and arr[st[-1]]>arr[i]:
+            while st and arr[st[-1]]>=arr[i]:
                 st.pop()
             if st:
                 pse[i] = st[-1]
