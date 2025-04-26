@@ -251,6 +251,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0402-remove-k-digits](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0402-remove-k-digits) |
 | [0410-split-array-largest-sum](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0410-split-array-largest-sum) |
 | [2032-largest-odd-number-in-string](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2032-largest-odd-number-in-string) |
 ## String
@@ -263,6 +264,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0131-palindrome-partitioning](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0151-reverse-words-in-a-string) |
+| [0402-remove-k-digits](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0402-remove-k-digits) |
 | [1078-remove-outermost-parentheses](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1078-remove-outermost-parentheses) |
 | [2032-largest-odd-number-in-string](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2032-largest-odd-number-in-string) |
 ## Stack
@@ -274,6 +276,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0225-implement-stack-using-queues](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0234-palindrome-linked-list](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0234-palindrome-linked-list) |
+| [0402-remove-k-digits](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0503-next-greater-element-ii) |
 | [0735-asteroid-collision](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0735-asteroid-collision) |
@@ -344,6 +347,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0042-trapping-rain-water) |
+| [0402-remove-k-digits](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0503-next-greater-element-ii) |
 | [0943-sum-of-subarray-minimums](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0943-sum-of-subarray-minimums) |
