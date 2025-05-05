@@ -8,11 +8,10 @@ class Solution(object):
             if nums[r]==0:
                 zeros+=1
             if zeros>k:
-                while(zeros>k):
-                    if nums[l]==0:
-                        zeros-=1
-                    l+=1
-            length = r-l+1
-            maxlen = max(maxlen,length)
+                if nums[l]==0:
+                    zeros-=1
+                l+=1
+            if zeros<=k:
+                maxlen = max(maxlen,r-l+1)
             r+=1
         return maxlen
