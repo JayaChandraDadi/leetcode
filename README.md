@@ -150,6 +150,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0268-missing-number) |
+| [0424-longest-repeating-character-replacement](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0460-lfu-cache](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0460-lfu-cache) |
 | [0496-next-greater-element-i](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0560-subarray-sum-equals-k) |
@@ -277,6 +278,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0139-word-break](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0402-remove-k-digits](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0402-remove-k-digits) |
+| [0424-longest-repeating-character-replacement](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [1078-remove-outermost-parentheses](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1078-remove-outermost-parentheses) |
 | [2032-largest-odd-number-in-string](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2032-largest-odd-number-in-string) |
 ## Stack
@@ -381,6 +383,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0239-sliding-window-maximum](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0239-sliding-window-maximum) |
+| [0424-longest-repeating-character-replacement](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [1046-max-consecutive-ones-iii](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1046-max-consecutive-ones-iii) |
 ## Heap (Priority Queue)
 |  |
