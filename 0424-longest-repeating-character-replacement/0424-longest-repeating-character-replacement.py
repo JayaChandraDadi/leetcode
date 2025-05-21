@@ -12,7 +12,7 @@ class Solution(object):
                 mpp[s[r]]+=1
             maxf = max(maxf,mpp[s[r]])
             if r-l+1-maxf<=k:
-                maxlen = max(maxf,r-l+1)
+                maxlen = max(maxlen,r-l+1)
             if r-l+1-maxf>k:
                 mpp[s[l]]-=1
                 l+=1
