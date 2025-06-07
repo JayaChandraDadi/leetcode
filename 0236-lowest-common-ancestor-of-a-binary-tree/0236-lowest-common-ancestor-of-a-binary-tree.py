@@ -7,22 +7,16 @@
 
 class Solution(object):
     def lowestCommonAncestor(self, root, p, q):
-            temp1 = []
-            temp2 = []
-            def paths(node,temp,key):
-                if not node:
-                    return False
-                temp.append(node)
-                if node.val==key.val:
-                    return True
-                if paths(node.left,temp,key) or paths(node.right,temp,key):
-                    return True
-                temp.pop()
-                return False
-            paths(root,temp1,p)
-            paths(root,temp2,q)
-            i = 0
-            while i < len(temp1) and i < len(temp2) and temp1[i] == temp2[i]:
-                i += 1
-            return temp1[i-1]
-        
+        if root==None or root==p or root==q:
+            return root
+        left = self.lowestCommonAncestor(root.left,p,q)
+        right = self.lowestCommonAncestor(root.right,p,q)
+        if left==None:
+            return right
+        elif right==None:
+            return left
+        else:
+            return root
+
+
+                
