@@ -9,13 +9,12 @@ class Solution(object):
         for i in range(m):
             temp = []
             for j in range(n):
-                temp.append(0)
-            vis.append(temp)
-        for i in range(m):
-            for j in range(n):
                 if mat[i][j]==0:
                     queue.append([i,j,0])
-                    vis[i][j] = 1
+                    temp.append(1)
+                else:
+                    temp.append(0)
+            vis.append(temp)
         drow = [-1,0,+1,0]
         dcol = [0,+1,0,-1]
         while(len(queue)!=0):
