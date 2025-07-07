@@ -7,7 +7,7 @@ class Solution(object):
                 if self.dfs(adj, neighbour, vis, pathvis, stack):
                     return True
             elif pathvis[neighbour] == 1:
-                return True  # cycle detected
+                return True  
         pathvis[node] = 0
         stack.append(node)
         return False
@@ -24,6 +24,5 @@ class Solution(object):
         for i in range(numCourses):
             if vis[i] == 0:
                 if self.dfs(adj, i, vis, pathvis, stack):
-                    return []  # cycle detected
-
-        return stack[::-1]  # topological order
+                    return []  
+        return stack[::-1]  
