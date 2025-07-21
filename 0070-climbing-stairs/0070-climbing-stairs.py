@@ -1,8 +1,9 @@
 class Solution(object):
     def climbStairs(self, n):
-        dp = [-1]*(n+1)
-        dp[0] = 1
-        dp[1] = 1
+        jump1 = 1
+        jump2 = 1
         for i in range(2,n+1):
-            dp[i] = dp[i-1]+dp[i-2]
-        return dp[n]        
+            curri = jump1 + jump2
+            jump2 = jump1
+            jump1 = curri
+        return jump1
