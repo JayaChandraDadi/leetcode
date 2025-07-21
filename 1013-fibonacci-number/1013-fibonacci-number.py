@@ -1,13 +1,12 @@
 class Solution(object):
-    def fibn(self,n,dp):
-        if n<=1:
-            return n
-        if dp[n]!=-1:
-            return dp[n]
-        else:
-            dp[n] = self.fibn(n-1,dp)+self.fibn(n-2,dp)
-            return dp[n]
+    
     def fib(self, n):
+        if n==0:
+            return 0
         dp = [-1]*(n+1)
-        return self.fibn(n,dp)
+        dp[0] = 0
+        dp[1] = 1
+        for i in range(2,n+1):
+            dp[i] = dp[i-1]+dp[i-2]
+        return dp[n]
         
