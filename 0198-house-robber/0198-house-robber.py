@@ -1,16 +1,14 @@
 class Solution(object):
-    def maxmoney(self,n,dp,nums):
-        if n==0:
-            return nums[n]
-        if n<0:
-            return 0
-        if dp[n]!=-1:
-            return dp[n]
-        pick = nums[n] + self.maxmoney(n-2,dp,nums)
-        notpick =  self.maxmoney(n-1,dp,nums)
-        dp[n] = max(pick,notpick)
-        return dp[n]
     def rob(self, nums):
         n = len(nums)
         dp = [-1]*n
-        return self.maxmoney(n-1,dp,nums)
+        dp[0] = nums[0]
+        for i in range(1,n):
+            if i-2<0:
+                take = nums[i]
+            else:
+                take = nums[i] + dp[i-2]
+            nottake = dp[i-1]
+            dp[i] = max(take,nottake)
+        return dp[n-1]
+        
