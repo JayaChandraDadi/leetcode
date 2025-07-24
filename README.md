@@ -146,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0055-jump-game) |
+| [0062-unique-paths](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0070-climbing-stairs) |
 | [0085-maximal-rectangle](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0085-maximal-rectangle) |
 | [0118-pascals-triangle](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0118-pascals-triangle) |
@@ -172,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0029-divide-two-integers](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0029-divide-two-integers) |
 | [0048-rotate-image](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0050-powx-n) |
+| [0062-unique-paths](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0204-count-primes) |
@@ -721,4 +723,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1300-critical-connections-in-a-network](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1300-critical-connections-in-a-network) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
