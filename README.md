@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0204-count-primes](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0204-count-primes) |
 | [0213-house-robber-ii](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0213-house-robber-ii) |
 | [0216-combination-sum-iii](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0216-combination-sum-iii) |
+| [0217-contains-duplicate](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0229-majority-element-ii) |
 | [0239-sliding-window-maximum](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0239-sliding-window-maximum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0240-search-a-2d-matrix-ii) |
@@ -130,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0088-merge-sorted-array) |
 | [0148-sort-list](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0169-majority-element) |
+| [0217-contains-duplicate](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0268-missing-number) |
 | [0435-non-overlapping-intervals](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0435-non-overlapping-intervals) |
@@ -199,6 +201,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0169-majority-element) |
+| [0217-contains-duplicate](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0268-missing-number) |
 | [0424-longest-repeating-character-replacement](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0424-longest-repeating-character-replacement) |
