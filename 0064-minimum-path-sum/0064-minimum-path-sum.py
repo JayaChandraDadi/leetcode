@@ -13,6 +13,26 @@ class Solution(object):
     def minPathSum(self, grid):
         m = len(grid)
         n = len(grid[0]) if grid else 0
-        dp = [[0]*n for i in range(m)]
-        return self.path(m-1,n-1,grid,dp)
+        up = 0
+        left = 0
+        prev = [0]*n
+        for i in range(m):
+            temp = [0]*n
+            for j in range(n):
+                if i==0 and j==0:
+                    temp[j] = grid[i][j]
+                else:
+                    up = grid[i][j]
+                    if i>0:
+                        up = grid[i][j]+prev[j]
+                    else:
+                        up = float('inf')
+                    left= grid[i][j] 
+                    if j>0:
+                        left = grid[i][j] + temp[j-1]
+                    else:
+                        left = float('inf')
+                    temp[j] = min(up,left)
+            prev = temp
+        return prev[n-1]
         
