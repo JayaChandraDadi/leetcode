@@ -18,16 +18,18 @@ class Solution(object):
             return False
         n = len(nums)
         target=sum1//2
-        dp = [[False]*(target+1) for _ in range(n+1)]
-        for i in range(n):
-            dp[i][0] = True
+        prev = [False]*(target+1) 
+        prev[0] = True
         if target>=nums[0]:
-            dp[0][nums[0]] = True
+            prev[nums[0]] = True
         for i in range(1,n):
+            temp = [False]*(target+1)
+            temp[0] = True
             for j in range(1,target+1):
-                nottake = dp[i-1][j]
+                nottake = prev[j]
                 take = False
                 if j>=nums[i]:
-                    take = dp[i-1][j-nums[i]]
-                dp[i][j] = (nottake or take)
-        return dp[n-1][target]
+                    take = prev[j-nums[i]]
+                temp[j] = (nottake or take)
+            prev = temp
+        return prev[target]
