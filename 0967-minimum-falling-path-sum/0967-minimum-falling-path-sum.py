@@ -15,20 +15,23 @@ class Solution(object):
         n = len(matrix)
         min1 = float('inf')
         dp = [[0]*n for _ in range(n)]
+        temp = [0]*n
         for i in range(n):
-            dp[0][i] = matrix[0][i]
+            temp[i] = matrix[0][i]
+        prev = temp
         for i in range(1,n):
+            temp = [0]*n
             for j in range(n):
-                down = matrix[i][j]+ dp[i-1][j]
+                down = matrix[i][j]+ prev[j]
                 if j-1>=0:
-                    leftdg = matrix[i][j] + dp[i-1][j-1]
+                    leftdg = matrix[i][j] + prev[j-1]
                 else:
                     leftdg = float('inf')
                 if j+1<n:
-                    rightdg = matrix[i][j]+dp[i-1][j+1]
+                    rightdg = matrix[i][j]+prev[j+1]
                 else:
                     rightdg = float('inf')
-                dp[i][j] = min(down,leftdg,rightdg)
-        for i in range(n):
-            min1 = min(min1,dp[n-1][i])
-        return min1
+                temp[j] = min(down,leftdg,rightdg)
+            prev = temp
+        
+        return min(prev)
