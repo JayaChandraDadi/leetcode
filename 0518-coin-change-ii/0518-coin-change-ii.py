@@ -17,22 +17,22 @@ class Solution(object):
         return dp[i][target]
     def change(self, amount, nums):
         n = len(nums)
-        dp = [[0]*(amount+1) for _ in range(n)]
+        prev = [0]*(amount+1)
         for i in range(amount+1):
             if i%nums[0]==0:
-                dp[0][i] = 1
-            else:
-                dp[0][i] = 0
-        for i in range(n):
-            dp[i][0] = 1
+                prev[i] = 1
+        prev[0] = 1
         for i in range(1,n):
+            temp = [0]*(amount+1)
+            temp[0] = 1
             for target in range(0,amount+1):
-                nottake = dp[i-1][target]
+                nottake = prev[target]
                 take = 0
                 if target>=nums[i]:
-                    take = dp[i][target-nums[i]]
-                dp[i][target]= take+nottake
-        return dp[n-1][amount]
+                    take = temp[target-nums[i]]
+                temp[target]= take+nottake
+            prev = temp
+        return prev[amount]
 
 
        
