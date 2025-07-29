@@ -15,10 +15,22 @@ class Solution(object):
         return dp[i][target]
     def coinChange(self, coins,amount):
         n = len(coins)
-        dp = [[-1]*(amount+1) for _ in range(n)]
-        if self.count(coins,n-1,amount,dp)==float('inf'):
+        dp = [[0]*(amount+1) for _ in range(n)]
+        for i in range(amount+1):
+            if i%coins[0]==0:
+                dp[0][i] = i//coins[0]
+            else:
+                dp[0][i] = float('inf')
+        for i in range(1,n):
+            for target in range(amount+1):
+                nottake = dp[i-1][target]
+                take = float('inf')
+                if target>=coins[i]:
+                    take = 1+dp[i][target-coins[i]]
+                dp[i][target] = min(take,nottake)
+        if dp[n-1][amount]==float('inf'):
             return -1
         else:
-            return self.count(coins,n-1,amount,dp)
+            return dp[n-1][amount]
         
         
