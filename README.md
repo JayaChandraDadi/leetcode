@@ -182,6 +182,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0967-minimum-falling-path-sum](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0967-minimum-falling-path-sum) |
 | [1013-fibonacci-number](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1013-fibonacci-number) |
 | [1250-longest-common-subsequence](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1250-longest-common-subsequence) |
+| [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 ## Math
@@ -401,6 +402,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0721-accounts-merge) |
 | [1078-remove-outermost-parentheses](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1078-remove-outermost-parentheses) |
 | [1250-longest-common-subsequence](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1250-longest-common-subsequence) |
+| [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2032-largest-odd-number-in-string](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2032-largest-odd-number-in-string) |
 ## Stack
