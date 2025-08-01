@@ -27,10 +27,7 @@ class Solution(object):
                 if word1[i-1]==word2[j-1]:
                     temp[j] = prev[j-1]
                 else:
-                    insert = 1+temp[j-1]
-                    delete = 1+prev[j]
-                    replace = 1+prev[j-1]
-                    temp[j] = min(insert,delete,replace)
+                    temp[j]=min(1+temp[j-1],1+prev[j],1+prev[j-1])
             prev = temp
         return prev[n2]
 
