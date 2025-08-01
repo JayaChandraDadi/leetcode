@@ -17,14 +17,8 @@ class Solution(object):
         prev = [0]*(n2+1) 
         prev[0] = 1
         for i in range(1,n1+1):
-            temp = [0]*(n2+1)
-            temp[0] = 1
-            for j in range(1,n2+1):
+            for j in range(n2,0,-1):
                 if s[i-1]==t[j-1]:
-                    temp[j]=prev[j-1]+prev[j]
-                else:
-                    temp[j] = prev[j]
-            prev = temp
+                    prev[j]=prev[j-1]+prev[j]
         return prev[n2]
-        return self.count(s,t,n1,n2,dp)
         
