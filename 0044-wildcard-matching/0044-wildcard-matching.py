@@ -22,24 +22,25 @@ class Solution(object):
     def isMatch(self, s2, s1):
         n = len(s2)
         m = len(s1)
-        dp = [[False]*(n+1) for _ in range(m+1)]
-        dp[0][0] = True
+        prev = [False]*(n+1) 
+        prev[0] = True
         for j in range(1,n+1):
-            dp[0][j] = False
+            prev[j] = False
         for i in range(1,m+1):
+            temp = [False]*(n+1)
             flag = True
             for k in range(1,i+1):
                 if s1[k-1]!='*':
                     flag = False
                     break
-            dp[i][0] = flag
-        for i in range(1,m+1):
+            temp[0] = flag
             for j in range(1,n+1):
                 if s1[i-1]==s2[j-1] or s1[i-1]=='?':
-                    dp[i][j] = dp[i-1][j-1]
+                    temp[j] = prev[j-1]
                 if s1[i-1]=='*':
-                    dp[i][j] = dp[i-1][j] or dp[i][j-1]
-        return dp[m][n]
+                    temp[j] = prev[j] or temp[j-1]
+            prev = temp
+        return prev[n]
 
         
 
