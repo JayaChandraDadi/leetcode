@@ -13,5 +13,13 @@ class Solution(object):
         return dp[i][buy][k]
     def maxProfit(self, k, prices):
         n = len(prices)
-        dp = [[[-1]*(k+1) for _ in range(2)] for _ in range(n)]
-        return self.profit(0,n,prices,k,1,dp)
+        dp = [[[0]*(k+1) for _ in range(2)] for _ in range(n+1)]
+        for i in range(n-1,-1,-1):
+            for buy in range(2):
+                for cap in range(k,0,-1):
+                    if buy==1:
+                        dp[i][buy][cap] = max(-prices[i]+dp[i+1][0][cap],dp[i+1][1][cap])
+                    else:
+                        dp[i][buy][cap] = max(prices[i]+dp[i+1][1][cap-1],dp[i+1][0][cap])
+        return dp[0][1][k]
+        
