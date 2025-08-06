@@ -3,8 +3,7 @@ class Solution(object):
         buy = nums[0]
         maxprofit = 0
         for i in range(1,len(nums)):
-            if nums[i]<buy:
-                buy = nums[i]
             maxprofit = max(maxprofit,nums[i]-buy)
+            buy = min(buy,nums[i])
         return maxprofit
         
