@@ -19,10 +19,28 @@ class Solution(object):
             return dp[i][j]
         dp[i][j] = False
         return dp[i][j]
-    def isMatch(self, s, p):
-        n = len(s)
-        m = len(p)
-        dp = [[None]*(n+1) for _ in range(m+1)]
-        return self.match(m,n,p,s,dp)
+    def isMatch(self, s2, s1):
+        n = len(s2)
+        m = len(s1)
+        dp = [[False]*(n+1) for _ in range(m+1)]
+        dp[0][0] = True
+        for j in range(1,n+1):
+            dp[0][j] = False
+        for i in range(1,m+1):
+            flag = True
+            for k in range(1,i+1):
+                if s1[k-1]!='*':
+                    flag = False
+                    break
+            dp[i][0] = flag
+        for i in range(1,m+1):
+            for j in range(1,n+1):
+                if s1[i-1]==s2[j-1] or s1[i-1]=='?':
+                    dp[i][j] = dp[i-1][j-1]
+                if s1[i-1]=='*':
+                    dp[i][j] = dp[i-1][j] or dp[i][j-1]
+        return dp[m][n]
+
+        
 
         
