@@ -12,15 +12,9 @@ class Solution(object):
         return dp[i][prev+1]
     def lengthOfLIS(self, nums):
         n = len(nums)
-        next = [0]*(n+1) 
-        temp = [0]*(n+1)
-        for i in range(n-1,-1,-1):
-            for prev in range(i-1,-2,-1):
-                take =float('-inf')
-                if prev==-1 or nums[prev]<nums[i]:
-                    take = 1+next[i+1]
-                nottake = next[prev+1]
-                temp[prev+1] =  max(take,nottake)
-            next = temp
-        return next[0]
-        
+        dp = [1]*(n)
+        for i in range(n):
+            for prev in range(i):
+                if nums[prev]<nums[i]:
+                    dp[i] = max(dp[i],1+dp[prev])
+        return max(dp)
