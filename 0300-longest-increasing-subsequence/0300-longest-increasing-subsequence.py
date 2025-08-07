@@ -10,11 +10,25 @@ class Solution(object):
         nottake = self.length(i+1,prev,nums,n,dp)
         dp[i][prev+1] =  max(take,nottake)
         return dp[i][prev+1]
+    def lowerbound(self,low,high,el,arr):
+        while(low<=high):
+            mid = (low+high)//2
+            if arr[mid]<el:
+                low = mid+1
+            else:
+                index = mid
+                high = mid-1
+        return index
     def lengthOfLIS(self, nums):
         n = len(nums)
-        dp = [1]*(n)
-        for i in range(n):
-            for prev in range(i):
-                if nums[prev]<nums[i]:
-                    dp[i] = max(dp[i],1+dp[prev])
-        return max(dp)
+        temp = []
+        temp.append(nums[0])
+        length = 1
+        for i in range(1,n):
+            if temp[-1]<nums[i]:
+                temp.append(nums[i])
+                length+=1
+            else:
+                index = self.lowerbound(0,len(temp)-1,nums[i],temp)
+                temp[index] = nums[i]
+        return length
