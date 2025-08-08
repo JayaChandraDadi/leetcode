@@ -100,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1073-number-of-enclaves](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1073-number-of-enclaves) |
+| [1129-longest-string-chain](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1129-longest-string-chain) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
@@ -134,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0455-assign-cookies) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0908-middle-of-the-linked-list](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0908-middle-of-the-linked-list) |
+| [1129-longest-string-chain](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1129-longest-string-chain) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Sorting
@@ -154,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0455-assign-cookies) |
 | [0721-accounts-merge](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0721-accounts-merge) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1129-longest-string-chain](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1129-longest-string-chain) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -200,6 +203,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0943-sum-of-subarray-minimums](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [0967-minimum-falling-path-sum](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0967-minimum-falling-path-sum) |
 | [1013-fibonacci-number](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1013-fibonacci-number) |
+| [1129-longest-string-chain](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1129-longest-string-chain) |
 | [1170-shortest-common-supersequence](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
@@ -257,6 +261,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1034-subarrays-with-k-different-integers) |
+| [1129-longest-string-chain](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1129-longest-string-chain) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 ## Binary Search
@@ -431,6 +436,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0678-valid-parenthesis-string](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0721-accounts-merge](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0721-accounts-merge) |
 | [1078-remove-outermost-parentheses](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1078-remove-outermost-parentheses) |
+| [1129-longest-string-chain](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1129-longest-string-chain) |
 | [1170-shortest-common-supersequence](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
