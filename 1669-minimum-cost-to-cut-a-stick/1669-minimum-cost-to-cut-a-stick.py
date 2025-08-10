@@ -17,9 +17,7 @@ class Solution(object):
         length = len(cuts)
         dp = [[0]*(length+2) for _ in range(length+2)]
         for i in range(length-2,0,-1):
-            for j in range(1,length-1):
-                if i>j:
-                    continue
+            for j in range(i,length-1):
                 mini = float('inf')
                 for ind in range(i,j+1):
                     cost = (cuts[j+1] - cuts[i-1])+dp[i][ind-1]+dp[ind+1][j]
