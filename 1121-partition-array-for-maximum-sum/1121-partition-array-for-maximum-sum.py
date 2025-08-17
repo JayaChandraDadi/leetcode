@@ -19,6 +19,19 @@ class Solution(object):
     def maxSumAfterPartitioning(self, arr, k):
         n = len(arr)
         dp = [-1]*(n)
-        return self.maxsum(0,n,arr,k,dp)
+        for i in range(n-1,-1,-1):
+            length = 0
+            sum1 = 0
+            maxi = float('-inf')
+            maximumsum = float('-inf')
+            for j in range(i,min(n,i+k)):
+                length+=1
+                maxi = max(maxi,arr[j])
+                sum = 0
+                sum1 = length*maxi + self.maxsum(j+1,n,arr,k,dp)
+                maximumsum = max(maximumsum,sum1)
+            dp[i] = maximumsum
+
+        return dp[0]
         
         
