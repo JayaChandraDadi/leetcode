@@ -11,6 +11,7 @@ class Solution(object):
                 if j==n2:
                     return i-n2
             else:
-                i = i-j+1
-                j = 0
+                i = i-j+1 
+                j = 0     
         return -1
+        
