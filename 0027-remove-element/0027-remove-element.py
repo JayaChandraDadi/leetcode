@@ -1,9 +1,13 @@
 class Solution(object):
     def removeElement(self, nums, val):
-        temp = []
-        for i in range(len(nums)):
-            if nums[i]!=val:
-                temp.append(nums[i])
-        for i in range(len(temp)):
-           nums[i] = temp[i]
-        return len(temp)
+        i = 0
+        for j in range(len(nums)):
+            if nums[j]!=val:
+                nums[i],nums[j] = nums[j],nums[i]
+                i+=1
+            else:
+                continue
+        return i
+
+
+        
