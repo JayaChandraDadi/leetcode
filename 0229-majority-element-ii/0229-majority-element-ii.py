@@ -1,16 +1,17 @@
 class Solution(object):
     def majorityElement(self, nums):
+        n = len(nums)
         ct1 = 0
         ct2 = 0
-        el1 = float('-inf')
-        el2 = float('-inf')
+        el1 = 0
+        el2 = 0
         for i in range(len(nums)):
             if ct1==0 and nums[i]!=el2:
-                ct1+=1
                 el1 = nums[i]
+                ct1 = 1
             elif ct2==0 and nums[i]!=el1:
-                ct2+=1
                 el2 = nums[i]
+                ct2 = 1
             elif nums[i]==el1:
                 ct1+=1
             elif nums[i]==el2:
@@ -21,16 +22,15 @@ class Solution(object):
         ct1 = 0
         ct2 = 0
         ans = []
-        min1 = (len(nums)//3)+1
-        for i in range(len(nums)):
+        for i in range(n):
             if nums[i]==el1:
                 ct1+=1
             if nums[i]==el2:
                 ct2+=1
-        if ct1>=min1:
+        if ct1>(n//3):
             ans.append(el1)
-        if ct2>=min1:
+        if ct2>(n//3) and el2!=el1:
             ans.append(el2)
         return ans
-
             
+        
