@@ -1,13 +1,21 @@
 class Solution(object):
     def rearrangeArray(self, nums):
-       pos = 0
-       neg = 1
-       ans = [0]*len(nums)
-       for i in range(len(nums)):
+       pos = []
+       neg = []
+       temp = []
+       n = len(nums)
+       for i in range(n):
         if nums[i]>0:
-            ans[pos] = nums[i]
-            pos+=2
+            pos.append(nums[i])
         else:
-            ans[neg] = nums[i]
-            neg+=2
-       return ans
+            neg.append(nums[i])
+       i = 0
+       j = 0
+       while(i<len(pos) or j<len(neg)):
+        if not temp or temp[-1]<0:
+            temp.append(pos[i])
+            i+=1
+        else:
+            temp.append(neg[j])
+            j+=1
+       return temp
