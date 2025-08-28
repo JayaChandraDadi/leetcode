@@ -1,18 +1,17 @@
 class Solution(object):
     def nextPermutation(self, nums):
-        pt = -1
-        for i in range(len(nums)-2,-1,-1):
+        n = len(nums)
+        index = -1
+        for i in range(n-2,-1,-1): 
             if nums[i]<nums[i+1]:
-                pt = i
+                index = i
                 break
-        if pt == -1:
-           nums.reverse()
+        if index==-1:
+            nums.reverse()
         else:
-            for i in range(len(nums)-1,-1,-1):
-                if nums[i]>nums[pt]:
-                    nums[i],nums[pt] = nums[pt],nums[i]
+            for i in range(n-1,index,-1):
+                if nums[i]>nums[index]:
+                    nums[i],nums[index] = nums[index],nums[i]
                     break
-            nums[pt+1:] = reversed(nums[pt+1:])
-        
-
+            nums[index+1:] = reversed(nums[index+1:])
         
