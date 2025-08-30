@@ -1,42 +1,41 @@
-
 class Solution(object):
-    def merge(self, a, low, mid, high):
-        ct = 0
+    def merge(self,low,mid,high,nums):
         left = low
         right = mid+1
-        j = mid+1
+        ct = 0
         temp = []
         while(left<=mid and right<=high):
-            if a[left]<=a[right]:
-                temp.append(a[left])
+            if nums[left]<=nums[right]:
+                temp.append(nums[left])
                 left+=1
             else:
-                temp.append(a[right])
+                temp.append(nums[right])
                 right+=1
         while(left<=mid):
-            temp.append(a[left])
+            temp.append(nums[left])
             left+=1
         while(right<=high):
-            temp.append(a[right])
+            temp.append(nums[right])
             right+=1
+        right = mid+1
         for i in range(low,mid+1):
-            while(j<=high and a[i]>(2*a[j])):
-                j+=1
-            ct+=(j-mid-1)
+            while(right<=high and nums[i]>2*(nums[right])):
+                right+=1
+            ct+=(right-mid-1)
         for i in range(low,high+1):
-            a[i] = temp[i-low]
+            nums[i] = temp[i-low]
         return ct
-    def mergesort(self,a,low,high):
-        cnt = 0
-        if low==high:
-            return cnt
+    def mergesort(self,low,high,nums):
+        ct = 0
+        if low>=high:
+            return 0
         mid = (low+high)//2
-        cnt+=self.mergesort(a,low,mid)
-        cnt+=self.mergesort(a,mid+1,high)
-        cnt+=self.merge(a,low,mid,high)
-        return cnt
-
+        ct+=self.mergesort(low,mid,nums)
+        ct+=self.mergesort(mid+1,high,nums)
+        ct+=self.merge(low,mid,high,nums)
+        return ct
     def reversePairs(self, nums):
         n = len(nums)
-        return self.mergesort(nums,0,n-1)
+        return self.mergesort(0,n-1,nums)
+        
         
