@@ -1,6 +1,7 @@
 class Solution(object):
     def isAnagram(self, s, t):
-        return sorted(s)==sorted(t)
+        if len(s)!=len(t):
+            return False
         hashs = {}
         hasht = {}
         for i in range(len(s)):
