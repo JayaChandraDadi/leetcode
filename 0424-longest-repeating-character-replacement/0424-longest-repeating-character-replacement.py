@@ -13,9 +13,7 @@ class Solution(object):
         if changes<=k:
             maxlen = max(maxlen,r-l+1)
         else:
-            while(changes>k):
-                hashmap[ord(s[l])-ord('A')]-=1
-                l+=1
-                changes = maxfreq-(r-l+1)
+            hashmap[ord(s[l])-ord('A')]-=1
+            l+=1
         r+=1
        return maxlen
