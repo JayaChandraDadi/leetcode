@@ -1,17 +1,20 @@
 class Solution(object):
     def longestOnes(self, nums, k):
-        zeros = 0
+        n = len(nums)
         l = 0
         r = 0
+        zeros = 0
         maxlen = 0
-        while(r<len(nums)):
+        while(r<n):
             if nums[r]==0:
                 zeros+=1
-            if zeros>k:
-                if nums[l]==0:
-                    zeros-=1
-                l+=1
             if zeros<=k:
                 maxlen = max(maxlen,r-l+1)
-            r+=1
+                r+=1
+            else:
+                while(nums[l]!=0):
+                    l+=1
+                l+=1
+                r+=1
+                zeros-=1
         return maxlen
