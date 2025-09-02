@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0240-search-a-2d-matrix-ii](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0283-move-zeroes) |
+| [0287-find-the-duplicate-number](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0312-burst-balloons](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0312-burst-balloons) |
@@ -145,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0234-palindrome-linked-list) |
 | [0283-move-zeroes](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0283-move-zeroes) |
+| [0287-find-the-duplicate-number](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0455-assign-cookies](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0455-assign-cookies) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0908-middle-of-the-linked-list](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0908-middle-of-the-linked-list) |
@@ -305,6 +307,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0222-count-complete-tree-nodes](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0268-missing-number) |
+| [0287-find-the-duplicate-number](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0410-split-array-largest-sum](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0410-split-array-largest-sum) |
 | [0493-reverse-pairs](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0493-reverse-pairs) |
@@ -329,6 +332,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0222-count-complete-tree-nodes](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0231-power-of-two](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0268-missing-number) |
+| [0287-find-the-duplicate-number](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [1610-xor-operation-in-an-array](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1610-xor-operation-in-an-array) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2323-minimum-bit-flips-to-convert-number) |
 ## Divide and Conquer
