@@ -1,17 +1,17 @@
 class Solution(object):
     def nextGreaterElement(self, nums1, nums2):
-        n1 = len(nums1)
-        n2 = len(nums2)
-        ans = []
-        for i in range(n1):
-            el = nums1[i]
-            for j in range(n2):
-                if el==nums2[j]:
-                    break
-            for k in range(j+1,n2):
-                if nums2[k]>el:
-                    ans.append(nums2[k])
-                    break
-            if len(ans)!=i+1:
-                ans.append(-1)
-        return ans
+        n = len(nums2)
+        st = []
+        ans = {}
+        for i in range(n-1,-1,-1):
+            while st and nums2[i]>=st[-1]:
+                st.pop()
+            if not st:
+                ans[nums2[i]] = -1
+            else:
+                ans[nums2[i]] = st[-1]
+            st.append(nums2[i])
+        res = []
+        for i in range(len(nums1)):
+            res.append(ans[nums1[i]])
+        return res
