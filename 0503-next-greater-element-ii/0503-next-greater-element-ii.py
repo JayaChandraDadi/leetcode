@@ -1,22 +1,16 @@
 class Solution(object):
     def nextGreaterElements(self, nums):
         n = len(nums)
-        ans = [-1]*n
         st = []
+        ans = [-1]*n
         for i in range(2*n-1,-1,-1):
             ind = i%n
             while st and st[-1]<=nums[ind]:
                 st.pop()
             if i<n:
-                if st:
-                    ans[i] = st[-1]
-                else:
+                if not st:
                     ans[i] = -1
+                else:
+                    ans[i] = st[-1]
             st.append(nums[ind])
         return ans
-            
-
-            
-
-
-        
