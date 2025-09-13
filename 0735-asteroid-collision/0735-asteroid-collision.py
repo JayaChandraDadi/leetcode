@@ -5,7 +5,7 @@ class Solution(object):
         if nums[i]>0:
             st.append(nums[i])
         else:
-            while st and st[-1]>0 and st[-1]<abs(nums[i]):
+            while st and st[-1]>0 and abs(st[-1])<abs(nums[i]):
                 st.pop()
             if st and st[-1]==abs(nums[i]):
                 st.pop()
