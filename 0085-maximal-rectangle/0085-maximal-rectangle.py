@@ -23,7 +23,7 @@ class Solution(object):
         for i in range(m):
             presum = 0
             for j in range(n):
-                if matrix[i][j]==0:
+                if int(matrix[i][j])==0:
                     premat[i][j] = 0
                 else:
                     premat[i][j] = int(matrix[i][j])+(int(premat[i-1][j]) if i>0 else 0)
