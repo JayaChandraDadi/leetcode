@@ -15,6 +15,5 @@ class Solution(object):
             if k>h:
                 low = mid+1
             else:
-                ans = mid
                 high = mid-1
-        return ans
+        return low
