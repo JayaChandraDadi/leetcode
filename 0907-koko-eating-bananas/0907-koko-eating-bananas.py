@@ -1,19 +1,20 @@
 import math
 class Solution(object):
-    def func(self,k,piles):
-        total = 0
+    def hours(self,piles,speed):
+        hours = 0
         for pile in piles:
-            total+=(pile+k-1)//k
-        return total
+            hours+=((pile+speed-1)//speed)
+        return hours
     def minEatingSpeed(self, piles, h):
         low = 1
-        high =max(piles)
+        high = max(piles)
+        ans = 0
         while(low<=high):
             mid = (low+high)//2
-            req_time = self.func(mid,piles)
-            if req_time<=h:
-                high = mid-1
-            else:
+            k = self.hours(piles,mid)
+            if k>h:
                 low = mid+1
-        return low
-        
+            else:
+                ans = mid
+                high = mid-1
+        return ans
