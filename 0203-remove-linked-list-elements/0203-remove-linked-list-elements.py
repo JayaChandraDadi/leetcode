@@ -10,12 +10,9 @@ class Solution(object):
         temp = head
         prev = dummy
         while(temp!=None):
-            front = temp.next
             if temp.val==val:
-                temp.next = None
-                prev.next = front
-                temp = front
+                prev.next = temp.next
             else:
                 prev = temp
-                temp = front
+            temp = temp.next
         return dummy.next
