@@ -4,7 +4,7 @@
 #         self.val = val
 #         self.next = next
 class Solution(object):
-    def mid(self,head):
+    def findmid(self,head):
         if head==None or head.next==None:
             return head
         slow = head
@@ -13,9 +13,9 @@ class Solution(object):
             slow = slow.next
             fast = fast.next.next
         return slow
-    def mergesort(self,left,right):
-        dummy = ListNode(-1)
-        temp = dummy
+    def merge(self,left,right):
+        dummynode = ListNode(-1)
+        temp = dummynode
         while(left!=None and right!=None):
             if left.val<=right.val:
                 temp.next = left
@@ -24,24 +24,20 @@ class Solution(object):
                 temp.next = right
                 right = right.next
             temp = temp.next
-        if left!=None:
+        if left:
             temp.next = left
         else:
             temp.next = right
-        return dummy.next
-    def merge(self,head):
-        if head==None or head.next==None:
+        return dummynode.next
+    def mergesort(self,head):
+        if not head or head.next==None:
             return head
-        middle = self.mid(head)
-        lefthead = head
-        righthead = middle.next
+        middle = self.findmid(head)
+        right = middle.next
         middle.next = None
-        lefthead = self.merge(lefthead)
-        righthead = self.merge(righthead)
-        newhead = self.mergesort(lefthead,righthead)
-        return newhead
+        left = head
+        left = self.mergesort(left)
+        right = self.mergesort(right)
+        return self.merge(left,right)
     def sortList(self, head):
-         head = self.merge(head)
-         return head
-
-        
+        return self.mergesort(head)
