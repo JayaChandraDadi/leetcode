@@ -1,14 +1,16 @@
 class Solution(object):
     def isAnagram(self, s, t):
+        s_sorted = sorted(s)
+        t_sorted = sorted(t)
         if len(s)!=len(t):
             return False
-        hashs = {}
-        hasht = {}
-        for i in range(len(s)):
-            hashs[s[i]] = hashs.get(s[i],0)+1
-            hasht[t[i]] = hasht.get(t[i],0)+1
-        for el,ct in hashs.items():
-            if hasht.get(el,0)!=ct:
+        i = 0
+        j = 0
+        while(i<len(s) and j<len(t)):
+            if s_sorted[i]==t_sorted[j]:
+                i+=1
+                j+=1
+            else:
                 return False
         return True
         
