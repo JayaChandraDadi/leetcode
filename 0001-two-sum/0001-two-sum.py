@@ -1,8 +1,9 @@
 class Solution(object):
     def twoSum(self, nums, target):
-       hashmap = {}
-       for i in range(len(nums)):
-        if (target-nums[i]) in hashmap:
-            return [i,hashmap[target-nums[i]]]
-        hashmap[nums[i]] = i
-
+        hashmap = {}
+        sum1 = 0
+        for i in range(len(nums)):
+            sum1 = nums[i]
+            if target-sum1 in hashmap:
+                return [hashmap[target-sum1],i]
+            hashmap[sum1] = i
