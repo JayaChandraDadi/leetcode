@@ -1,13 +1,10 @@
 class Solution(object):
     def twoSum(self, numbers, target):
-       i = 0
-       n = len(numbers)
-       j = n-1
-       while(i<j):
-        sum1 = numbers[i]+numbers[j]
-        if sum1>target:
-            j-=1
-        elif sum1<target:
-            i+=1
-        else:
-            return [i+1,j+1]
+       hashmap = {}
+       for i in range(len(numbers)):
+        sum1 = numbers[i]
+        rem = target-sum1
+        if rem in hashmap:
+            return [hashmap[rem]+1,i+1]
+        hashmap[sum1] = i
+       
