@@ -1,19 +1,15 @@
 class Solution(object):
-    def generate(self,open,close,stack,res,n):
+    def recursion(self,open,close,ans,st,n):
         if open==close==n:
-            res.append("".join(stack))
-            return
-        if open<n:
-            stack.append("(")
-            self.generate(open+1,close,stack,res,n)
-            stack.pop()
-        if close<open:
-            stack.append(")")
-            self.generate(open,close+1,stack,res,n)
-            stack.pop()
-
+            ans.append(''.join(st))
+        if open>=close and open<n:
+            st.append('(')
+            self.recursion(open+1,close,ans,st,n)
+            st.pop()
+        if close<n:
+            st.append(')')
+            self.recursion(open,close+1,ans,st,n)
+            st.pop()
+        return ans
     def generateParenthesis(self, n):
-        stack = []
-        res = []
-        self.generate(0,0,stack,res,n)
-        return res
+        return self.recursion(0,0,[],[],n)
