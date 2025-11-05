@@ -1,12 +1,15 @@
 class Solution(object):
+    def findsubsets(self,nums,i,ans,st,n):
+        if i==n:
+            ans.append(list(st))
+            return
+        st.append(nums[i])
+        self.findsubsets(nums,i+1,ans,st,n)
+        st.pop()
+        self.findsubsets(nums,i+1,ans,st,n)
+        return ans
     def subsets(self, nums):
         n = len(nums)
-        res = []
-        for num in range(1<<n):
-            subset=[]
-            for i in range(n):
-                if num&(1<<i):
-                    subset.append(nums[i])
-            res.append(subset)
-        return res
-        
+        ans = []
+        st = []
+        return self.findsubsets(nums,0,ans,st,n)
