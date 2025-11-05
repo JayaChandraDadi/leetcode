@@ -1,16 +1,18 @@
 class Solution(object):
-    def combination(self,arr,target,i,res,stack,n):
-        if i==n:
-            if target==0:
-                res.append(stack[:])
+    def combinations(self,candidates,i,target,st,ans,n):
+        if target==0:
+            ans.append(list(st))
             return
-        if target>=arr[i]:
-            stack.append(arr[i])
-            self.combination(arr,target-arr[i],i,res,stack,n)
-            stack.pop()
-        self.combination(arr,target,i+1,res,stack,n)
+        if target<0 or i==n:
+            return 
+        st.append(candidates[i])
+        self.combinations(candidates,i,target-candidates[i],st,ans,n)
+        st.pop()
+        self.combinations(candidates,i+1,target,st,ans,n)
+        return ans
     def combinationSum(self, candidates, target):
-        res = []
-        stack = []
-        self.combination(candidates,target,0,res,stack,len(candidates))
-        return res
+        ans = []
+        st = []
+        n = len(candidates)
+        return self.combinations(candidates,0,target,st,ans,n)
+        
