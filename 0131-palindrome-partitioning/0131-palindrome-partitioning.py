@@ -1,23 +1,20 @@
 class Solution(object):
-    def ispalindrome(self,s,start,end):
-        while(start<=end):
-            if s[start]!=s[end]:
+    def ispalindrome(self,s,left,right):
+        while(left<right):
+            if s[left]!=s[right]:
                 return False
-            start+=1
-            end-=1
+            left+=1
+            right-=1
         return True
-    def substring(self,s,res,stack,i,n):
-        if i==n:
-            res.append(stack[:])
-            return
-        for j in range(i,n):
-            if self.ispalindrome(s,i,j)==True:
-                stack.append(s[i:j+1])
-                self.substring(s,res,stack,j+1,n)
-                stack.pop()
+    def partation(self,s,path,ans,index):
+        if index==len(s):
+            ans.append(list(path))
+            return 
+        for i in range(index,len(s)):
+            if self.ispalindrome(s,index,i):
+                path.append(s[index:i+1])
+                self.partation(s,path,ans,i+1)
+                path.pop()
+        return ans
     def partition(self, s):
-        res = []
-        stack = []
-        self.substring(s,res,stack,0,len(s))
-        return res
-        
+        return self.partation(s,[],[],0)
