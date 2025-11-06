@@ -1,17 +1,15 @@
 class Solution(object):
-    def subset(self,nums,i,stack,res,n):
-        res.append(stack[:])
+    def subsets(self,nums,n,i,st,ans):
+        ans.append(list(st))
+        if i==n:
+            return 
         for j in range(i,n):
-            if j>i and nums[j]==nums[j-1]:
+            if j>i and nums[j-1]==nums[j]:
                 continue
-            stack.append(nums[j])
-            self.subset(nums,j+1,stack,res,n)
-            stack.pop()
+            st.append(nums[j])
+            self.subsets(nums,n,j+1,st,ans)
+            st.pop()
+        return ans
     def subsetsWithDup(self, nums):
-        n = len(nums)
         nums.sort()
-        stack = []
-        res = []
-        self.subset(nums,0,stack,res,n)
-        return res
-        
+        return self.subsets(nums,len(nums),0,[],[])
