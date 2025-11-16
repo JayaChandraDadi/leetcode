@@ -5,15 +5,15 @@
 #         self.left = left
 #         self.right = right
 class Solution(object):
+    def check(self,temp1,temp2):
+        if temp1==None and temp2==None:
+            return True
+        if temp1==None or temp2==None:
+            return False
+        if temp1.val!=temp2.val:
+            return False
+        return self.check(temp1.left,temp2.left) and self.check(temp1.right,temp2.right)
     def isSameTree(self, p, q):
-        def dfs(p,q):
-            if  p!=None and q!=None and p.val==q.val:
-                left = dfs(p.left,q.left)
-                right = dfs(p.right,q.right)
-            elif p==None and q==None:
-                return True
-            else:
-                return False
-            return left&right
-        return dfs(p,q)
+        return self.check(p,q)
+
         
