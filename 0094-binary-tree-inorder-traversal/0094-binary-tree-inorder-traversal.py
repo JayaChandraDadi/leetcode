@@ -5,28 +5,14 @@
 #         self.left = left
 #         self.right = right
 class Solution(object):
+    def inorder(self,root,ans):
+        if root==None:
+            return []
+        self.inorder(root.left,ans)
+        ans.append(root.val)
+        self.inorder(root.right,ans)
+        return ans
     def inorderTraversal(self, root):
-        inorder = []
-        curr = root
-        while(curr!=None):
-            if curr.left==None: 
-                inorder.append(curr.val)
-                curr = curr.right
-            else:
-                prev = curr.left
-                while(prev.right and prev.right!=curr):
-                    prev = prev.right
-                if prev.right==None:
-                    prev.right = curr
-                    curr = curr.left
-                else:
-                    prev.right = None
-                    inorder.append(curr.val)
-                    curr = curr.right
-        return inorder
-      
-
-
-
-               
+        ans = []
+        return self.inorder(root,ans)
         
