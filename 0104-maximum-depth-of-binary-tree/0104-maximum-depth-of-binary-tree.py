@@ -5,10 +5,11 @@
 #         self.left = left
 #         self.right = right
 class Solution(object):
-    def maxDepth(self, root):
-        temp = root
-        if temp==None:
+    def check(self,root):
+        if root==None:
             return 0
-        left = self.maxDepth(temp.left)
-        right = self.maxDepth(temp.right)
-        return 1+max(left,right)
+        leftheight = self.check(root.left)
+        rightheight = self.check(root.right)
+        return 1+ max(leftheight,rightheight)
+    def maxDepth(self, root):
+        return self.check(root)
