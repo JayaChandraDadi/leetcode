@@ -4,29 +4,23 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-from Queue import Queue
+from collections import deque
 class Solution(object):
     def levelOrder(self, root):
-        queue = Queue()
+        if root==None:
+            return []
+        q = deque()
+        q.append(root)
         ans = []
-        if root == None:
-            return ans
-        queue.put(root)
-        while(queue.qsize()!=0):
-            n = queue.qsize()
-            k = []
-            for i in range(n):
-                temp = queue.get()
-                if temp.left!=None:
-                    queue.put(temp.left)
-                if temp.right!=None:
-                    queue.put(temp.right)
-                k.append(temp.val)
-            ans.append(k)
+        while(q):
+            level = []
+            for i in range(len(q)):
+                temp = q.popleft()
+                level.append(temp.val)
+                if temp.left:
+                    q.append(temp.left)
+                if temp.right:
+                    q.append(temp.right)
+            ans.append(level)
         return ans
                 
-
-        
-        
-       
-        
