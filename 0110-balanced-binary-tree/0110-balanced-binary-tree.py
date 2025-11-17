@@ -5,15 +5,17 @@
 #         self.left = left
 #         self.right = right
 class Solution(object):
+    def getheight(self,root):
+        if root==None:
+            return 0
+        leftheight = self.getheight(root.left)
+        rightheight = self.getheight(root.right)
+        return 1+max(leftheight,rightheight)
     def isBalanced(self, root):
-        def dfs(root):
-            if root==None:
-                return 0
-            left = dfs(root.left)
-            right = dfs(root.right)
-            if left==-1 or right==-1:
-                return -1
-            if abs(left-right)>1:
-                return -1
-            return max(left,right)+1
-        return dfs(root)!=-1
+        if not root:
+            return True
+        leftheight = self.getheight(root.left)
+        rightheight = self.getheight(root.right)
+        if abs(leftheight-rightheight)<=1  and self.isBalanced(root.left) and self.isBalanced(root.right):
+            return True
+        return False
