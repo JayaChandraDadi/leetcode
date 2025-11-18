@@ -5,15 +5,15 @@
 #         self.left = left
 #         self.right = right
 class Solution(object):
+    def preorder(self,ans,root):
+        if root==None:
+            return ans
+        self.preorder(ans,root.left)
+        self.preorder(ans,root.right)
+        ans.append(root.val)
+        return ans
     def postorderTraversal(self, root):
         ans = []
-        def postorder(temp):
-            if temp==None:
-                return
-            else:
-                postorder(temp.left)
-                postorder(temp.right)
-                ans.append(temp.val)
-        postorder(root)
-        return ans
+        return self.preorder(ans,root)
+        
         
