@@ -9,13 +9,17 @@ class Solution(object):
         if root==None:
             return 0
         leftheight = self.getheight(root.left)
+        if leftheight==-1:
+            return -1
         rightheight = self.getheight(root.right)
+        if rightheight==-1:
+            return -1
+        if abs(leftheight-rightheight)>1:
+            return -1
         return 1+max(leftheight,rightheight)
     def isBalanced(self, root):
-        if not root:
+        if self.getheight(root)==-1:
+            return False
+        else:
             return True
-        leftheight = self.getheight(root.left)
-        rightheight = self.getheight(root.right)
-        if abs(leftheight-rightheight)<=1  and self.isBalanced(root.left) and self.isBalanced(root.right):
-            return True
-        return False
+        
