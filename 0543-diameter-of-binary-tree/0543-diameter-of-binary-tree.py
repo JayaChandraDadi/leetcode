@@ -5,16 +5,14 @@
 #         self.left = left
 #         self.right = right
 class Solution(object):
+    maxi = 0
+    def diameter(self,root):
+        if root==None:
+            return 0
+        leftheight = self.diameter(root.left)
+        rightheight = self.diameter(root.right)
+        self.maxi = max(self.maxi,leftheight+rightheight)
+        return 1+max(leftheight,rightheight)
     def diameterOfBinaryTree(self, root):
-        temp = root
-        maxi = [0]
-        def dfs(temp,maxi):
-            if temp==None:
-                return 0
-            left = dfs(temp.left,maxi)
-            right = dfs(temp.right,maxi)
-            maxi[0] = max(left+right,maxi[0])
-            return 1+max(left,right)
-        dfs(temp,maxi)
-        return maxi[0]
-        
+        self.diameter(root)
+        return self.maxi
