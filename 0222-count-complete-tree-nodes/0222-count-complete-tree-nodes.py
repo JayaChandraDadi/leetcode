@@ -6,9 +6,16 @@
 #         self.right = right
 from collections import deque
 class Solution(object):
+    def count(self,root):
+        if not root:
+            return 0
+        leftnodes = self.count(root.left)
+        rightnodes = self.count(root.right)
+        return 1+leftnodes+rightnodes
     def countNodes(self, root):
         if not root:
             return 0
+        return self.count(root)
         queue = deque()
         ct = 0
         queue.append(root)
