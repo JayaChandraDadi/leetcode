@@ -14,9 +14,10 @@ class Solution(object):
         else:
             if root.left:
                 self.allpaths(root.left,st,ans)
+                st.pop()
             if root.right:
                 self.allpaths(root.right,st,ans)
-        st.pop()
+                st.pop()
         return ans
     def binaryTreePaths(self, root):
         if not root:
