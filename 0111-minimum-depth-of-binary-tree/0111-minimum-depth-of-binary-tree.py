@@ -7,21 +7,17 @@
 from collections import deque
 class Solution(object):
     def mindepth(self,root):
-        if root.left==None and root.right==None:
+        if root==None:
             return 0
-        elif root.left==None:
-            leftheight = float('inf')
-            rightheight = self.mindepth(root.right)
-        elif root.right==None:
-            rightheight = float('inf')
-            leftheight  = self.mindepth(root.left)
-        else:
-            leftheight  = self.mindepth(root.left)
-            rightheight = self.mindepth(root.right)
-        return 1+min(leftheight,rightheight)
+        if not root.left:
+            return 1+self.mindepth(root.right)
+        elif not root.right:
+            return 1+self.mindepth(root.left)
+        return 1+min(self.mindepth(root.left),self.mindepth(root.right))
     def minDepth(self, root):
         if not root:
             return 0
+        return self.mindepth(root)
         q = deque()
         depth = 0
         q.append(root)
@@ -38,5 +34,5 @@ class Solution(object):
         
         if not root:
             return 0
-        return 1+self.mindepth(root)
+        
         
