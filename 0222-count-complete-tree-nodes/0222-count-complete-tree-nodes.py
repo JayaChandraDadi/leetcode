@@ -1,28 +1,23 @@
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, val=0, left=None, right=None):
-#         se lf.val = val
+#         self.val = val
 #         self.left = left
 #         self.right = right
+from collections import deque
 class Solution(object):
-    def findleftheight(self,node):
-        ht = 0
-        while(node!=None):
-            ht+=1
-            node = node.left
-        return ht
-    def findrightheight(self,node):
-        ht = 0
-        while(node!=None):
-            ht+=1
-            node = node.right
-        return ht
     def countNodes(self, root):
-        if root==None:
+        if not root:
             return 0
-        lh = self.findleftheight(root)
-        rh = self.findrightheight(root)
-        if lh==rh:
-            return (1<<lh)-1
-        return 1 + self.countNodes(root.left) + self.countNodes(root.right)
-        
+        queue = deque()
+        ct = 0
+        queue.append(root)
+        while(queue):
+            for i in range(len(queue)):
+                temp = queue.popleft()
+                ct+=1
+                if temp.left:
+                    queue.append(temp.left)
+                if temp.right:
+                    queue.append(temp.right)
+        return ct
