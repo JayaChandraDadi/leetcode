@@ -17,7 +17,7 @@ class Solution(object):
     def minDepth(self, root):
         if not root:
             return 0
-        return self.mindepth(root)
+        
         q = deque()
         depth = 0
         q.append(root)
