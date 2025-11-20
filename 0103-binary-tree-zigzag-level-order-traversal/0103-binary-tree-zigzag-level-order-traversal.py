@@ -9,27 +9,23 @@ class Solution(object):
     def zigzagLevelOrder(self, root):
         if not root:
             return []
-        flag = 0
         queue = deque()
-        queue.append(root)
+        flag = 0
         ans = []
-        while(len(queue)!=0):
-            temp = []
+        queue.append(root)
+        while(queue):
+            level = []
             for i in range(len(queue)):
-                node = queue.popleft()
-                if node.left!=None:
-                    queue.append(node.left)
-                if node.right!=None:
-                    queue.append(node.right)
-                temp.append(node.val)
+                temp = queue.popleft()
+                if temp.left:
+                    queue.append(temp.left)
+                if temp.right:
+                    queue.append(temp.right)
+                level.append(temp.val)
             if flag==0:
+                ans.append(level)
                 flag = 1
-                ans.append(temp)
             else:
-                flag = 0 
-                ans.append(temp[::-1])
+                ans.append(level[::-1])
+                flag = 0
         return ans
-
-
-
-        
