@@ -6,17 +6,16 @@
 #         self.right = None
 
 class Solution(object):
-    def lowestCommonAncestor(self, root, p, q):
+    def lca(self,root,p,q):
         if root==None or root==p or root==q:
             return root
-        left = self.lowestCommonAncestor(root.left,p,q)
-        right = self.lowestCommonAncestor(root.right,p,q)
+        left = self.lca(root.left,p,q)
+        right = self.lca(root.right,p,q)
         if left==None:
             return right
-        elif right==None:
+        if right==None:
             return left
-        else:
-            return root
-
-
-                
+        return root
+    def lowestCommonAncestor(self, root, p, q):
+       return self.lca(root,p,q)
+        
