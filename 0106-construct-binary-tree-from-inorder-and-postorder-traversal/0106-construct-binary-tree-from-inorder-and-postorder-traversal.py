@@ -5,19 +5,18 @@
 #         self.left = left
 #         self.right = right
 class Solution(object):
-    def build(self,postorder,poststart,postend,inorder,instart,inend,mapp):
+    def tree(self,postorder,inorder,poststart,postend,instart,inend,hashmap):
         if poststart>postend or instart>inend:
-            return None
-        node = TreeNode(postorder[postend])
-        inroot = mapp[node.val]
-        numsleft = inroot-instart
-        node.left = self.build(postorder,poststart,poststart+numsleft-1,inorder,instart,inroot-1,mapp)
-        node.right = self.build(postorder,poststart+numsleft,postend-1,inorder,inroot+1,inend,mapp)
-        return node
+            return 
+        root_val = postorder[postend]
+        root = TreeNode(root_val)
+        rootindex = hashmap[root_val]
+        numsleft = rootindex-instart
+        root.left = self.tree(postorder,inorder,poststart,poststart+numsleft-1,instart,rootindex-1,hashmap)
+        root.right = self.tree(postorder,inorder,poststart+numsleft,postend-1,rootindex+1,inend,hashmap)
+        return root
     def buildTree(self, inorder, postorder):
-        mapp = {}
+        hashmap = {}
         for i in range(len(inorder)):
-            mapp[inorder[i]] = i
-        return self.build(postorder,0,len(postorder)-1,inorder,0,len(inorder)-1,mapp)
-
-        
+            hashmap[inorder[i]] = i
+        return self.tree(postorder,inorder,0,len(postorder)-1,0,len(inorder)-1,hashmap)
