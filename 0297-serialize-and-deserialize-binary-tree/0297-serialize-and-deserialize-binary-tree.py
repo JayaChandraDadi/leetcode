@@ -6,43 +6,43 @@
 #         self.right = None
 from collections import deque
 class Codec:
-
     def serialize(self, root):
-        if not root:
-            return '[]'
-        result = []
-        queue = deque([root])
-        while queue:
-            node = queue.popleft()
-            if node:
-                result.append(str(node.val))
-                queue.append(node.left)
-                queue.append(node.right)
-            else:
-                result.append('null')
-        while result and result[-1] == 'null':
-            result.pop()
-        
-        return '[' + ','.join(result) + ']'
+        q = deque()
+        result = ''
+        q.append(root)
+        while(q):
+            for i in range(len(q)):
+                node = q.popleft()
+                if not node:
+                    result+='#'+','
+                    continue
+                else:
+                    result+=str(node.val)+','
+                q.append(node.left)
+                q.append(node.right)
+        return result
     def deserialize(self, data):
-        if data == '[]':
+
+        if not data:
             return None
-        nodes = data[1:-1].split(',')
+        nodes = data.split(',')
+        q = deque()
+        if nodes[0]=='#':
+            return None
         root = TreeNode(int(nodes[0]))
-        queue = deque([root])
+        q.append(root)
         i = 1
-        while queue:
-            node = queue.popleft()
-            if i < len(nodes) and nodes[i] != 'null':
+        while q and i<len(nodes)-1:
+            node = q.popleft()
+            if nodes[i]!='#':
                 node.left = TreeNode(int(nodes[i]))
-                queue.append(node.left)
-            i += 1
-            if i < len(nodes) and nodes[i] != 'null':
+                q.append(node.left)
+            i+=1
+            if nodes[i]!='#':
                 node.right = TreeNode(int(nodes[i]))
-                queue.append(node.right)
-            i += 1
+                q.append(node.right)
+            i+=1
         return root
-            
 # Your Codec object will be instantiated and called as such:
 # ser = Codec()
 # deser = Codec()
