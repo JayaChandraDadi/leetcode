@@ -11,7 +11,7 @@ class Solution(object):
             return node
         if val<root.val:
             root.left = self.insert(root.left,val)
-        if val>root.val:
+        else:
             root.right = self.insert(root.right,val)
         return root
     def insertIntoBST(self, root, val):
