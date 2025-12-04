@@ -4,12 +4,18 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+from collections import deque
 class Solution(object):
-    def validate(self,node,min1,max1):
-        if node==None:
-            return True
-        if node.val<=min1 or node.val>=max1:
-            return False
-        return self.validate(node.left,min1,node.val) and self.validate(node.right,node.val,max1)
+    def preorder(self,root,ans):
+        if not root:
+            return 
+        self.preorder(root.left,ans)
+        ans.append(root.val)
+        self.preorder(root.right,ans)
+        return ans
     def isValidBST(self, root):
-        return self.validate(root,float('-inf'),float('inf'))
+        ans = self.preorder(root,[])
+        for i in range(1,len(ans)):
+            if ans[i-1]>=ans[i]:
+                return False
+        return True       
