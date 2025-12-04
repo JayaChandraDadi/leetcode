@@ -5,14 +5,18 @@
 #         self.left = left
 #         self.right = right
 class Solution(object):
-    def preorder(self,root,ans):
+    def preorder(self,root):
         if not root:
             return
-        self.preorder(root.left,ans)
-        ans.append(root.val)
-        self.preorder(root.right,ans)
-        return ans
+        self.preorder(root.left)
+        self.k-=1
+        if self.k==0:
+            self.result = root.val
+            return 
+        self.preorder(root.right)
     def kthSmallest(self, root, k):
-        ans = self.preorder(root,[])
-        return ans[k-1]
+        self.k = k
+        self.result = 0
+        self.preorder(root)
+        return self.result
         
