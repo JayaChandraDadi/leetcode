@@ -5,29 +5,14 @@
 #         self.left = left
 #         self.right = right
 class Solution(object):
+    def preorder(self,root,ans):
+        if not root:
+            return
+        self.preorder(root.left,ans)
+        ans.append(root.val)
+        self.preorder(root.right,ans)
+        return ans
     def kthSmallest(self, root, k):
-        node = root
-        ct = 0
-        while(node):
-            if node.left==None:
-                ct+=1
-                if ct==k:
-                    return node.val
-                node = node.right
-            else:
-                prev = node.left
-                while prev.right!=node and prev.right!=None:
-                    prev = prev.right
-                if prev.right==None:
-                    prev.right = node
-                    node = node.left
-                else:
-                    prev.right = None
-                    ct+=1
-                    if ct==k:
-                        return node.val
-                    node = node.right
-        return None
-
-        
+        ans = self.preorder(root,[])
+        return ans[k-1]
         
