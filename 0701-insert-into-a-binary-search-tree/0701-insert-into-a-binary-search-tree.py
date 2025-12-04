@@ -9,13 +9,6 @@ class Solution(object):
         if not root:
             node = TreeNode(val)
             return node
-        if root.left==None and root.right==None:
-            node = TreeNode(val)
-            if root.val>node.val:
-                root.left = node
-            else:
-                root.right = node
-            return root
         if val<root.val:
             root.left = self.insert(root.left,val)
         if val>root.val:
