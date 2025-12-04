@@ -9,17 +9,12 @@ class Solution(object):
     def inorder(self,root,p):
         if not root:
             return 
-        self.inorder(root.left,p)
-        self.ans.append(root)
-        self.inorder(root.right,p)
+        if p.val<root.val:
+            self.ans = root
+            self.inorder(root.left,p)
+        else:
+            self.inorder(root.right,p)
     def inorderSuccessor(self, root, p):
-        self.ans = []
+        self.ans = 0 
         self.inorder(root,p)
-        n = len(self.ans)
-        for i in range(len(self.ans)):
-            if self.ans[i]==p:
-                if i+1!=n:
-                    return self.ans[i+1]
-                else:
-                    return None
-        
+        return self.ans
