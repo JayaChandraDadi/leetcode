@@ -6,16 +6,11 @@
 #         self.right = right
 from collections import deque
 class Solution(object):
-    def preorder(self,root,ans):
+    def preorder(self,root,min1,max1):
         if not root:
-            return 
-        self.preorder(root.left,ans)
-        ans.append(root.val)
-        self.preorder(root.right,ans)
-        return ans
+            return True
+        if min1>=root.val or root.val>=max1:
+            return False
+        return self.preorder(root.left,min1,root.val) and self.preorder(root.right,root.val,max1)  
     def isValidBST(self, root):
-        ans = self.preorder(root,[])
-        for i in range(1,len(ans)):
-            if ans[i-1]>=ans[i]:
-                return False
-        return True       
+        return self.preorder(root,float('-inf'),float('inf'))
