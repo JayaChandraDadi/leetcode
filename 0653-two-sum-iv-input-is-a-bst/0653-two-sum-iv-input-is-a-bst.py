@@ -4,25 +4,39 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+class Bstiterator(object):
+    def __init__(self,root,isreverse):
+        self.st = []
+        self.reverse = isreverse
+        self.pushall(root,self.reverse)
+    def pushall(self,root,reverse):
+        while(root):
+            self.st.append(root)
+            if reverse:
+                root = root.right
+            else:
+                root = root.left
+    def next(self):
+        node = self.st.pop()
+        if not self.reverse:
+            self.pushall(node.right,self.reverse)
+        else:
+            self.pushall(node.left,self.reverse)
+        return node.val
 class Solution(object):
-    def check(self,root):
-        if not root:
-            return 
-        self.check(root.left)
-        self.ans.append(root.val)
-        self.check(root.right)
     def findTarget(self, root, k):
-        self.ans = []
-        self.check(root)
-        i = 0
-        j = len(self.ans)-1
+        l = Bstiterator(root,False)
+        r = Bstiterator(root,True)
+        i = l.next()
+        j = r.next()
         while(i<j):
-            sum1 = self.ans[i] + self.ans[j]
+            sum1 = i+j
             if sum1>k:
-                j-=1
+                j = r.next()
             elif sum1<k:
-                i+=1
+                i = l.next()
             else:
                 return True
         return False
+
         
