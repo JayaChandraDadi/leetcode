@@ -5,44 +5,24 @@
 #         self.left = left
 #         self.right = right
 class Solution(object):
-    stacknext = []
-    stackbefore = []
-    def next(self):
-        node = self.stacknext.pop()
-        self.pushleft(node.right)
-        return node.val
-    def before(self):
-        node = self.stackbefore.pop()
-        self.pushright(node.left)
-        return node.val
-    def pushleft(self,node):
-        while(node!=None):
-            self.stacknext.append(node)
-            node = node.left
-    def pushright(self,node):
-        while(node!=None):
-            self.stackbefore.append(node)
-            node = node.right
+    def check(self,root):
+        if not root:
+            return 
+        self.check(root.left)
+        self.ans.append(root.val)
+        self.check(root.right)
     def findTarget(self, root, k):
-        self.pushleft(root)
-        self.pushright(root)
-        nextel = self.next()
-        beforeel = self.before()
-        while(nextel<beforeel):
-            if nextel+beforeel==k:
-                return True
-            elif nextel+beforeel<k:
-                if not self.stacknext:
-                    break
-                nextel = self.next()
+        self.ans = []
+        self.check(root)
+        i = 0
+        j = len(self.ans)-1
+        while(i<j):
+            sum1 = self.ans[i] + self.ans[j]
+            if sum1>k:
+                j-=1
+            elif sum1<k:
+                i+=1
             else:
-                if not self.stackbefore:
-                    break
-                beforeel = self.before()
+                return True
         return False
-
-
-
-
-        
         
