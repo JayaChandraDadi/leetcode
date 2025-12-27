@@ -5,23 +5,27 @@
 #         self.left = left
 #         self.right = right
 class BSTIterator(object):
-    stack = []
-    def pushall(self,node):
-        while(node!=None):
-            self.stack.append(node)
-            node = node.left
+
     def __init__(self, root):
-        stack = []
-        self.pushall(root)
+       self.nums = []
+       self.inorder(root)
+       self.index = 0
+       self.n = len(self.nums)
+    def inorder(self,root):
+        if not root:
+            return 
+        self.inorder(root.left)
+        self.nums.append(root.val)
+        self.inorder(root.right)
     def next(self):
-        node = self.stack.pop()
-        self.pushall(node.right)
-        return node.val
+        if self.index<self.n:
+            temp = self.index
+            self.index+=1
+            return self.nums[temp]
     def hasNext(self):
-        if len(self.stack)==0:
-            return False
-        else:
+        if self.index+1<=self.n:
             return True
+        return False
         
 
 
