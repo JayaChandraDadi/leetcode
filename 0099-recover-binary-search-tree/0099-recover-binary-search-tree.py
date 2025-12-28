@@ -5,28 +5,30 @@
 #         self.left = left
 #         self.right = right
 class Solution(object):
-    first = None
-    last = None
-    prev = None
-    middle = None
     def inorder(self,root):
-        if root==None:
+        if not root:
             return 
         self.inorder(root.left)
-        if self.prev!=None and self.prev.val>root.val:
-            if self.first==None:
-                self.first = self.prev
-                self.middle = root
-            else:
-                self.last = root
-        self.prev = root
+        self.ans.append(root.val)
         self.inorder(root.right)
+    def swap(self,root,x,y):
+        if not root:
+            return 
+        if root.val==x:
+            root.val = y
+        elif root.val==y:
+            root.val = x
+        self.swap(root.left,x,y)
+        self.swap(root.right,x,y)
     def recoverTree(self, root):
-        prev = TreeNode(float('-inf'))
+        self.ans = []
         self.inorder(root)
-        if self.first and self.last:
-            self.first.val,self.last.val = self.last.val,self.first.val
-        elif self.first and self.middle:
-            self.first.val,self.middle.val = self.middle.val,self.first.val
-
-        
+        x=None
+        y = None
+        for i in range(1,len(self.ans)):
+            if self.ans[i]<self.ans[i-1]:
+                if x==None:
+                    x = self.ans[i-1]
+                y = self.ans[i]
+        self.swap(root,x,y)
+        return root
