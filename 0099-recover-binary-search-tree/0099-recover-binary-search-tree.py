@@ -9,26 +9,16 @@ class Solution(object):
         if not root:
             return 
         self.inorder(root.left)
-        self.ans.append(root.val)
+        if self.prev and self.prev.val>root.val:
+            if not self.first:
+                self.first = self.prev
+            self.second = root
+        self.prev = root
         self.inorder(root.right)
-    def swap(self,root,x,y):
-        if not root:
-            return 
-        if root.val==x:
-            root.val = y
-        elif root.val==y:
-            root.val = x
-        self.swap(root.left,x,y)
-        self.swap(root.right,x,y)
     def recoverTree(self, root):
-        self.ans = []
+        self.first = None
+        self.second = None
+        self.prev = None
         self.inorder(root)
-        x=None
-        y = None
-        for i in range(1,len(self.ans)):
-            if self.ans[i]<self.ans[i-1]:
-                if x==None:
-                    x = self.ans[i-1]
-                y = self.ans[i]
-        self.swap(root,x,y)
+        self.first.val,self.second.val = self.second.val,self.first.val
         return root
