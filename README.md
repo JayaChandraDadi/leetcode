@@ -135,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2227-sum-of-subarray-ranges](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2227-sum-of-subarray-ranges) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/JayaChandraDadi/leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Two Pointers
 |  |
@@ -429,6 +430,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1753-path-with-minimum-effort](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1753-path-with-minimum-effort) |
 | [2047-find-a-peak-element-ii](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2047-find-a-peak-element-ii) |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/JayaChandraDadi/leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 ## Binary Indexed Tree
 |  |
 | ------- |
@@ -731,6 +733,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0794-swim-in-rising-water](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0794-swim-in-rising-water) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1753-path-with-minimum-effort](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1753-path-with-minimum-effort) |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/JayaChandraDadi/leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 ## Monotonic Queue
 |  |
 | ------- |
@@ -898,6 +901,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1442-number-of-operations-to-make-network-connected](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1753-path-with-minimum-effort](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1753-path-with-minimum-effort) |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/JayaChandraDadi/leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -968,6 +972,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0803-cheapest-flights-within-k-stops](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/JayaChandraDadi/leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 ## Biconnected Component
 |  |
 | ------- |
@@ -993,4 +998,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0572-subtree-of-another-tree) |
+## Graph Theory
+|  |
+| ------- |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/JayaChandraDadi/leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 <!---LeetCode Topics End-->
