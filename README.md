@@ -669,6 +669,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1442-number-of-operations-to-make-network-connected](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1753-path-with-minimum-effort](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1753-path-with-minimum-effort) |
+| [2492-minimum-score-of-a-path-between-two-cities](https://github.com/JayaChandraDadi/leetcode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 ## Trie
 |  |
 | ------- |
@@ -912,6 +913,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1442-number-of-operations-to-make-network-connected](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1753-path-with-minimum-effort](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1753-path-with-minimum-effort) |
+| [2492-minimum-score-of-a-path-between-two-cities](https://github.com/JayaChandraDadi/leetcode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/JayaChandraDadi/leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 ## Binary Search Tree
 |  |
@@ -1014,6 +1016,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph Theory
 |  |
 | ------- |
+| [2492-minimum-score-of-a-path-between-two-cities](https://github.com/JayaChandraDadi/leetcode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/JayaChandraDadi/leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3620-network-recovery-pathways](https://github.com/JayaChandraDadi/leetcode/tree/master/3620-network-recovery-pathways) |
+## Union-Find
+|  |
+| ------- |
+| [2492-minimum-score-of-a-path-between-two-cities](https://github.com/JayaChandraDadi/leetcode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 <!---LeetCode Topics End-->
