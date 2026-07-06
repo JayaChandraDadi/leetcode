@@ -75,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0287-find-the-duplicate-number) |
+| [0288-unique-word-abbreviation](https://github.com/JayaChandraDadi/leetcode/tree/master/0288-unique-word-abbreviation) |
 | [0300-longest-increasing-subsequence](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0312-burst-balloons](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0312-burst-balloons) |
@@ -310,6 +311,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0268-missing-number) |
+| [0288-unique-word-abbreviation](https://github.com/JayaChandraDadi/leetcode/tree/master/0288-unique-word-abbreviation) |
 | [0347-top-k-frequent-elements](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0460-lfu-cache](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0460-lfu-cache) |
@@ -525,6 +527,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0242-valid-anagram) |
 | [0257-binary-tree-paths](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0257-binary-tree-paths) |
+| [0288-unique-word-abbreviation](https://github.com/JayaChandraDadi/leetcode/tree/master/0288-unique-word-abbreviation) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0402-remove-k-digits](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0402-remove-k-digits) |
 | [0424-longest-repeating-character-replacement](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0424-longest-repeating-character-replacement) |
@@ -697,6 +700,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0173-binary-search-tree-iterator](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0173-binary-search-tree-iterator) |
 | [0225-implement-stack-using-queues](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0232-implement-queue-using-stacks) |
+| [0288-unique-word-abbreviation](https://github.com/JayaChandraDadi/leetcode/tree/master/0288-unique-word-abbreviation) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0449-serialize-and-deserialize-bst](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0460-lfu-cache](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0460-lfu-cache) |
