@@ -1,13 +1,13 @@
-class Solution(object):
-    def spiralOrder(self, matrix):
+class Solution:
+    def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
         m = len(matrix)
         n = len(matrix[0]) if m else 0
+        left = 0
+        right = n - 1
         top = 0
         bottom = m-1
-        left = 0
-        right = n-1
         ans = []
-        while(top<=bottom and left<=right):
+        while(left<=right and top<=bottom):
             for i in range(left,right+1):
                 ans.append(matrix[top][i])
             top+=1
