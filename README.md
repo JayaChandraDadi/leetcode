@@ -549,6 +549,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0583-delete-operation-for-two-strings](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0583-delete-operation-for-two-strings) |
 | [0678-valid-parenthesis-string](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0721-accounts-merge](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0721-accounts-merge) |
+| [1021-remove-outermost-parentheses](https://github.com/JayaChandraDadi/leetcode/tree/master/1021-remove-outermost-parentheses) |
 | [1078-remove-outermost-parentheses](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1078-remove-outermost-parentheses) |
 | [1129-longest-string-chain](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1129-longest-string-chain) |
 | [1170-shortest-common-supersequence](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1170-shortest-common-supersequence) |
@@ -585,6 +586,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0937-online-stock-span](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0937-online-stock-span) |
 | [0943-sum-of-subarray-minimums](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
+| [1021-remove-outermost-parentheses](https://github.com/JayaChandraDadi/leetcode/tree/master/1021-remove-outermost-parentheses) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1078-remove-outermost-parentheses](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1078-remove-outermost-parentheses) |
 | [2227-sum-of-subarray-ranges](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2227-sum-of-subarray-ranges) |
