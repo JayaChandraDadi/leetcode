@@ -6,5 +6,4 @@ class Solution:
             rem = target - nums[i]
             if rem in hashmap:
                 return [hashmap[rem],i]
-            if nums[i] not in hashmap:
-                hashmap[nums[i]] = i
+            hashmap[nums[i]] = i
