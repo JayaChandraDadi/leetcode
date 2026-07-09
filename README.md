@@ -74,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0239-sliding-window-maximum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0268-missing-number) |
+| [0271-encode-and-decode-strings](https://github.com/JayaChandraDadi/leetcode/tree/master/0271-encode-and-decode-strings) |
 | [0283-move-zeroes](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0288-unique-word-abbreviation](https://github.com/JayaChandraDadi/leetcode/tree/master/0288-unique-word-abbreviation) |
@@ -535,6 +536,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0242-valid-anagram) |
 | [0257-binary-tree-paths](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0257-binary-tree-paths) |
+| [0271-encode-and-decode-strings](https://github.com/JayaChandraDadi/leetcode/tree/master/0271-encode-and-decode-strings) |
 | [0288-unique-word-abbreviation](https://github.com/JayaChandraDadi/leetcode/tree/master/0288-unique-word-abbreviation) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0402-remove-k-digits](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0402-remove-k-digits) |
@@ -709,6 +711,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0173-binary-search-tree-iterator](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0173-binary-search-tree-iterator) |
 | [0225-implement-stack-using-queues](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0232-implement-queue-using-stacks) |
+| [0271-encode-and-decode-strings](https://github.com/JayaChandraDadi/leetcode/tree/master/0271-encode-and-decode-strings) |
 | [0288-unique-word-abbreviation](https://github.com/JayaChandraDadi/leetcode/tree/master/0288-unique-word-abbreviation) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0449-serialize-and-deserialize-bst](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
