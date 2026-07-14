@@ -566,6 +566,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1768-merge-strings-alternately](https://github.com/JayaChandraDadi/leetcode/tree/master/1768-merge-strings-alternately) |
 | [2032-largest-odd-number-in-string](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2032-largest-odd-number-in-string) |
+| [2379-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/JayaChandraDadi/leetcode/tree/master/2379-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2938-separate-black-and-white-balls](https://github.com/JayaChandraDadi/leetcode/tree/master/2938-separate-black-and-white-balls) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/JayaChandraDadi/leetcode/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 ## Stack
@@ -771,6 +772,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1370-count-number-of-nice-subarrays](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [2379-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/JayaChandraDadi/leetcode/tree/master/2379-minimum-recolors-to-get-k-consecutive-black-blocks) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
