@@ -1,18 +1,16 @@
-class Solution(object):
-    def lengthOfLongestSubstring(self, s):
+class Solution:
+    def lengthOfLongestSubstring(self, nums: str) -> int: 
+        if nums=='':
+            return 0
         l = 0
-        r = 0
+        r = 0 
         hashmap = {}
-        length = 0
-        maxlength = 0
-        while(r<len(s)):
-            if s[r] not in hashmap:
-                hashmap[s[r]] = r
-            else:
-                if l<=hashmap[s[r]]:
-                    l = hashmap[s[r]]+1
-                hashmap[s[r]] = r
-            length = r-l+1
-            maxlength = max(maxlength,length)
+        maxlen = float('-inf')
+        while(r<len(nums)):
+            if nums[r] in hashmap:
+                if l<=hashmap[nums[r]]:
+                    l = hashmap[nums[r]] + 1
+            hashmap[nums[r]] = r
+            maxlen = max(maxlen,r-l+1)
             r+=1
-        return maxlength
+        return maxlen
