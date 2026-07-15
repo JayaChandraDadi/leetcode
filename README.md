@@ -305,6 +305,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0013-roman-to-integer](https://github.com/JayaChandraDadi/leetcode/tree/master/0013-roman-to-integer) |
+| [0030-substring-with-concatenation-of-all-words](https://github.com/JayaChandraDadi/leetcode/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0036-valid-sudoku](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0037-sudoku-solver) |
 | [0049-group-anagrams](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0049-group-anagrams) |
@@ -534,6 +535,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0022-generate-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0030-substring-with-concatenation-of-all-words](https://github.com/JayaChandraDadi/leetcode/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0044-wildcard-matching](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0044-wildcard-matching) |
 | [0049-group-anagrams](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0049-group-anagrams) |
 | [0072-edit-distance](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0072-edit-distance) |
@@ -762,6 +764,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0030-substring-with-concatenation-of-all-words](https://github.com/JayaChandraDadi/leetcode/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0076-minimum-window-substring](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0076-minimum-window-substring) |
 | [0219-contains-duplicate-ii](https://github.com/JayaChandraDadi/leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0239-sliding-window-maximum](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0239-sliding-window-maximum) |
