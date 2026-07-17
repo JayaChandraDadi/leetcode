@@ -1,18 +1,14 @@
-class Solution(object):
-    def combinations(self,candidates,i,target,st,ans,n):
+class Solution:
+    def dfs(self,i,candidates,target,array,ans):
         if target==0:
-            ans.append(list(st))
-            return
-        if target<0 or i==n:
+            ans.append(list(array))
             return 
-        st.append(candidates[i])
-        self.combinations(candidates,i,target-candidates[i],st,ans,n)
-        st.pop()
-        self.combinations(candidates,i+1,target,st,ans,n)
+        if target<0 or i==len(candidates):
+            return 
+        array.append(candidates[i])
+        self.dfs(i,candidates,target-candidates[i],array,ans)
+        array.pop()
+        self.dfs(i+1,candidates,target,array,ans)
         return ans
-    def combinationSum(self, candidates, target):
-        ans = []
-        st = []
-        n = len(candidates)
-        return self.combinations(candidates,0,target,st,ans,n)
-        
+    def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
+        return self.dfs(0,candidates,target,[],[])
