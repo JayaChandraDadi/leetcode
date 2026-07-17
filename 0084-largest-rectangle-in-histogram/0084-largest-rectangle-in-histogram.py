@@ -1,18 +1,24 @@
-class Solution(object):
-    def largestRectangleArea(self, nums):
-        n = len(nums)
+class Solution:
+    def largestRectangleArea(self, heights: List[int]) -> int:
         st = []
+        n = len(heights)
         maxarea = float('-inf')
         for i in range(n):
-            while st and nums[st[-1]]>=nums[i]:
-                el = st.pop()
+            while(st and heights[st[-1]]>=heights[i]):
+                idx = st.pop()
                 nse = i
-                pse = st[-1] if st else -1
-                maxarea = max(maxarea,(nse-pse-1)*nums[el])
+                if st:
+                    pse = st[-1]
+                else:
+                    pse = -1
+                maxarea = max(maxarea,heights[idx]*(nse-pse-1))
             st.append(i)
-        while st:
-            el = st.pop()
+        while(st):
+            idx = st.pop()
             nse = n
-            pse = st[-1] if st else -1
-            maxarea = max(maxarea,(nse-pse-1)*nums[el])
+            if st:
+                pse = st[-1]
+            else:
+                pse = -1
+            maxarea = max(maxarea,heights[idx]*(nse-pse-1))
         return maxarea
