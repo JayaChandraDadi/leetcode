@@ -1,19 +1,19 @@
-class Solution(object):
-    def evalRPN(self, tokens):
-        n = len(tokens)
+class Solution:
+    def evalRPN(self, tokens: List[str]) -> int:
         st = []
-        for c in tokens:
-            if c=='+':
-                st.append(st.pop()+st.pop())
-            elif c=='*':
-                st.append(st.pop()*st.pop())
-            elif c=='/':
-                a,b = st.pop(),st.pop()
-                st.append(int(float(b)/a))
-            elif c=='-':
-                a,b = st.pop(),st.pop()
-                st.append(b-a)
+        i = 0
+        for i in range(len(tokens)):
+            if tokens[i]!='+' and tokens[i]!='-' and tokens[i]!='*' and tokens[i]!='/':
+                st.append(int(tokens[i]))
             else:
-                st.append(int(c))
-        return st[0]
-                
+                b = st.pop()
+                a = st.pop()
+                if tokens[i]=='+':
+                    st.append(a + b)
+                elif tokens[i]=='-':
+                    st.append(a - b)
+                elif tokens[i]=='*':
+                    st.append(a*b)
+                else:
+                    st.append(int(a/b))
+        return (st[-1])
