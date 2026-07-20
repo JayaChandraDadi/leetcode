@@ -1,5 +1,5 @@
-class Solution(object):
-    def merge(self, nums1, m, nums2, n):
+class Solution:
+    def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
         i = 0
         j = 0 
         temp = []
@@ -18,4 +18,3 @@ class Solution(object):
             j+=1
         for i in range(len(temp)):
             nums1[i] = temp[i]
-               
