@@ -1,12 +1,8 @@
-class Solution(object):
-    def findDuplicate(self, nums):
-        slow = nums[0]
-        fast = nums[nums[0]]
-        while(slow!=fast):
-            slow = nums[slow]
-            fast = nums[nums[fast]]
-        fast = 0
-        while(fast!=slow):
-            fast = nums[fast]
-            slow = nums[slow]
-        return slow
+class Solution:
+    def findDuplicate(self, nums: List[int]) -> int:
+        n = len(nums)
+        for i in range(n):
+            idx = abs(nums[i]) - 1
+            if nums[idx]<0:
+                return abs(nums[i])
+            nums[idx] = -nums[idx]
