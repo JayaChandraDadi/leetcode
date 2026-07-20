@@ -1,11 +1,11 @@
-class Solution(object):
-    def rotate(self, arr, k):
-        n  = len(arr)
-        k = k%n 
+class Solution:
+    def rotate(self, nums: List[int], k: int) -> None:
+        n = len(nums)
         temp = []
+        k = k%n
         for i in range(n-k,n):
-            temp.append(arr[i])
+            temp.append(nums[i])
         for i in range(n-k-1,-1,-1):
-            arr[i+k] = arr[i]
+            nums[i+k] = nums[i]
         for i in range(k):
-            arr[i] = temp[i]
+            nums[i] = temp[i]
