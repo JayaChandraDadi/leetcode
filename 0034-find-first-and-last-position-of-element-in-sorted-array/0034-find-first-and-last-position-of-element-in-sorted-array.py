@@ -1,33 +1,31 @@
-class Solution(object):
-    def last(self,nums,target):
-        index = -1
+class Solution:
+    def firstoccurance(self,nums,low,high,target):
         low = 0
         high = len(nums)-1
+        ans = -1
         while(low<=high):
-            mid = (low+high)//2
+            mid = (low + high)//2
             if nums[mid]==target:
-                index = mid
-                low = mid+1
-            elif nums[mid]>target:
+                ans = mid
                 high = mid-1
+            elif nums[mid]>target:
+                high = mid - 1
             else:
-                low = mid+1
-        return index
-    def first(self,nums,target):
-        index = -1
+                low = mid + 1
+        return ans
+    def lastoccurance(self,nums,low,high,target):
         low = 0
         high = len(nums)-1
+        ans = -1
         while(low<=high):
-            mid = (low+high)//2
+            mid = (low + high)//2
             if nums[mid]==target:
-                index = mid
-                high = mid-1
+                ans = mid
+                low = mid + 1
             elif nums[mid]>target:
-                high = mid-1
+                high = mid - 1
             else:
-                low = mid+1
-        return index
-
-    def searchRange(self, nums, target):
-        return [self.first(nums,target),self.last(nums,target)]
-        
+                low = mid + 1
+        return ans
+    def searchRange(self, nums: List[int], target: int) -> List[int]:
+        return [self.firstoccurance(nums,0,len(nums)-1,target),self.lastoccurance(nums,0,len(nums)-1,target)]
