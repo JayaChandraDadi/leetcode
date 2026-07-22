@@ -1,26 +1,26 @@
-from Queue import Queue
-
-class MyStack(object):
+from collections import deque
+class MyStack:
 
     def __init__(self):
-        self.q = Queue()
-
-    def push(self, x):
-        s = self.q.qsize()
-        self.q.put(x)
-        for i in range(s):
-            self.q.put(self.q.get())
-
-    def pop(self):
-        return self.q.get()
-    def top(self):
-        return self.q.queue[0]
-
-    def empty(self):
-        if self.q.qsize()==0:
-            return True
-        return False
-        
+       self.q1 = deque()
+       self.q2 = deque() 
+       self.top_el = 0
+    def push(self, x: int) -> None:
+        self.q1.append(x)
+        self.top_el = x
+    def pop(self) -> int:
+        while(len(self.q1)>1):
+            self.top_el = self.q1.popleft()
+            self.q2.append(self.top_el)
+        popped_el = self.q1.popleft()
+        temp = self.q1
+        self.q1 = self.q2
+        self.q2 = temp
+        return popped_el
+    def top(self) -> int:
+        return self.top_el
+    def empty(self) -> bool:
+        return len(self.q1)==0
 
 
 # Your MyStack object will be instantiated and called as such:
