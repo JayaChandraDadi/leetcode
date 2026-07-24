@@ -1,41 +1,27 @@
 # Definition for a binary tree node.
-# class TreeNode(object):
+# class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
 #         self.val = val
 #         self.left = left
 #         self.right = right
-class Solution(object):
-    def precedor(self,root):
-        if root.left==None:
-            return root.val
-        root = root.left
-        while(root.right):
-            root = root.right
-        return root.val
-    def sucessor(self,root):
-        if root.right==None:
-            return root.val
-        root = root.right
-        while(root.left):
+class Solution:
+    def successor(self,root):
+        while(root and root.left):
             root = root.left
-        return root.val
-    def delete(self,root,key):
-        if not root:
-            return 
-        if key<root.val:
-           root.left = self.delete(root.left,key)
-        elif key>root.val:
-            root.right = self.delete(root.right,key)
-        else:
-            if root.left==None and root.right==None:
-                root=None
-            elif root.left:
-                root.val = self.precedor(root)
-                root.left = self.delete(root.left,root.val)
-            else:
-                root.val = self.sucessor(root)
-                root.right = self.delete(root.right,root.val)
         return root
-    def deleteNode(self, root, key):
-        return self.delete(root,key)
-        
+    def dfs(self,root,key):
+        if not root:
+            return None
+        if key<root.val:
+            root.left = self.dfs(root.left,key)
+        elif key>root.val:
+            root.right = self.dfs(root.right,key)
+        else:
+            new_key = self.successor(root.right)
+            if new_key==None:
+                return root.left
+            root.val = new_key.val
+            root.right = self.dfs(root.right,new_key.val)
+        return root
+    def deleteNode(self, root: Optional[TreeNode], key: int) -> Optional[TreeNode]:
+        return self.dfs(root,key)
