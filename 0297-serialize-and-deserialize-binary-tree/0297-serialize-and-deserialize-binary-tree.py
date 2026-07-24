@@ -8,8 +8,8 @@ from collections import deque
 class Codec:
     def serialize(self, root):
         q = deque()
-        result = ''
         q.append(root)
+        result = ''
         while(q):
             for i in range(len(q)):
                 node = q.popleft()
@@ -22,11 +22,10 @@ class Codec:
                 q.append(node.right)
         return result
     def deserialize(self, data):
-
         if not data:
-            return None
-        nodes = data.split(',')
+            return 
         q = deque()
+        nodes = data.split(',')
         if nodes[0]=='#':
             return None
         root = TreeNode(int(nodes[0]))
