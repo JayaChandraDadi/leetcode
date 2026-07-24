@@ -627,6 +627,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0739-daily-temperatures](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0739-daily-temperatures) |
 | [0853-car-fleet](https://github.com/JayaChandraDadi/leetcode/tree/master/0853-car-fleet) |
 | [0883-car-fleet](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0883-car-fleet) |
+| [0901-online-stock-span](https://github.com/JayaChandraDadi/leetcode/tree/master/0901-online-stock-span) |
 | [0937-online-stock-span](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0937-online-stock-span) |
 | [0943-sum-of-subarray-minimums](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
@@ -767,6 +768,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0449-serialize-and-deserialize-bst](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0460-lfu-cache](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0460-lfu-cache) |
+| [0901-online-stock-span](https://github.com/JayaChandraDadi/leetcode/tree/master/0901-online-stock-span) |
 | [0937-online-stock-span](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0937-online-stock-span) |
 | [0981-time-based-key-value-store](https://github.com/JayaChandraDadi/leetcode/tree/master/0981-time-based-key-value-store) |
 ## Queue
@@ -787,6 +789,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0739-daily-temperatures](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0739-daily-temperatures) |
 | [0853-car-fleet](https://github.com/JayaChandraDadi/leetcode/tree/master/0853-car-fleet) |
 | [0883-car-fleet](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0883-car-fleet) |
+| [0901-online-stock-span](https://github.com/JayaChandraDadi/leetcode/tree/master/0901-online-stock-span) |
 | [0937-online-stock-span](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0937-online-stock-span) |
 | [0943-sum-of-subarray-minimums](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
@@ -832,6 +835,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Data Stream
 |  |
 | ------- |
+| [0901-online-stock-span](https://github.com/JayaChandraDadi/leetcode/tree/master/0901-online-stock-span) |
 | [0937-online-stock-span](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0937-online-stock-span) |
 ## Doubly-Linked List
 |  |
