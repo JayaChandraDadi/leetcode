@@ -148,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1753-path-with-minimum-effort](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1753-path-with-minimum-effort) |
 | [1854-maximum-population-year](https://github.com/JayaChandraDadi/leetcode/tree/master/1854-maximum-population-year) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
+| [1929-concatenation-of-array](https://github.com/JayaChandraDadi/leetcode/tree/master/1929-concatenation-of-array) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/JayaChandraDadi/leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2021-brightest-position-on-street](https://github.com/JayaChandraDadi/leetcode/tree/master/2021-brightest-position-on-street) |
 | [2047-find-a-peak-element-ii](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2047-find-a-peak-element-ii) |
@@ -441,6 +442,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0059-spiral-matrix-ii](https://github.com/JayaChandraDadi/leetcode/tree/master/0059-spiral-matrix-ii) |
 | [0682-baseball-game](https://github.com/JayaChandraDadi/leetcode/tree/master/0682-baseball-game) |
 | [0735-asteroid-collision](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0735-asteroid-collision) |
+| [1929-concatenation-of-array](https://github.com/JayaChandraDadi/leetcode/tree/master/1929-concatenation-of-array) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Prefix Sum
