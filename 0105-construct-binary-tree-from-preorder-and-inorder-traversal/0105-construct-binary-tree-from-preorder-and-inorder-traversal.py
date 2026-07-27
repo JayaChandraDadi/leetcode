@@ -5,17 +5,19 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def build(self,preorder,inorder,instart,inend,prestart,preend,hashmap):
-        if instart>inend or prestart>preend:
-            return 
-        node = TreeNode(preorder[prestart])
-        inindex = hashmap[node.val]
-        numsleft = inindex-instart
-        node.left = self.build(preorder,inorder,instart,inindex-1,prestart+1,prestart+numsleft,hashmap)
-        node.right = self.build(preorder,inorder,inindex+1,inend,prestart+numsleft+1,preend,hashmap)
+    def dfs(self,prestart,preend,instart,inend,preorder,inorder,hashmap):
+        if prestart>preend or instart>inend:
+            return None
+        val = preorder[prestart]
+        inindex = hashmap[val]
+        node = TreeNode(val)
+        numsleft = inindex - instart
+        node.left = self.dfs(prestart+1,prestart+numsleft,instart,inindex-1,preorder,inorder,hashmap)
+        node.right = self.dfs(prestart+numsleft+1,preend,inindex+1,inend,preorder,inorder,hashmap)
         return node
     def buildTree(self, preorder: List[int], inorder: List[int]) -> Optional[TreeNode]:
         hashmap = {}
-        for i in range(len(inorder)):
+        n = len(preorder)
+        for i in range(n):
             hashmap[inorder[i]] = i
-        return self.build(preorder,inorder,0,len(inorder)-1,0,len(inorder)-1,hashmap)
+        return self.dfs(0,n-1,0,n-1,preorder,inorder,hashmap)
