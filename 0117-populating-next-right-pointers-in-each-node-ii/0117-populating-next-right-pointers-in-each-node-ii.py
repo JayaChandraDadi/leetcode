@@ -25,18 +25,3 @@ class Solution:
                 if node.right:
                     q.append(node.right)
         return root
-        leftmost = root
-        while(leftmost):
-            head = leftmost
-            dummy = Node(0)
-            tail = dummy
-            while(head):
-                if head.left:
-                    tail.next = head.left
-                    tail = tail.next
-                if head.right:
-                    tail.next = head.right
-                    tail = tail.next
-                head = head.next
-            leftmost = dummy.next
-        return root
