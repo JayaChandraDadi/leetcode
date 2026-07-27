@@ -126,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0943-sum-of-subarray-minimums](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [0966-binary-subarrays-with-sum](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [0967-minimum-falling-path-sum](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0967-minimum-falling-path-sum) |
+| [0973-k-closest-points-to-origin](https://github.com/JayaChandraDadi/leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [0978-longest-turbulent-subarray](https://github.com/JayaChandraDadi/leetcode/tree/master/0978-longest-turbulent-subarray) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1034-subarrays-with-k-different-integers) |
@@ -226,6 +227,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0721-accounts-merge) |
 | [0853-car-fleet](https://github.com/JayaChandraDadi/leetcode/tree/master/0853-car-fleet) |
 | [0883-car-fleet](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0883-car-fleet) |
+| [0973-k-closest-points-to-origin](https://github.com/JayaChandraDadi/leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1129-longest-string-chain](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1129-longest-string-chain) |
@@ -312,6 +314,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0268-missing-number) |
 | [0368-largest-divisible-subset](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0368-largest-divisible-subset) |
 | [0628-maximum-product-of-three-numbers](https://github.com/JayaChandraDadi/leetcode/tree/master/0628-maximum-product-of-three-numbers) |
+| [0973-k-closest-points-to-origin](https://github.com/JayaChandraDadi/leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [1013-fibonacci-number](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1013-fibonacci-number) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1610-xor-operation-in-an-array](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1610-xor-operation-in-an-array) |
@@ -438,6 +441,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0240-search-a-2d-matrix-ii](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0347-top-k-frequent-elements](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0493-reverse-pairs](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0493-reverse-pairs) |
+| [0973-k-closest-points-to-origin](https://github.com/JayaChandraDadi/leetcode/tree/master/0973-k-closest-points-to-origin) |
 ## Counting
 |  |
 | ------- |
@@ -854,6 +858,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0744-network-delay-time](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0744-network-delay-time) |
 | [0794-swim-in-rising-water](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0794-swim-in-rising-water) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
+| [0973-k-closest-points-to-origin](https://github.com/JayaChandraDadi/leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [1046-last-stone-weight](https://github.com/JayaChandraDadi/leetcode/tree/master/1046-last-stone-weight) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/JayaChandraDadi/leetcode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1753-path-with-minimum-effort](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1753-path-with-minimum-effort) |
@@ -1135,6 +1140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0973-k-closest-points-to-origin](https://github.com/JayaChandraDadi/leetcode/tree/master/0973-k-closest-points-to-origin) |
 ## Hash Function
 |  |
 | ------- |
@@ -1159,4 +1165,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0374-guess-number-higher-or-lower](https://github.com/JayaChandraDadi/leetcode/tree/master/0374-guess-number-higher-or-lower) |
 | [1095-find-in-mountain-array](https://github.com/JayaChandraDadi/leetcode/tree/master/1095-find-in-mountain-array) |
+## Geometry
+|  |
+| ------- |
+| [0973-k-closest-points-to-origin](https://github.com/JayaChandraDadi/leetcode/tree/master/0973-k-closest-points-to-origin) |
 <!---LeetCode Topics End-->
