@@ -1,23 +1,21 @@
 # Definition for a binary tree node.
-# class TreeNode(object):
+# class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
 #         self.val = val
 #         self.left = left
 #         self.right = right
-class Solution(object):
-    def tree(self,preorder,inorder,prestart,preend,instart,inend,hashmap):
-        if prestart>preend or instart>inend:
+class Solution:
+    def build(self,preorder,inorder,instart,inend,prestart,preend,hashmap):
+        if instart>inend or prestart>preend:
             return 
-        root_val = preorder[prestart]
-        root = TreeNode(root_val)
-        inindex = hashmap[root_val]
+        node = TreeNode(preorder[prestart])
+        inindex = hashmap[node.val]
         numsleft = inindex-instart
-        root.left = self.tree(preorder,inorder,prestart+1,prestart+numsleft,instart,inindex-1,hashmap)
-        root.right = self.tree(preorder,inorder,prestart+numsleft+1,preend,inindex+1,inend,hashmap)
-        return root
-    def buildTree(self, preorder, inorder):
+        node.left = self.build(preorder,inorder,instart,inindex-1,prestart+1,prestart+numsleft,hashmap)
+        node.right = self.build(preorder,inorder,inindex+1,inend,prestart+numsleft+1,preend,hashmap)
+        return node
+    def buildTree(self, preorder: List[int], inorder: List[int]) -> Optional[TreeNode]:
         hashmap = {}
         for i in range(len(inorder)):
             hashmap[inorder[i]] = i
-        return self.tree(preorder,inorder,0,len(preorder)-1,0,len(inorder)-1,hashmap)
-    
+        return self.build(preorder,inorder,0,len(inorder)-1,0,len(inorder)-1,hashmap)
