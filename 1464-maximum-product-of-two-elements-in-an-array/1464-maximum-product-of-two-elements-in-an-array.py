@@ -1,8 +1,6 @@
 class Solution:
     def maxProduct(self, nums: List[int]) -> int:
         maxproduct = float('-inf')
+        nums.sort()
         n = len(nums)
-        for i in range(n):
-            for j in range(i+1,n):
-                maxproduct = max(maxproduct,(nums[i]-1)*(nums[j]-1))
-        return maxproduct
+        return (nums[n-1]-1)*(nums[n-2] - 1)
