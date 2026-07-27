@@ -318,6 +318,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2032-largest-odd-number-in-string](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2032-largest-odd-number-in-string) |
 | [2050-count-good-numbers](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2050-count-good-numbers) |
 | [2083-three-divisors](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2083-three-divisors) |
+| [2600-k-items-with-the-maximum-sum](https://github.com/JayaChandraDadi/leetcode/tree/master/2600-k-items-with-the-maximum-sum) |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/JayaChandraDadi/leetcode/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/JayaChandraDadi/leetcode/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 ## Hash Table
@@ -561,6 +562,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0890-lemonade-change](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0890-lemonade-change) |
 | [2032-largest-odd-number-in-string](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2032-largest-odd-number-in-string) |
+| [2600-k-items-with-the-maximum-sum](https://github.com/JayaChandraDadi/leetcode/tree/master/2600-k-items-with-the-maximum-sum) |
 | [2938-separate-black-and-white-balls](https://github.com/JayaChandraDadi/leetcode/tree/master/2938-separate-black-and-white-balls) |
 ## String
 |  |
