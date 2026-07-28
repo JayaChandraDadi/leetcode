@@ -2,20 +2,20 @@ import heapq
 from collections import deque
 class Solution:
     def leastInterval(self, tasks: List[str], n: int) -> int:
+        hashmap = {}
         maxfreq = 0
-        freq = {}
-        for i in range(len(tasks)):
-            if tasks[i] not in freq:
-                freq[tasks[i]] = 0
-            freq[tasks[i]]+=1
-            maxfreq = max(maxfreq,freq[tasks[i]])
+        for task in tasks:
+            if task not in hashmap:
+                hashmap[task] = 0
+            hashmap[task]+=1
+            maxfreq = max(maxfreq,hashmap[task])
         maxct = 0
-        for task,ct in freq.items():
-            if ct==maxfreq:
+        for task,freq in hashmap.items():
+            if freq==maxfreq:
                 maxct+=1
-            partation_size = n-(maxct-1)
-            partations = maxfreq - 1
-            empty_slots = partations*partation_size
-            remaining_tasks = len(tasks) - maxfreq*maxct
-            idlesots = max(0,empty_slots-remaining_tasks)
-        return len(tasks) + idlesots
+            partations = maxfreq-1
+            partations_size = n-(maxct-1)
+            empty_slots = partations*partations_size
+            remaining = len(tasks) - maxfreq*maxct
+            idle = max(0,empty_slots - remaining)
+        return len(tasks) + idle
