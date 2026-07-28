@@ -239,6 +239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/JayaChandraDadi/leetcode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [2021-brightest-position-on-street](https://github.com/JayaChandraDadi/leetcode/tree/master/2021-brightest-position-on-street) |
+| [3517-smallest-palindromic-rearrangement-i](https://github.com/JayaChandraDadi/leetcode/tree/master/3517-smallest-palindromic-rearrangement-i) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -628,6 +629,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2032-largest-odd-number-in-string](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2032-largest-odd-number-in-string) |
 | [2379-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/JayaChandraDadi/leetcode/tree/master/2379-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2938-separate-black-and-white-balls](https://github.com/JayaChandraDadi/leetcode/tree/master/2938-separate-black-and-white-balls) |
+| [3517-smallest-palindromic-rearrangement-i](https://github.com/JayaChandraDadi/leetcode/tree/master/3517-smallest-palindromic-rearrangement-i) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/JayaChandraDadi/leetcode/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 ## Stack
 |  |
@@ -1171,6 +1173,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0274-h-index](https://github.com/JayaChandraDadi/leetcode/tree/master/0274-h-index) |
+| [3517-smallest-palindromic-rearrangement-i](https://github.com/JayaChandraDadi/leetcode/tree/master/3517-smallest-palindromic-rearrangement-i) |
 ## Interactive
 |  |
 | ------- |
