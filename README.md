@@ -582,6 +582,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0767-reorganize-string](https://github.com/JayaChandraDadi/leetcode/tree/master/0767-reorganize-string) |
 | [0890-lemonade-change](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0890-lemonade-change) |
+| [1405-longest-happy-string](https://github.com/JayaChandraDadi/leetcode/tree/master/1405-longest-happy-string) |
 | [2032-largest-odd-number-in-string](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2032-largest-odd-number-in-string) |
 | [2600-k-items-with-the-maximum-sum](https://github.com/JayaChandraDadi/leetcode/tree/master/2600-k-items-with-the-maximum-sum) |
 | [2938-separate-black-and-white-balls](https://github.com/JayaChandraDadi/leetcode/tree/master/2938-separate-black-and-white-balls) |
@@ -631,6 +632,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1129-longest-string-chain](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1129-longest-string-chain) |
 | [1170-shortest-common-supersequence](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1250-longest-common-subsequence) |
+| [1405-longest-happy-string](https://github.com/JayaChandraDadi/leetcode/tree/master/1405-longest-happy-string) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1768-merge-strings-alternately](https://github.com/JayaChandraDadi/leetcode/tree/master/1768-merge-strings-alternately) |
@@ -884,6 +886,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0803-cheapest-flights-within-k-stops](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0973-k-closest-points-to-origin](https://github.com/JayaChandraDadi/leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [1046-last-stone-weight](https://github.com/JayaChandraDadi/leetcode/tree/master/1046-last-stone-weight) |
+| [1405-longest-happy-string](https://github.com/JayaChandraDadi/leetcode/tree/master/1405-longest-happy-string) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/JayaChandraDadi/leetcode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1753-path-with-minimum-effort](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1753-path-with-minimum-effort) |
 | [1834-single-threaded-cpu](https://github.com/JayaChandraDadi/leetcode/tree/master/1834-single-threaded-cpu) |
