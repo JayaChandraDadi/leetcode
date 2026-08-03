@@ -2,6 +2,8 @@ from collections import deque
 class Solution:
     def canReach(self, s: str, minJump: int, maxJump: int) -> bool:
         n = len(s)
+        if s[n-1]=='1':
+            return False
         visited = [False]*n
         nums = list(s)
         q = deque()
