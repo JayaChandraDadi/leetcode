@@ -121,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0794-swim-in-rising-water](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0794-swim-in-rising-water) |
 | [0853-car-fleet](https://github.com/JayaChandraDadi/leetcode/tree/master/0853-car-fleet) |
 | [0854-making-a-large-island](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0854-making-a-large-island) |
+| [0860-lemonade-change](https://github.com/JayaChandraDadi/leetcode/tree/master/0860-lemonade-change) |
 | [0875-koko-eating-bananas](https://github.com/JayaChandraDadi/leetcode/tree/master/0875-koko-eating-bananas) |
 | [0883-car-fleet](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0883-car-fleet) |
 | [0890-lemonade-change](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0890-lemonade-change) |
@@ -586,6 +587,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0678-valid-parenthesis-string](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0767-reorganize-string](https://github.com/JayaChandraDadi/leetcode/tree/master/0767-reorganize-string) |
+| [0860-lemonade-change](https://github.com/JayaChandraDadi/leetcode/tree/master/0860-lemonade-change) |
 | [0890-lemonade-change](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0890-lemonade-change) |
 | [1405-longest-happy-string](https://github.com/JayaChandraDadi/leetcode/tree/master/1405-longest-happy-string) |
 | [2032-largest-odd-number-in-string](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2032-largest-odd-number-in-string) |
