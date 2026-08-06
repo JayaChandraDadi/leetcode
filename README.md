@@ -161,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1834-single-threaded-cpu](https://github.com/JayaChandraDadi/leetcode/tree/master/1834-single-threaded-cpu) |
 | [1854-maximum-population-year](https://github.com/JayaChandraDadi/leetcode/tree/master/1854-maximum-population-year) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
+| [1899-merge-triplets-to-form-target-triplet](https://github.com/JayaChandraDadi/leetcode/tree/master/1899-merge-triplets-to-form-target-triplet) |
 | [1929-concatenation-of-array](https://github.com/JayaChandraDadi/leetcode/tree/master/1929-concatenation-of-array) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/JayaChandraDadi/leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2021-brightest-position-on-street](https://github.com/JayaChandraDadi/leetcode/tree/master/2021-brightest-position-on-street) |
@@ -599,6 +600,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0860-lemonade-change](https://github.com/JayaChandraDadi/leetcode/tree/master/0860-lemonade-change) |
 | [0890-lemonade-change](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0890-lemonade-change) |
 | [1405-longest-happy-string](https://github.com/JayaChandraDadi/leetcode/tree/master/1405-longest-happy-string) |
+| [1899-merge-triplets-to-form-target-triplet](https://github.com/JayaChandraDadi/leetcode/tree/master/1899-merge-triplets-to-form-target-triplet) |
 | [2032-largest-odd-number-in-string](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2032-largest-odd-number-in-string) |
 | [2600-k-items-with-the-maximum-sum](https://github.com/JayaChandraDadi/leetcode/tree/master/2600-k-items-with-the-maximum-sum) |
 | [2938-separate-black-and-white-balls](https://github.com/JayaChandraDadi/leetcode/tree/master/2938-separate-black-and-white-balls) |
