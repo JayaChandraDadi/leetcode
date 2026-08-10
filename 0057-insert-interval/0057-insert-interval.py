@@ -3,17 +3,13 @@ class Solution:
         n = len(intervals)
         ans = []
         i = 0
-        for i in range(n):
-            if intervals[i][1]<newInterval[0]:
-                ans.append(intervals[i])
-            elif intervals[i][0]>newInterval[1]:
-                break
-            else:
-                newInterval[0] = min(newInterval[0],intervals[i][0])
-                newInterval[1] = max(newInterval[1],intervals[i][1])
-        else:
-            ans.append(newInterval)
-            return ans
+        while(i<n and intervals[i][1]<newInterval[0]):
+            ans.append(intervals[i])
+            i+=1
+        while(i<n and intervals[i][0]<=newInterval[1]):
+            newInterval[0] = min(intervals[i][0],newInterval[0])
+            newInterval[1] = max(intervals[i][1],newInterval[1])
+            i+=1
         ans.append(newInterval)
         while(i<n):
             ans.append(intervals[i])
