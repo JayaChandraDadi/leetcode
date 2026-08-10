@@ -1,12 +1,12 @@
-class Solution(object):
-    def eraseOverlapIntervals(self, intervals):
-        intervals.sort(key = lambda x:x[1])
-        freetime = float("-inf")
+class Solution:
+    def eraseOverlapIntervals(self, intervals: List[List[int]]) -> int:
+        n = len(intervals)
+        intervals.sort(key=lambda x:x[1])
         ct = 0
-        for i in range(len(intervals)):
-            if freetime<=intervals[i][0]:
-                freetime = intervals[i][1]
+        curr_end = intervals[0][1]
+        for i in range(1,n):
+            if intervals[i][0]<curr_end:
                 ct+=1
-        return len(intervals)-ct
-
-        
+            else:
+                curr_end = intervals[i][1]
+        return ct
