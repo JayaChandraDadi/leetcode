@@ -11,8 +11,7 @@ class Solution:
             ans[end]-=ct
         sum1 = 0
         for i in range(maxdist+1):
-            ans[i]+=sum1
-            if ans[i]>capacity:
+            sum1+=ans[i]
+            if sum1>capacity:
                 return False
-            sum1 = ans[i]
         return True
