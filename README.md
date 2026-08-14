@@ -133,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-koko-eating-bananas](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0907-koko-eating-bananas) |
 | [0940-fruit-into-baskets](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0940-fruit-into-baskets) |
 | [0943-sum-of-subarray-minimums](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0943-sum-of-subarray-minimums) |
+| [0953-verifying-an-alien-dictionary](https://github.com/JayaChandraDadi/leetcode/tree/master/0953-verifying-an-alien-dictionary) |
 | [0966-binary-subarrays-with-sum](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [0967-minimum-falling-path-sum](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0967-minimum-falling-path-sum) |
 | [0973-k-closest-points-to-origin](https://github.com/JayaChandraDadi/leetcode/tree/master/0973-k-closest-points-to-origin) |
@@ -400,6 +401,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0895-maximum-frequency-stack](https://github.com/JayaChandraDadi/leetcode/tree/master/0895-maximum-frequency-stack) |
 | [0940-fruit-into-baskets](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0940-fruit-into-baskets) |
+| [0953-verifying-an-alien-dictionary](https://github.com/JayaChandraDadi/leetcode/tree/master/0953-verifying-an-alien-dictionary) |
 | [0966-binary-subarrays-with-sum](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [0981-time-based-key-value-store](https://github.com/JayaChandraDadi/leetcode/tree/master/0981-time-based-key-value-store) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
@@ -665,6 +667,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0678-valid-parenthesis-string](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0721-accounts-merge](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0721-accounts-merge) |
 | [0767-reorganize-string](https://github.com/JayaChandraDadi/leetcode/tree/master/0767-reorganize-string) |
+| [0953-verifying-an-alien-dictionary](https://github.com/JayaChandraDadi/leetcode/tree/master/0953-verifying-an-alien-dictionary) |
 | [0981-time-based-key-value-store](https://github.com/JayaChandraDadi/leetcode/tree/master/0981-time-based-key-value-store) |
 | [1021-remove-outermost-parentheses](https://github.com/JayaChandraDadi/leetcode/tree/master/1021-remove-outermost-parentheses) |
 | [1078-remove-outermost-parentheses](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1078-remove-outermost-parentheses) |
