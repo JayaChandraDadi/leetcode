@@ -1,27 +1,20 @@
-from collections import deque
-class Solution(object):
-    def numIslands(self, grid):
-        queue = deque()
-        drow = [-1,0,+1,0]
-        dcol = [0,+1,0,-1]
+class Solution:
+    def dfs(self,r,c,grid,visited,m,n,drc):
+        visited[r][c] = True
+        for dr,dc in drc:
+            nr = r + dr
+            nc = c + dc
+            if nr>=0 and nr<m and nc>=0 and nc<n and visited[nr][nc]==False and grid[nr][nc]=='1':
+                self.dfs(nr,nc,grid,visited,m,n,drc)
+    def numIslands(self, grid: List[List[str]]) -> int:
         m = len(grid)
-        n = len(grid[0]) if grid else 0
+        n = len(grid[0]) if m else 0
+        visited = [[False]*n for _ in range(m)]
         ct = 0
-        vis = [[0 for _ in range(n)] for _ in range(m)]
+        drc = [(-1,0),(0,1),(1,0),(0,-1)]
         for i in range(m):
             for j in range(n):
-                if vis[i][j]==0 and grid[i][j]=='1':
-                    queue.append([i,j])
+                if grid[i][j]=='1' and visited[i][j]==False:
                     ct+=1
-                    while(len(queue)!=0):
-                        r,c = queue.popleft()
-                        for k in range(4):
-                            nrow = r + drow[k]
-                            ncol = c + dcol[k]
-                            if nrow>=0 and nrow<m and ncol>=0 and ncol<n and vis[nrow][ncol]==0 and grid[nrow][ncol]=='1':
-                                queue.append([nrow,ncol])
-                                vis[nrow][ncol] = 1
+                    self.dfs(i,j,grid,visited,m,n,drc)
         return ct
-
-
-        
