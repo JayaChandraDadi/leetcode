@@ -85,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0271-encode-and-decode-strings](https://github.com/JayaChandraDadi/leetcode/tree/master/0271-encode-and-decode-strings) |
 | [0274-h-index](https://github.com/JayaChandraDadi/leetcode/tree/master/0274-h-index) |
 | [0283-move-zeroes](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0283-move-zeroes) |
+| [0286-walls-and-gates](https://github.com/JayaChandraDadi/leetcode/tree/master/0286-walls-and-gates) |
 | [0287-find-the-duplicate-number](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0288-unique-word-abbreviation](https://github.com/JayaChandraDadi/leetcode/tree/master/0288-unique-word-abbreviation) |
 | [0300-longest-increasing-subsequence](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0300-longest-increasing-subsequence) |
@@ -542,6 +543,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0240-search-a-2d-matrix-ii) |
+| [0286-walls-and-gates](https://github.com/JayaChandraDadi/leetcode/tree/master/0286-walls-and-gates) |
 | [0463-island-perimeter](https://github.com/JayaChandraDadi/leetcode/tree/master/0463-island-perimeter) |
 | [0542-01-matrix](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/JayaChandraDadi/leetcode/tree/master/0695-max-area-of-island) |
@@ -1107,6 +1109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0226-invert-binary-tree) |
+| [0286-walls-and-gates](https://github.com/JayaChandraDadi/leetcode/tree/master/0286-walls-and-gates) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0322-coin-change](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0322-coin-change) |
 | [0404-sum-of-left-leaves](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0404-sum-of-left-leaves) |
