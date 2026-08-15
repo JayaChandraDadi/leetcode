@@ -1,39 +1,36 @@
-class Solution(object):
-    def dfs(self,vis,board,drow,dcol,r,c,m,n):
-        vis[r][c] = 1
-        for i in range(4):
-            nrow = r + drow[i]
-            ncol = c + dcol[i]
-            if nrow>=0 and nrow<m and ncol>=0 and ncol<n and vis[nrow][ncol]==0 and board[nrow][ncol]=='O':
-                self.dfs(vis,board,drow,dcol,nrow,ncol,m,n)
-
-    def solve(self, board):
+from collections import deque
+class Solution:
+    def solve(self, board: List[List[str]]) -> None:
         m = len(board)
-        n = len(board[0]) if board else 0
-        vis = []
-        drow = [-1,0,+1,0]
-        dcol = [0,+1,0,-1]
+        n = len(board[0]) if m else 0
+        drc = [(-1,0),(0,1),(1,0),(0,-1)]
+        q = deque()
+        visited = [[False]*n for _ in range(m)]
         for i in range(m):
-            temp = []
+            if board[i][0]=='O' and visited[i][0]==False:
+                visited[i][0] = True
+                q.append((i,0))
+        for i in range(m):
+            if board[i][n-1]=='O' and visited[i][n-1]==False:
+                visited[i][n-1] = True
+                q.append((i,n-1))
+        for j in range(n):
+            if board[0][j]=='O' and visited[0][j]==False:
+                visited[0][j] = True
+                q.append((0,j))
+        for j in range(n):
+            if board[m-1][j]=='O' and visited[m-1][j]==False:
+                visited[m-1][j] = True
+                q.append((m-1,j))
+        while(q):
+            r,c = q.popleft()
+            for dr,dc in drc:
+                nr = r + dr
+                nc = c + dc
+                if nr>=0 and nr<m and nc>=0 and nc<n and board[nr][nc]=='O' and visited[nr][nc]==False:
+                    visited[nr][nc] = True
+                    q.append((nr,nc))
+        for i in range(m):
             for j in range(n):
-                temp.append(0)
-            vis.append(temp)
-        for i in range(m):
-            if not vis[i][0] and board[i][0]=='O':
-                self.dfs(vis,board,drow,dcol,i,0,m,n)
-            if not vis[i][n-1] and board[i][n-1]=='O':
-                self.dfs(vis,board,drow,dcol,i,n-1,m,n)
-        for i in range(1,n-1):
-            if not vis[0][i] and board[0][i]=='O':
-                self.dfs(vis,board,drow,dcol,0,i,m,n)
-            if not vis[m-1][i] and board[m-1][i]=='O':
-                self.dfs(vis,board,drow,dcol,m-1,i,m,n)
-        for i in range(m):
-            for j in range(n):
-                if not vis[i][j] and board[i][j]=='O':
-                    board[i][j]='X'
-        
-
-
-        
-        
+                if visited[i][j]==False and board[i][j]=='O':
+                    board[i][j] = 'X'
