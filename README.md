@@ -123,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0739-daily-temperatures) |
+| [0752-open-the-lock](https://github.com/JayaChandraDadi/leetcode/tree/master/0752-open-the-lock) |
 | [0766-toeplitz-matrix](https://github.com/JayaChandraDadi/leetcode/tree/master/0766-toeplitz-matrix) |
 | [0792-binary-search](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0792-binary-search) |
 | [0794-swim-in-rising-water](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0794-swim-in-rising-water) |
@@ -401,6 +402,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/JayaChandraDadi/leetcode/tree/master/0621-task-scheduler) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0721-accounts-merge](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0721-accounts-merge) |
+| [0752-open-the-lock](https://github.com/JayaChandraDadi/leetcode/tree/master/0752-open-the-lock) |
 | [0767-reorganize-string](https://github.com/JayaChandraDadi/leetcode/tree/master/0767-reorganize-string) |
 | [0846-hand-of-straights](https://github.com/JayaChandraDadi/leetcode/tree/master/0846-hand-of-straights) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -675,6 +677,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0649-dota2-senate](https://github.com/JayaChandraDadi/leetcode/tree/master/0649-dota2-senate) |
 | [0678-valid-parenthesis-string](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0721-accounts-merge](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0721-accounts-merge) |
+| [0752-open-the-lock](https://github.com/JayaChandraDadi/leetcode/tree/master/0752-open-the-lock) |
 | [0767-reorganize-string](https://github.com/JayaChandraDadi/leetcode/tree/master/0767-reorganize-string) |
 | [0953-verifying-an-alien-dictionary](https://github.com/JayaChandraDadi/leetcode/tree/master/0953-verifying-an-alien-dictionary) |
 | [0981-time-based-key-value-store](https://github.com/JayaChandraDadi/leetcode/tree/master/0981-time-based-key-value-store) |
@@ -1130,6 +1133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0744-network-delay-time) |
+| [0752-open-the-lock](https://github.com/JayaChandraDadi/leetcode/tree/master/0752-open-the-lock) |
 | [0794-swim-in-rising-water](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0794-swim-in-rising-water) |
 | [0801-is-graph-bipartite](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -1284,4 +1288,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1851-minimum-interval-to-include-each-query](https://github.com/JayaChandraDadi/leetcode/tree/master/1851-minimum-interval-to-include-each-query) |
+## Bidirectional Search
+|  |
+| ------- |
+| [0752-open-the-lock](https://github.com/JayaChandraDadi/leetcode/tree/master/0752-open-the-lock) |
 <!---LeetCode Topics End-->
