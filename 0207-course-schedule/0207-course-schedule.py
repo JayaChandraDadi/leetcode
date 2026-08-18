@@ -20,16 +20,15 @@ class Solution:
             adj[u].append(v)
             indegree[v]+=1
         q = deque()
+        topo = []
         for i in range(numCourses):
             if indegree[i]==0:
                 q.append(i)
         while(q):
             node = q.popleft()
+            topo.append(node)
             for nei in adj[node]:
                 indegree[nei]-=1
                 if indegree[nei]==0:
                     q.append(nei)
-        for i in range(numCourses):
-            if indegree[i]!=0:
-                return False
-        return True
+        return True if len(topo)==numCourses else False
