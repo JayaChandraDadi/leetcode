@@ -1,28 +1,21 @@
-class Solution(object):
-    def dfs(self, adj, node, vis, pathvis, stack):
-        vis[node] = 1
-        pathvis[node] = 1
-        for neighbour in adj[node]:
-            if vis[neighbour] == 0:
-                if self.dfs(adj, neighbour, vis, pathvis, stack):
-                    return True
-            elif pathvis[neighbour] == 1:
-                return True  
-        pathvis[node] = 0
-        stack.append(node)
-        return False
-
-    def findOrder(self, numCourses, prerequisites):
-        adj = [[] for _ in range(numCourses)]
-        for u, v in prerequisites:
+from collections import deque
+class Solution:
+    def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
+        adj = [[]*numCourses for _ in range(numCourses)]
+        ans = []
+        indegree = [0]*numCourses
+        for u,v in prerequisites:
             adj[v].append(u)
-
-        vis = [0] * numCourses
-        pathvis = [0] * numCourses
-        stack = []
-
+            indegree[u]+=1
+        q = deque()
         for i in range(numCourses):
-            if vis[i] == 0:
-                if self.dfs(adj, i, vis, pathvis, stack):
-                    return []  
-        return stack[::-1]  
+            if indegree[i]==0:
+                q.append(i)
+        while(q):
+            node = q.popleft()
+            ans.append(node)
+            for nei in adj[node]:
+                indegree[nei]-=1
+                if indegree[nei]==0:
+                    q.append(nei)
+        return ans if len(ans)==numCourses else []
