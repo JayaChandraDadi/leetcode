@@ -1,3 +1,4 @@
+from collections import deque
 class Solution:
     def dfs(self,node,adj,visited,pathvisited):
         visited[node] = True
@@ -14,12 +15,21 @@ class Solution:
         return True
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
         adj = [[]*numCourses for _ in range(numCourses)]
+        indegree = [0]*numCourses
         for u,v in prerequisites:
             adj[u].append(v)
-        visited = [False]*numCourses
-        pathvisited = [False]*numCourses
-        for node in range(numCourses):
-            if not visited[node]:
-                if self.dfs(node,adj,visited,pathvisited)==False:
-                    return False
+            indegree[v]+=1
+        q = deque()
+        for i in range(numCourses):
+            if indegree[i]==0:
+                q.append(i)
+        while(q):
+            node = q.popleft()
+            for nei in adj[node]:
+                indegree[nei]-=1
+                if indegree[nei]==0:
+                    q.append(nei)
+        for i in range(numCourses):
+            if indegree[i]!=0:
+                return False
         return True
