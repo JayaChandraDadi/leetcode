@@ -850,6 +850,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1325-delete-leaves-with-a-given-value](https://github.com/JayaChandraDadi/leetcode/tree/master/1325-delete-leaves-with-a-given-value) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1448-count-good-nodes-in-binary-tree) |
+| [1462-course-schedule-iv](https://github.com/JayaChandraDadi/leetcode/tree/master/1462-course-schedule-iv) |
 | [1753-path-with-minimum-effort](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1753-path-with-minimum-effort) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/JayaChandraDadi/leetcode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 ## Trie
@@ -1149,6 +1150,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1171-shortest-path-in-binary-matrix](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1448-count-good-nodes-in-binary-tree) |
+| [1462-course-schedule-iv](https://github.com/JayaChandraDadi/leetcode/tree/master/1462-course-schedule-iv) |
 | [1753-path-with-minimum-effort](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1753-path-with-minimum-effort) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/JayaChandraDadi/leetcode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/JayaChandraDadi/leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
@@ -1214,6 +1216,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0210-course-schedule-ii) |
 | [0820-find-eventual-safe-states](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0820-find-eventual-safe-states) |
+| [1462-course-schedule-iv](https://github.com/JayaChandraDadi/leetcode/tree/master/1462-course-schedule-iv) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [3620-network-recovery-pathways](https://github.com/JayaChandraDadi/leetcode/tree/master/3620-network-recovery-pathways) |
 ## Shortest Path
@@ -1260,6 +1263,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/JayaChandraDadi/leetcode/tree/master/0210-course-schedule-ii) |
 | [0261-graph-valid-tree](https://github.com/JayaChandraDadi/leetcode/tree/master/0261-graph-valid-tree) |
 | [0997-find-the-town-judge](https://github.com/JayaChandraDadi/leetcode/tree/master/0997-find-the-town-judge) |
+| [1462-course-schedule-iv](https://github.com/JayaChandraDadi/leetcode/tree/master/1462-course-schedule-iv) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/JayaChandraDadi/leetcode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/JayaChandraDadi/leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3620-network-recovery-pathways](https://github.com/JayaChandraDadi/leetcode/tree/master/3620-network-recovery-pathways) |
