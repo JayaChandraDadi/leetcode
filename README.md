@@ -1283,6 +1283,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/JayaChandraDadi/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0684-redundant-connection](https://github.com/JayaChandraDadi/leetcode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/JayaChandraDadi/leetcode/tree/master/0695-max-area-of-island) |
+| [0721-accounts-merge](https://github.com/JayaChandraDadi/leetcode/tree/master/0721-accounts-merge) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/JayaChandraDadi/leetcode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 ## Counting Sort
 |  |
