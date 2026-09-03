@@ -2,30 +2,29 @@ from collections import deque
 class Solution:
     def checkIfPrerequisite(self, numCourses: int, prerequisites: List[List[int]], queries: List[List[int]]) -> List[bool]:
         adj = [[] for _ in range(numCourses)]
-        n = len(queries)
-        ans = [False]*n
-        query = {}
-        for i in range(n):
-            u = queries[i][0]
-            v = queries[i][1]
-            if u not in query:
-                query[u] = []
-            query[u].append([v,i])
+        hashmap = {}
+        for i in range(numCourses):
+            hashmap[i] = set()
+        indegree = [0]*numCourses
         for u,v in prerequisites:
             adj[u].append(v)
+            indegree[v]+=1
         q = deque()
         for i in range(numCourses):
-            q.append(i)
-            isreachable = [False]*numCourses
-            while(q):
-                node = q.popleft()
-                for nei in adj[node]:
-                    if not isreachable[nei]:
-                        isreachable[nei] = True
-                        q.append(nei)
-            if i in query:
-                arr = query[i]
-                for v,index in arr:
-                    if isreachable[v]==True:
-                        ans[index] = True
+            if indegree[i]==0:
+                q.append(i)
+        while(q):
+            node = q.popleft()
+            for nei in adj[node]:
+                hashmap[nei].add(node)
+                hashmap[nei].update(hashmap[node])
+                indegree[nei]-=1
+                if indegree[nei]==0:
+                    q.append(nei)
+        ans = []
+        for u,v in queries:
+            if u in hashmap[v]:
+                ans.append(True)
+            else:
+                ans.append(False)
         return ans
