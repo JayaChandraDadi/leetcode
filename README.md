@@ -818,6 +818,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0270-closest-binary-search-tree-value](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0270-closest-binary-search-tree-value) |
 | [0285-inorder-successor-in-bst](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0285-inorder-successor-in-bst) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0310-minimum-height-trees](https://github.com/JayaChandraDadi/leetcode/tree/master/0310-minimum-height-trees) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/JayaChandraDadi/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0337-house-robber-iii](https://github.com/JayaChandraDadi/leetcode/tree/master/0337-house-robber-iii) |
 | [0399-evaluate-division](https://github.com/JayaChandraDadi/leetcode/tree/master/0399-evaluate-division) |
@@ -1125,6 +1126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0261-graph-valid-tree](https://github.com/JayaChandraDadi/leetcode/tree/master/0261-graph-valid-tree) |
 | [0286-walls-and-gates](https://github.com/JayaChandraDadi/leetcode/tree/master/0286-walls-and-gates) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0310-minimum-height-trees](https://github.com/JayaChandraDadi/leetcode/tree/master/0310-minimum-height-trees) |
 | [0322-coin-change](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0322-coin-change) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/JayaChandraDadi/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0399-evaluate-division](https://github.com/JayaChandraDadi/leetcode/tree/master/0399-evaluate-division) |
@@ -1223,6 +1225,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0210-course-schedule-ii) |
+| [0310-minimum-height-trees](https://github.com/JayaChandraDadi/leetcode/tree/master/0310-minimum-height-trees) |
 | [0820-find-eventual-safe-states](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0820-find-eventual-safe-states) |
 | [1462-course-schedule-iv](https://github.com/JayaChandraDadi/leetcode/tree/master/1462-course-schedule-iv) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
@@ -1271,6 +1274,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/JayaChandraDadi/leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/JayaChandraDadi/leetcode/tree/master/0210-course-schedule-ii) |
 | [0261-graph-valid-tree](https://github.com/JayaChandraDadi/leetcode/tree/master/0261-graph-valid-tree) |
+| [0310-minimum-height-trees](https://github.com/JayaChandraDadi/leetcode/tree/master/0310-minimum-height-trees) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/JayaChandraDadi/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0399-evaluate-division](https://github.com/JayaChandraDadi/leetcode/tree/master/0399-evaluate-division) |
 | [0684-redundant-connection](https://github.com/JayaChandraDadi/leetcode/tree/master/0684-redundant-connection) |
