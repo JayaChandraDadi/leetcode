@@ -1321,6 +1321,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bidirectional Search
 |  |
 | ------- |
+| [0127-word-ladder](https://github.com/JayaChandraDadi/leetcode/tree/master/0127-word-ladder) |
 | [0752-open-the-lock](https://github.com/JayaChandraDadi/leetcode/tree/master/0752-open-the-lock) |
 ## Directed Acyclic Graph
 |  |
