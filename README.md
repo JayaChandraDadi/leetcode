@@ -843,6 +843,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/JayaChandraDadi/leetcode/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0733-flood-fill) |
+| [0743-network-delay-time](https://github.com/JayaChandraDadi/leetcode/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0744-network-delay-time) |
 | [0794-swim-in-rising-water](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0794-swim-in-rising-water) |
 | [0801-is-graph-bipartite](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0801-is-graph-bipartite) |
@@ -958,6 +959,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/JayaChandraDadi/leetcode/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0502-ipo](https://github.com/JayaChandraDadi/leetcode/tree/master/0502-ipo) |
 | [0621-task-scheduler](https://github.com/JayaChandraDadi/leetcode/tree/master/0621-task-scheduler) |
+| [0743-network-delay-time](https://github.com/JayaChandraDadi/leetcode/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0744-network-delay-time) |
 | [0767-reorganize-string](https://github.com/JayaChandraDadi/leetcode/tree/master/0767-reorganize-string) |
 | [0794-swim-in-rising-water](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0794-swim-in-rising-water) |
@@ -1150,6 +1152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/JayaChandraDadi/leetcode/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0733-flood-fill) |
+| [0743-network-delay-time](https://github.com/JayaChandraDadi/leetcode/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0744-network-delay-time) |
 | [0752-open-the-lock](https://github.com/JayaChandraDadi/leetcode/tree/master/0752-open-the-lock) |
 | [0794-swim-in-rising-water](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0794-swim-in-rising-water) |
@@ -1240,6 +1243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0399-evaluate-division](https://github.com/JayaChandraDadi/leetcode/tree/master/0399-evaluate-division) |
+| [0743-network-delay-time](https://github.com/JayaChandraDadi/leetcode/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
@@ -1284,6 +1288,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/JayaChandraDadi/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0399-evaluate-division](https://github.com/JayaChandraDadi/leetcode/tree/master/0399-evaluate-division) |
 | [0684-redundant-connection](https://github.com/JayaChandraDadi/leetcode/tree/master/0684-redundant-connection) |
+| [0743-network-delay-time](https://github.com/JayaChandraDadi/leetcode/tree/master/0743-network-delay-time) |
 | [0997-find-the-town-judge](https://github.com/JayaChandraDadi/leetcode/tree/master/0997-find-the-town-judge) |
 | [1462-course-schedule-iv](https://github.com/JayaChandraDadi/leetcode/tree/master/1462-course-schedule-iv) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/JayaChandraDadi/leetcode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
@@ -1345,5 +1350,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dijkstra's Algorithm
 |  |
 | ------- |
+| [0743-network-delay-time](https://github.com/JayaChandraDadi/leetcode/tree/master/0743-network-delay-time) |
 | [1631-path-with-minimum-effort](https://github.com/JayaChandraDadi/leetcode/tree/master/1631-path-with-minimum-effort) |
 <!---LeetCode Topics End-->
