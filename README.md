@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0240-search-a-2d-matrix-ii](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0253-meeting-rooms-ii](https://github.com/JayaChandraDadi/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0268-missing-number](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0268-missing-number) |
+| [0269-alien-dictionary](https://github.com/JayaChandraDadi/leetcode/tree/master/0269-alien-dictionary) |
 | [0271-encode-and-decode-strings](https://github.com/JayaChandraDadi/leetcode/tree/master/0271-encode-and-decode-strings) |
 | [0274-h-index](https://github.com/JayaChandraDadi/leetcode/tree/master/0274-h-index) |
 | [0283-move-zeroes](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0283-move-zeroes) |
@@ -669,6 +670,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0224-basic-calculator](https://github.com/JayaChandraDadi/leetcode/tree/master/0224-basic-calculator) |
 | [0242-valid-anagram](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0242-valid-anagram) |
 | [0257-binary-tree-paths](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0257-binary-tree-paths) |
+| [0269-alien-dictionary](https://github.com/JayaChandraDadi/leetcode/tree/master/0269-alien-dictionary) |
 | [0271-encode-and-decode-strings](https://github.com/JayaChandraDadi/leetcode/tree/master/0271-encode-and-decode-strings) |
 | [0288-unique-word-abbreviation](https://github.com/JayaChandraDadi/leetcode/tree/master/0288-unique-word-abbreviation) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
@@ -821,6 +823,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0257-binary-tree-paths) |
 | [0261-graph-valid-tree](https://github.com/JayaChandraDadi/leetcode/tree/master/0261-graph-valid-tree) |
+| [0269-alien-dictionary](https://github.com/JayaChandraDadi/leetcode/tree/master/0269-alien-dictionary) |
 | [0270-closest-binary-search-tree-value](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0270-closest-binary-search-tree-value) |
 | [0285-inorder-successor-in-bst](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0285-inorder-successor-in-bst) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
@@ -1136,6 +1139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0226-invert-binary-tree) |
 | [0261-graph-valid-tree](https://github.com/JayaChandraDadi/leetcode/tree/master/0261-graph-valid-tree) |
+| [0269-alien-dictionary](https://github.com/JayaChandraDadi/leetcode/tree/master/0269-alien-dictionary) |
 | [0286-walls-and-gates](https://github.com/JayaChandraDadi/leetcode/tree/master/0286-walls-and-gates) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0310-minimum-height-trees](https://github.com/JayaChandraDadi/leetcode/tree/master/0310-minimum-height-trees) |
@@ -1239,6 +1243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0210-course-schedule-ii) |
+| [0269-alien-dictionary](https://github.com/JayaChandraDadi/leetcode/tree/master/0269-alien-dictionary) |
 | [0310-minimum-height-trees](https://github.com/JayaChandraDadi/leetcode/tree/master/0310-minimum-height-trees) |
 | [0820-find-eventual-safe-states](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0820-find-eventual-safe-states) |
 | [1462-course-schedule-iv](https://github.com/JayaChandraDadi/leetcode/tree/master/1462-course-schedule-iv) |
@@ -1289,6 +1294,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/JayaChandraDadi/leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/JayaChandraDadi/leetcode/tree/master/0210-course-schedule-ii) |
 | [0261-graph-valid-tree](https://github.com/JayaChandraDadi/leetcode/tree/master/0261-graph-valid-tree) |
+| [0269-alien-dictionary](https://github.com/JayaChandraDadi/leetcode/tree/master/0269-alien-dictionary) |
 | [0310-minimum-height-trees](https://github.com/JayaChandraDadi/leetcode/tree/master/0310-minimum-height-trees) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/JayaChandraDadi/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0332-reconstruct-itinerary](https://github.com/JayaChandraDadi/leetcode/tree/master/0332-reconstruct-itinerary) |
@@ -1345,6 +1351,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/JayaChandraDadi/leetcode/tree/master/0207-course-schedule) |
+| [0269-alien-dictionary](https://github.com/JayaChandraDadi/leetcode/tree/master/0269-alien-dictionary) |
 ## Bellman–Ford Algorithm
 |  |
 | ------- |
