@@ -1,21 +1,21 @@
-class Solution(object):
-    def trap(self, height):
-        total = 0
-        leftmax = 0
-        rightmax = 0
-        l = 0
-        r = len(height)-1
-        while(l<r):
-            if height[l]<=height[r]:
-                if leftmax>height[l]:
-                    total+=leftmax-height[l]
+class Solution:
+    def trap(self, nums: List[int]) -> int:
+        i = 0
+        j = len(nums) - 1
+        leftmax = float('-inf')
+        rightmax = float('-inf')
+        ans = 0
+        while(i<j):
+            if nums[i]<=nums[j]:
+                if leftmax<=nums[i]:
+                    leftmax = nums[i]
                 else:
-                    leftmax = height[l]
-                l+=1
+                    ans+=(leftmax-nums[i])
+                i+=1
             else:
-                if rightmax>height[r]:
-                    total+=rightmax-height[r]
+                if rightmax<=nums[j]:
+                    rightmax = nums[j]
                 else:
-                    rightmax = height[r]
-                r-=1
-        return total
+                    ans+=(rightmax-nums[j])
+                j-=1
+        return ans
