@@ -37,17 +37,16 @@ class LRUCache:
             node.value = value
             self.deletefromend(node)
             self.insertfront(node)
-            return
-        node = ListNode(key, value)
-        if len(self.hashmap) < self.capacity:
+            return 
+        node = ListNode(key,value)
+        if len(self.hashmap)<self.capacity:
             self.hashmap[key] = node
             self.insertfront(node)
+            return 
         else:
             endnode = self.tail.prev
-
             self.deletefromend(endnode)
             del self.hashmap[endnode.key]
-
             self.hashmap[key] = node
             self.insertfront(node)
 # Your LRUCache object will be instantiated and called as such:
