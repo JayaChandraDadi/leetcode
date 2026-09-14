@@ -735,6 +735,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0402-remove-k-digits](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0503-next-greater-element-ii) |
+| [0589-n-ary-tree-preorder-traversal](https://github.com/JayaChandraDadi/leetcode/tree/master/0589-n-ary-tree-preorder-traversal) |
 | [0678-valid-parenthesis-string](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0682-baseball-game](https://github.com/JayaChandraDadi/leetcode/tree/master/0682-baseball-game) |
 | [0735-asteroid-collision](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0735-asteroid-collision) |
@@ -847,6 +848,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0545-boundary-of-binary-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0545-boundary-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0547-number-of-provinces) |
 | [0572-subtree-of-another-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0572-subtree-of-another-tree) |
+| [0589-n-ary-tree-preorder-traversal](https://github.com/JayaChandraDadi/leetcode/tree/master/0589-n-ary-tree-preorder-traversal) |
 | [0617-merge-two-binary-trees](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0617-merge-two-binary-trees) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/JayaChandraDadi/leetcode/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -1049,6 +1051,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0543-diameter-of-binary-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0545-boundary-of-binary-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0545-boundary-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0572-subtree-of-another-tree) |
+| [0589-n-ary-tree-preorder-traversal](https://github.com/JayaChandraDadi/leetcode/tree/master/0589-n-ary-tree-preorder-traversal) |
 | [0617-merge-two-binary-trees](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0617-merge-two-binary-trees) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/JayaChandraDadi/leetcode/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
