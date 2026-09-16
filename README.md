@@ -182,6 +182,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1979-find-greatest-common-divisor-of-array](https://github.com/JayaChandraDadi/leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2021-brightest-position-on-street](https://github.com/JayaChandraDadi/leetcode/tree/master/2021-brightest-position-on-street) |
 | [2047-find-a-peak-element-ii](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2047-find-a-peak-element-ii) |
+| [2196-create-binary-tree-from-descriptions](https://github.com/JayaChandraDadi/leetcode/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2227-sum-of-subarray-ranges](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2227-sum-of-subarray-ranges) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -429,6 +430,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1370-count-number-of-nice-subarrays](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1490-clone-n-ary-tree](https://github.com/JayaChandraDadi/leetcode/tree/master/1490-clone-n-ary-tree) |
+| [2196-create-binary-tree-from-descriptions](https://github.com/JayaChandraDadi/leetcode/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2402-meeting-rooms-iii](https://github.com/JayaChandraDadi/leetcode/tree/master/2402-meeting-rooms-iii) |
 | [3484-design-spreadsheet](https://github.com/JayaChandraDadi/leetcode/tree/master/3484-design-spreadsheet) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
@@ -1082,6 +1084,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1376-time-needed-to-inform-all-employees](https://github.com/JayaChandraDadi/leetcode/tree/master/1376-time-needed-to-inform-all-employees) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1490-clone-n-ary-tree](https://github.com/JayaChandraDadi/leetcode/tree/master/1490-clone-n-ary-tree) |
+| [2196-create-binary-tree-from-descriptions](https://github.com/JayaChandraDadi/leetcode/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2236-root-equals-sum-of-children](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2236-root-equals-sum-of-children) |
 ## Binary Tree
 |  |
@@ -1142,6 +1145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1325-delete-leaves-with-a-given-value](https://github.com/JayaChandraDadi/leetcode/tree/master/1325-delete-leaves-with-a-given-value) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1448-count-good-nodes-in-binary-tree) |
+| [2196-create-binary-tree-from-descriptions](https://github.com/JayaChandraDadi/leetcode/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2236-root-equals-sum-of-children](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2236-root-equals-sum-of-children) |
 ## Breadth-First Search
 |  |
