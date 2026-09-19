@@ -1,16 +1,17 @@
 class Solution:
-    def asteroidCollision(self, asteroids: List[int]) -> List[int]:
+    def asteroidCollision(self, asteroids: list[int]) -> list[int]:
+        n = len(asteroids)
         st = []
-        for i in range(len(asteroids)):
-            flag = True
-            while flag and st and st[-1]>0 and asteroids[i]<0:
-                if st[-1]<abs(asteroids[i]):
+        for i in range(n):
+            if st and st[-1]>0 and asteroids[i]<0:
+                while st and st[-1]>=0 and st[-1]<abs(asteroids[i]):
                     st.pop()
-                elif st[-1]==abs(asteroids[i]):
+                if st and st[-1]>abs(asteroids[i]):
+                    continue
+                elif st and st[-1]==abs(asteroids[i]):
                     st.pop()
-                    flag = False
-                else:
-                    flag = False
-            if flag:
+                    continue
+                st.append(asteroids[i])
+            else:
                 st.append(asteroids[i])
         return st
