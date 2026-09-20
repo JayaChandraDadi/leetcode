@@ -1,27 +1,22 @@
-class Solution(object):
-    def profit(self,i,n,prices,k,buy,dp):
-        if k==0:
+class Solution:
+    def profit(self,i,buy,transactions,prices,n,dp,k):
+        if i==n or transactions==k:
             return 0
-        if i==n:
-            return 0
-        if dp[i][buy][k]!=-1:
-            return dp[i][buy][k]
+        if dp[i][buy][transactions]!=-1:
+            return dp[i][buy][transactions]
         if buy==1:
-            dp[i][buy][k] = max(-prices[i]+self.profit(i+1,n,prices,k,0,dp),self.profit(i+1,n,prices,k,1,dp))
+            dp[i][buy][transactions] = max(-prices[i] + self.profit(i+1,0,transactions,prices,n,dp,k),self.profit(i+1,1,transactions,prices,n,dp,k))
         else:
-            dp[i][buy][k] = max(prices[i]+self.profit(i+1,n,prices,k-1,1,dp),self.profit(i+1,n,prices,k,0,dp))
-        return dp[i][buy][k]
-    def maxProfit(self, k, prices):
+            dp[i][buy][transactions] = max(prices[i] + self.profit(i+1,1,transactions+1,prices,n,dp,k),self.profit(i+1,0,transactions,prices,n,dp,k))
+        return dp[i][buy][transactions]
+    def maxProfit(self, k: int, prices: List[int]) -> int:
         n = len(prices)
-        after = [[0]*(k+1) for _ in range(2)] 
-        temp = after
+        dp = [[[0]*(k+1) for _ in range(2)] for _ in range(n+1)]
         for i in range(n-1,-1,-1):
             for buy in range(2):
-                for cap in range(k,0,-1):
+                for transactions in range(k):
                     if buy==1:
-                        temp[buy][cap]=max(-prices[i]+after[0][cap],after[1][cap])
+                        dp[i][buy][transactions] = max(-prices[i] + dp[i+1][0][transactions],dp[i+1][1][transactions])
                     else:
-                        temp[buy][cap]=max(prices[i]+after[1][cap-1],after[0][cap])
-            after = temp
-        return after[1][k]
-        
+                        dp[i][buy][transactions] = max(prices[i] + dp[i+1][1][transactions+1],dp[i+1][0][transactions])
+        return dp[0][1][0]
