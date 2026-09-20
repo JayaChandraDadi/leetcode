@@ -888,6 +888,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1448-count-good-nodes-in-binary-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1462-course-schedule-iv](https://github.com/JayaChandraDadi/leetcode/tree/master/1462-course-schedule-iv) |
 | [1490-clone-n-ary-tree](https://github.com/JayaChandraDadi/leetcode/tree/master/1490-clone-n-ary-tree) |
+| [1522-diameter-of-n-ary-tree](https://github.com/JayaChandraDadi/leetcode/tree/master/1522-diameter-of-n-ary-tree) |
 | [1631-path-with-minimum-effort](https://github.com/JayaChandraDadi/leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1753-path-with-minimum-effort](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1753-path-with-minimum-effort) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/JayaChandraDadi/leetcode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
@@ -1088,6 +1089,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1376-time-needed-to-inform-all-employees](https://github.com/JayaChandraDadi/leetcode/tree/master/1376-time-needed-to-inform-all-employees) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1490-clone-n-ary-tree](https://github.com/JayaChandraDadi/leetcode/tree/master/1490-clone-n-ary-tree) |
+| [1522-diameter-of-n-ary-tree](https://github.com/JayaChandraDadi/leetcode/tree/master/1522-diameter-of-n-ary-tree) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/JayaChandraDadi/leetcode/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2236-root-equals-sum-of-children](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2236-root-equals-sum-of-children) |
 ## Binary Tree
@@ -1417,4 +1419,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0852-peak-index-in-a-mountain-array](https://github.com/JayaChandraDadi/leetcode/tree/master/0852-peak-index-in-a-mountain-array) |
+## DP on Trees
+|  |
+| ------- |
+| [1522-diameter-of-n-ary-tree](https://github.com/JayaChandraDadi/leetcode/tree/master/1522-diameter-of-n-ary-tree) |
 <!---LeetCode Topics End-->
