@@ -1,28 +1,22 @@
-class Solution(object):
-    def profit(self,i,n,prices,buy,cap,dp):
-        if i==n:
+class Solution:
+    def profit(self,i,buy,transactions,prices,n,dp):
+        if i==n or transactions==2:
             return 0
-        if cap==0:
-            return 0
-        if dp[i][buy][cap]!=-1:
-            return dp[i][buy][cap]
+        if dp[i][buy][transactions]!=-1:
+            return dp[i][buy][transactions]
         if buy==1:
-            dp[i][buy][cap] = max(-prices[i]+self.profit(i+1,n,prices,0,cap,dp),self.profit(i+1,n,prices,1,cap,dp))
+            dp[i][buy][transactions] = max(-prices[i] + self.profit(i+1,0,transactions,prices,n,dp),self.profit(i+1,1,transactions,prices,n,dp))
         else:
-            dp[i][buy][cap] = max(prices[i]+self.profit(i+1,n,prices,1,cap-1,dp),self.profit(i+1,n,prices,0,cap,dp))
-        return dp[i][buy][cap]
-    def maxProfit(self, prices):
-       n = len(prices)
-       after = [[0]*(3) for _ in range(2)]
-       temp = after
-       for i in range(n-1,-1,-1):
-        for buy in range(1,-1,-1):
-            for cap in range(2,0,-1):
-                if buy==1:
-                    temp[buy][cap] = max(-prices[i]+after[0][cap],after[1][cap])
-                else:
-                    temp[buy][cap] = max(prices[i]+after[1][cap-1],after[0][cap])
-        after = temp
-       return after[1][2]
-       
-       
+            dp[i][buy][transactions] = max(prices[i] + self.profit(i+1,1,transactions+1,prices,n,dp),self.profit(i+1,0,transactions,prices,n,dp))
+        return dp[i][buy][transactions]
+    def maxProfit(self, prices: List[int]) -> int:
+        n = len(prices)
+        dp = [[[0]*(3) for _ in range(2)] for _ in range(n+1)]
+        for i in range(n-1,-1,-1):
+            for buy in range(2):
+                for transactions in range(2):
+                    if buy==1:
+                        dp[i][buy][transactions] = max(-prices[i] + dp[i+1][0][transactions],dp[i+1][1][transactions])
+                    else:
+                        dp[i][buy][transactions] = max(prices[i] + dp[i+1][1][transactions+1],dp[i+1][0][transactions])
+        return dp[0][1][0]
