@@ -1,14 +1,14 @@
 class Solution:
-    def dfs(self,i,buy,prices,dp):
-        if i==len(prices):
-            return 0
-        if dp[i][buy]!=-1:
-            return dp[i][buy]
-        if buy==1:
-            dp[i][buy] = max(-prices[i] + self.dfs(i+1,0,prices,dp),self.dfs(i+1,1,prices,dp))
-        else:
-            dp[i][buy] = max(prices[i]+self.dfs(i+1,1,prices,dp),self.dfs(i+1,0,prices,dp))
-        return dp[i][buy]
-    def maxProfit(self, prices: List[int]) -> int:
+    def maxProfit(self, prices: list[int]) -> int:
         dp = [[-1]*(2) for _ in range(len(prices))]
-        return self.dfs(0,1,prices,dp)
+        def profit(i,buy):
+            if i==len(prices):
+                return 0
+            if dp[i][buy]!=-1:
+                return dp[i][buy]
+            if buy==1:
+                dp[i][buy] = max(-prices[i] + profit(i+1,0),profit(i+1,1))
+            else:
+                dp[i][buy] = max(prices[i] + profit(i+1,1),profit(i+1,0))
+            return dp[i][buy]
+        return profit(0,1)
