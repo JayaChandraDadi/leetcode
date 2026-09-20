@@ -1423,4 +1423,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1522-diameter-of-n-ary-tree](https://github.com/JayaChandraDadi/leetcode/tree/master/1522-diameter-of-n-ary-tree) |
+## Tournament Sort
+|  |
+| ------- |
+| [0023-merge-k-sorted-lists](https://github.com/JayaChandraDadi/leetcode/tree/master/0023-merge-k-sorted-lists) |
 <!---LeetCode Topics End-->
