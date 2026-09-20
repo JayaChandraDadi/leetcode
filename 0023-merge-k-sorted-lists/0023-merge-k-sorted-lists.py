@@ -4,7 +4,7 @@
 #         self.val = val
 #         self.next = next
 class Solution:
-    def merge_lists(self,head1,head2):
+    def merge(self,head1,head2):
         dummy = ListNode(-1)
         temp = dummy
         temp1 = head1
@@ -30,7 +30,15 @@ class Solution:
         if not lists:
             return 
         n = len(lists)
-        merged = lists[0]
-        for i in range(1,n):
-            merged = self.merge_lists(merged,lists[i])
-        return merged
+        while(len(lists)>1):
+            merged_lists = []
+            n = len(lists)
+            for i in range(0,n,2):
+                list1 = lists[i]
+                if i+1<n:
+                    list2 = lists[i+1]
+                    merged_lists.append(self.merge(list1,list2))
+                else:
+                    merged_lists.append(list1)
+            lists = merged_lists
+        return lists[0]
