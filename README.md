@@ -191,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3413-maximum-coins-from-k-consecutive-bags](https://github.com/JayaChandraDadi/leetcode/tree/master/3413-maximum-coins-from-k-consecutive-bags) |
 | [3484-design-spreadsheet](https://github.com/JayaChandraDadi/leetcode/tree/master/3484-design-spreadsheet) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
+| [3573-best-time-to-buy-and-sell-stock-v](https://github.com/JayaChandraDadi/leetcode/tree/master/3573-best-time-to-buy-and-sell-stock-v) |
 | [3620-network-recovery-pathways](https://github.com/JayaChandraDadi/leetcode/tree/master/3620-network-recovery-pathways) |
 ## Two Pointers
 |  |
@@ -341,6 +342,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1871-jump-game-vii](https://github.com/JayaChandraDadi/leetcode/tree/master/1871-jump-game-vii) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+| [3573-best-time-to-buy-and-sell-stock-v](https://github.com/JayaChandraDadi/leetcode/tree/master/3573-best-time-to-buy-and-sell-stock-v) |
 | [3620-network-recovery-pathways](https://github.com/JayaChandraDadi/leetcode/tree/master/3620-network-recovery-pathways) |
 ## Math
 |  |
