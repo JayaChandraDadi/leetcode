@@ -1,14 +1,14 @@
 """
 # Definition for a Node.
 class Node:
-    def __init__(self, x, next=None, random=None):
+    def __init__(self, x: int, next: 'Node' = None, random: 'Node' = None):
         self.val = int(x)
         self.next = next
         self.random = random
 """
 
-class Solution(object):
-    def copyRandomList(self, head):
+class Solution:
+    def copyRandomList(self, head: 'Optional[Node]') -> 'Optional[Node]':
         if not head:
             return 
         temp = head
@@ -17,22 +17,16 @@ class Solution(object):
             newnode.next = temp.next
             temp.next = newnode
             temp = temp.next.next
+        newhead = head.next
         temp = head
         while(temp!=None):
-            if temp.random:
-                temp.next.random = temp.random.next
-            else:
-                temp.next.random = None
+            temp.next.random = temp.random.next if temp.random else None
             temp = temp.next.next
-        dummynode = Node(-1)
         temp = head
-        dummynode.next = temp.next
         while(temp!=None):
-            front = temp.next
+            temp1 = temp.next
             temp.next = temp.next.next
-            if front.next:
-                front.next = front.next.next
-            else:
-                front.next = None
+            if temp1.next:
+                temp1.next = temp1.next.next
             temp = temp.next
-        return dummynode.next
+        return newhead
