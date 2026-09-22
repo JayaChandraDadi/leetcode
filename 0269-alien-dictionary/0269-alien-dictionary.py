@@ -31,5 +31,3 @@ class Solution:
         if len(st)!=len(indegree):
             return ""
         return ''.join(st)
-
-
