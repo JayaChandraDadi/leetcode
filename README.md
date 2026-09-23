@@ -172,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1631-path-with-minimum-effort](https://github.com/JayaChandraDadi/leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1646-kth-missing-positive-number](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1646-kth-missing-positive-number) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/JayaChandraDadi/leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1753-path-with-minimum-effort](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1753-path-with-minimum-effort) |
 | [1834-single-threaded-cpu](https://github.com/JayaChandraDadi/leetcode/tree/master/1834-single-threaded-cpu) |
@@ -435,6 +436,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1370-count-number-of-nice-subarrays](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1490-clone-n-ary-tree](https://github.com/JayaChandraDadi/leetcode/tree/master/1490-clone-n-ary-tree) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/JayaChandraDadi/leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/JayaChandraDadi/leetcode/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2402-meeting-rooms-iii](https://github.com/JayaChandraDadi/leetcode/tree/master/2402-meeting-rooms-iii) |
 | [3484-design-spreadsheet](https://github.com/JayaChandraDadi/leetcode/tree/master/3484-design-spreadsheet) |
@@ -476,6 +478,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1631-path-with-minimum-effort](https://github.com/JayaChandraDadi/leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1646-kth-missing-positive-number](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1646-kth-missing-positive-number) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/JayaChandraDadi/leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1753-path-with-minimum-effort](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1753-path-with-minimum-effort) |
 | [1851-minimum-interval-to-include-each-query](https://github.com/JayaChandraDadi/leetcode/tree/master/1851-minimum-interval-to-include-each-query) |
 | [2047-find-a-peak-element-ii](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2047-find-a-peak-element-ii) |
@@ -546,6 +549,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1370-count-number-of-nice-subarrays](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1480-running-sum-of-1d-array](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1480-running-sum-of-1d-array) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/JayaChandraDadi/leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1854-maximum-population-year](https://github.com/JayaChandraDadi/leetcode/tree/master/1854-maximum-population-year) |
 | [1871-jump-game-vii](https://github.com/JayaChandraDadi/leetcode/tree/master/1871-jump-game-vii) |
 | [2021-brightest-position-on-street](https://github.com/JayaChandraDadi/leetcode/tree/master/2021-brightest-position-on-street) |
@@ -982,6 +986,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1370-count-number-of-nice-subarrays](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/JayaChandraDadi/leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1871-jump-game-vii](https://github.com/JayaChandraDadi/leetcode/tree/master/1871-jump-game-vii) |
 | [2379-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/JayaChandraDadi/leetcode/tree/master/2379-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [3413-maximum-coins-from-k-consecutive-bags](https://github.com/JayaChandraDadi/leetcode/tree/master/3413-maximum-coins-from-k-consecutive-bags) |
