@@ -1,42 +1,24 @@
-class Solution(object):
-    def findboard(self,board,row,col,i,vis,m,n,word):
-        if i==len(word):
-            return True
-        if row+1<m:
-            if word[i]==board[row+1][col] and vis[row+1][col]==0:
-                vis[row+1][col] = 1
-                if self.findboard(board,row+1,col,i+1,vis,m,n,word):
-                    return True
-                vis[row+1][col] = 0
-        if col+1<n:
-            if word[i]==board[row][col+1] and vis[row][col+1]==0:
-                vis[row][col+1] = 1
-                if self.findboard(board,row,col+1,i+1,vis,m,n,word):
-                    return True
-                vis[row][col+1] = 0
-        if row-1>=0:
-            if word[i]==board[row-1][col] and vis[row-1][col]==0:
-                vis[row-1][col] = 1
-                if self.findboard(board,row-1,col,i+1,vis,m,n,word):
-                    return True
-                vis[row-1][col] = 0
-        if col-1>=0:
-            if word[i]==board[row][col-1] and vis[row][col-1]==0:
-                vis[row][col-1] = 1
-                if self.findboard(board,row,col-1,i+1,vis,m,n,word):
-                    return True
-                vis[row][col-1] = 0
-        return False
-    def exist(self, board, word):
+class Solution:
+    def exist(self, board: list[list[str]], word: str) -> bool:
         m = len(board)
         n = len(board[0]) if m else 0
-        vis = [[0]*n for _ in range(m)]
+        drc = [[-1,0],[1,0],[0,-1],[0,1]]
+        def dfs(r,c,board,visited,index):
+            if index==len(word):
+                return True
+            visited[r][c] = 1
+            for dr,dc in drc:
+                nr = r + dr
+                nc = c + dc
+                if nr>=0 and nr<m and nc>=0 and nc<n and board[nr][nc]==word[index] and visited[nr][nc]==0:
+                    if dfs(nr,nc,board,visited,index+1):
+                        return True
+            visited[r][c] = 0
+            return False
         for i in range(m):
             for j in range(n):
                 if board[i][j]==word[0]:
-                    vis[i][j] = 1
-                    if self.findboard(board,i,j,1,vis,m,n,word):
+                    visited = [[0]*n for _ in range(m)]
+                    if dfs(i,j,board,visited,1):
                         return True
-                    vis[i][j] = 0
         return False
-        
