@@ -5,14 +5,13 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def preorder(self,root):
-        if not root:
-            return
-        self.preorder(root.left)
-        self.ans.append(root.val)
-        self.preorder(root.right)
-    def kthSmallest(self, root: Optional[TreeNode], k: int) -> int:
-        self.ans = []
-        self.preorder(root)
-        return self.ans[k-1]
-        
+    def kthSmallest(self, root: TreeNode | None, k: int) -> int:
+        ans = []
+        def dfs(root):
+            if not root:
+                return
+            dfs(root.left)
+            ans.append(root.val)
+            dfs(root.right)
+        dfs(root)
+        return ans[k-1]
