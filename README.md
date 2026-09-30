@@ -148,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0967-minimum-falling-path-sum](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0967-minimum-falling-path-sum) |
 | [0973-k-closest-points-to-origin](https://github.com/JayaChandraDadi/leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [0978-longest-turbulent-subarray](https://github.com/JayaChandraDadi/leetcode/tree/master/0978-longest-turbulent-subarray) |
+| [0986-interval-list-intersections](https://github.com/JayaChandraDadi/leetcode/tree/master/0986-interval-list-intersections) |
 | [0997-find-the-town-judge](https://github.com/JayaChandraDadi/leetcode/tree/master/0997-find-the-town-judge) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1034-subarrays-with-k-different-integers) |
@@ -233,6 +234,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0567-permutation-in-string) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0908-middle-of-the-linked-list](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0908-middle-of-the-linked-list) |
+| [0986-interval-list-intersections](https://github.com/JayaChandraDadi/leetcode/tree/master/0986-interval-list-intersections) |
 | [1129-longest-string-chain](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1129-longest-string-chain) |
 | [1768-merge-strings-alternately](https://github.com/JayaChandraDadi/leetcode/tree/master/1768-merge-strings-alternately) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/JayaChandraDadi/leetcode/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
@@ -1406,6 +1408,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sweep Line
 |  |
 | ------- |
+| [0986-interval-list-intersections](https://github.com/JayaChandraDadi/leetcode/tree/master/0986-interval-list-intersections) |
 | [1851-minimum-interval-to-include-each-query](https://github.com/JayaChandraDadi/leetcode/tree/master/1851-minimum-interval-to-include-each-query) |
 ## Bidirectional Search
 |  |
