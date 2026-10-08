@@ -132,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0766-toeplitz-matrix](https://github.com/JayaChandraDadi/leetcode/tree/master/0766-toeplitz-matrix) |
 | [0792-binary-search](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0792-binary-search) |
 | [0794-swim-in-rising-water](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0794-swim-in-rising-water) |
+| [0839-similar-string-groups](https://github.com/JayaChandraDadi/leetcode/tree/master/0839-similar-string-groups) |
 | [0846-hand-of-straights](https://github.com/JayaChandraDadi/leetcode/tree/master/0846-hand-of-straights) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/JayaChandraDadi/leetcode/tree/master/0852-peak-index-in-a-mountain-array) |
 | [0853-car-fleet](https://github.com/JayaChandraDadi/leetcode/tree/master/0853-car-fleet) |
@@ -429,6 +430,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0721-accounts-merge) |
 | [0752-open-the-lock](https://github.com/JayaChandraDadi/leetcode/tree/master/0752-open-the-lock) |
 | [0767-reorganize-string](https://github.com/JayaChandraDadi/leetcode/tree/master/0767-reorganize-string) |
+| [0839-similar-string-groups](https://github.com/JayaChandraDadi/leetcode/tree/master/0839-similar-string-groups) |
 | [0846-hand-of-straights](https://github.com/JayaChandraDadi/leetcode/tree/master/0846-hand-of-straights) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0895-maximum-frequency-stack](https://github.com/JayaChandraDadi/leetcode/tree/master/0895-maximum-frequency-stack) |
@@ -725,6 +727,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0721-accounts-merge) |
 | [0752-open-the-lock](https://github.com/JayaChandraDadi/leetcode/tree/master/0752-open-the-lock) |
 | [0767-reorganize-string](https://github.com/JayaChandraDadi/leetcode/tree/master/0767-reorganize-string) |
+| [0839-similar-string-groups](https://github.com/JayaChandraDadi/leetcode/tree/master/0839-similar-string-groups) |
 | [0953-verifying-an-alien-dictionary](https://github.com/JayaChandraDadi/leetcode/tree/master/0953-verifying-an-alien-dictionary) |
 | [0981-time-based-key-value-store](https://github.com/JayaChandraDadi/leetcode/tree/master/0981-time-based-key-value-store) |
 | [0990-satisfiability-of-equality-equations](https://github.com/JayaChandraDadi/leetcode/tree/master/0990-satisfiability-of-equality-equations) |
@@ -905,6 +908,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0801-is-graph-bipartite](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0820-find-eventual-safe-states) |
+| [0839-similar-string-groups](https://github.com/JayaChandraDadi/leetcode/tree/master/0839-similar-string-groups) |
 | [0854-making-a-large-island](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0854-making-a-large-island) |
 | [0872-leaf-similar-trees](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0872-leaf-similar-trees) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -1242,6 +1246,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0801-is-graph-bipartite](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0820-find-eventual-safe-states) |
+| [0839-similar-string-groups](https://github.com/JayaChandraDadi/leetcode/tree/master/0839-similar-string-groups) |
 | [0854-making-a-large-island](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0854-making-a-large-island) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
@@ -1397,6 +1402,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0684-redundant-connection](https://github.com/JayaChandraDadi/leetcode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/JayaChandraDadi/leetcode/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/JayaChandraDadi/leetcode/tree/master/0721-accounts-merge) |
+| [0839-similar-string-groups](https://github.com/JayaChandraDadi/leetcode/tree/master/0839-similar-string-groups) |
 | [0990-satisfiability-of-equality-equations](https://github.com/JayaChandraDadi/leetcode/tree/master/0990-satisfiability-of-equality-equations) |
 | [1202-smallest-string-with-swaps](https://github.com/JayaChandraDadi/leetcode/tree/master/1202-smallest-string-with-swaps) |
 | [1631-path-with-minimum-effort](https://github.com/JayaChandraDadi/leetcode/tree/master/1631-path-with-minimum-effort) |
