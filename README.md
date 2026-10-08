@@ -164,6 +164,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1121-partition-array-for-maximum-sum](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1121-partition-array-for-maximum-sum) |
 | [1129-longest-string-chain](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1129-longest-string-chain) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1202-smallest-string-with-swaps](https://github.com/JayaChandraDadi/leetcode/tree/master/1202-smallest-string-with-swaps) |
 | [1288-remove-covered-intervals](https://github.com/JayaChandraDadi/leetcode/tree/master/1288-remove-covered-intervals) |
 | [1301-number-of-paths-with-max-score](https://github.com/JayaChandraDadi/leetcode/tree/master/1301-number-of-paths-with-max-score) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
@@ -281,6 +282,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1094-car-pooling](https://github.com/JayaChandraDadi/leetcode/tree/master/1094-car-pooling) |
 | [1129-longest-string-chain](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1129-longest-string-chain) |
+| [1202-smallest-string-with-swaps](https://github.com/JayaChandraDadi/leetcode/tree/master/1202-smallest-string-with-swaps) |
 | [1288-remove-covered-intervals](https://github.com/JayaChandraDadi/leetcode/tree/master/1288-remove-covered-intervals) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/JayaChandraDadi/leetcode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
@@ -440,6 +442,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1129-longest-string-chain](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1129-longest-string-chain) |
+| [1202-smallest-string-with-swaps](https://github.com/JayaChandraDadi/leetcode/tree/master/1202-smallest-string-with-swaps) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1490-clone-n-ary-tree](https://github.com/JayaChandraDadi/leetcode/tree/master/1490-clone-n-ary-tree) |
@@ -729,6 +732,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1078-remove-outermost-parentheses](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1078-remove-outermost-parentheses) |
 | [1129-longest-string-chain](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1129-longest-string-chain) |
 | [1170-shortest-common-supersequence](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1170-shortest-common-supersequence) |
+| [1202-smallest-string-with-swaps](https://github.com/JayaChandraDadi/leetcode/tree/master/1202-smallest-string-with-swaps) |
 | [1250-longest-common-subsequence](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1250-longest-common-subsequence) |
 | [1405-longest-happy-string](https://github.com/JayaChandraDadi/leetcode/tree/master/1405-longest-happy-string) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
@@ -908,6 +912,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1073-number-of-enclaves](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1073-number-of-enclaves) |
+| [1202-smallest-string-with-swaps](https://github.com/JayaChandraDadi/leetcode/tree/master/1202-smallest-string-with-swaps) |
 | [1300-critical-connections-in-a-network](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1300-critical-connections-in-a-network) |
 | [1325-delete-leaves-with-a-given-value](https://github.com/JayaChandraDadi/leetcode/tree/master/1325-delete-leaves-with-a-given-value) |
 | [1376-time-needed-to-inform-all-employees](https://github.com/JayaChandraDadi/leetcode/tree/master/1376-time-needed-to-inform-all-employees) |
@@ -1244,6 +1249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1036-rotting-oranges](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1202-smallest-string-with-swaps](https://github.com/JayaChandraDadi/leetcode/tree/master/1202-smallest-string-with-swaps) |
 | [1376-time-needed-to-inform-all-employees](https://github.com/JayaChandraDadi/leetcode/tree/master/1376-time-needed-to-inform-all-employees) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1448-count-good-nodes-in-binary-tree) |
@@ -1392,6 +1398,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/JayaChandraDadi/leetcode/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/JayaChandraDadi/leetcode/tree/master/0721-accounts-merge) |
 | [0990-satisfiability-of-equality-equations](https://github.com/JayaChandraDadi/leetcode/tree/master/0990-satisfiability-of-equality-equations) |
+| [1202-smallest-string-with-swaps](https://github.com/JayaChandraDadi/leetcode/tree/master/1202-smallest-string-with-swaps) |
 | [1631-path-with-minimum-effort](https://github.com/JayaChandraDadi/leetcode/tree/master/1631-path-with-minimum-effort) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/JayaChandraDadi/leetcode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 ## Counting Sort
