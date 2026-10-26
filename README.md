@@ -187,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1854-maximum-population-year](https://github.com/JayaChandraDadi/leetcode/tree/master/1854-maximum-population-year) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1899-merge-triplets-to-form-target-triplet](https://github.com/JayaChandraDadi/leetcode/tree/master/1899-merge-triplets-to-form-target-triplet) |
+| [1920-build-array-from-permutation](https://github.com/JayaChandraDadi/leetcode/tree/master/1920-build-array-from-permutation) |
 | [1929-concatenation-of-array](https://github.com/JayaChandraDadi/leetcode/tree/master/1929-concatenation-of-array) |
 | [1944-number-of-visible-people-in-a-queue](https://github.com/JayaChandraDadi/leetcode/tree/master/1944-number-of-visible-people-in-a-queue) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/JayaChandraDadi/leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
@@ -544,6 +545,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0682-baseball-game](https://github.com/JayaChandraDadi/leetcode/tree/master/0682-baseball-game) |
 | [0735-asteroid-collision](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0735-asteroid-collision) |
 | [1094-car-pooling](https://github.com/JayaChandraDadi/leetcode/tree/master/1094-car-pooling) |
+| [1920-build-array-from-permutation](https://github.com/JayaChandraDadi/leetcode/tree/master/1920-build-array-from-permutation) |
 | [1929-concatenation-of-array](https://github.com/JayaChandraDadi/leetcode/tree/master/1929-concatenation-of-array) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
