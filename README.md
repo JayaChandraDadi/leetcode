@@ -123,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0682-baseball-game](https://github.com/JayaChandraDadi/leetcode/tree/master/0682-baseball-game) |
 | [0695-max-area-of-island](https://github.com/JayaChandraDadi/leetcode/tree/master/0695-max-area-of-island) |
 | [0704-binary-search](https://github.com/JayaChandraDadi/leetcode/tree/master/0704-binary-search) |
+| [0705-design-hashset](https://github.com/JayaChandraDadi/leetcode/tree/master/0705-design-hashset) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0721-accounts-merge](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0733-flood-fill) |
@@ -431,6 +432,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/JayaChandraDadi/leetcode/tree/master/0621-task-scheduler) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0705-design-hashset](https://github.com/JayaChandraDadi/leetcode/tree/master/0705-design-hashset) |
 | [0721-accounts-merge](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0721-accounts-merge) |
 | [0752-open-the-lock](https://github.com/JayaChandraDadi/leetcode/tree/master/0752-open-the-lock) |
 | [0767-reorganize-string](https://github.com/JayaChandraDadi/leetcode/tree/master/0767-reorganize-string) |
@@ -827,6 +829,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0328-odd-even-linked-list](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0328-odd-even-linked-list) |
 | [0355-design-twitter](https://github.com/JayaChandraDadi/leetcode/tree/master/0355-design-twitter) |
 | [0460-lfu-cache](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0460-lfu-cache) |
+| [0705-design-hashset](https://github.com/JayaChandraDadi/leetcode/tree/master/0705-design-hashset) |
 | [0908-middle-of-the-linked-list](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0908-middle-of-the-linked-list) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/JayaChandraDadi/leetcode/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
@@ -968,6 +971,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0449-serialize-and-deserialize-bst](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0460-lfu-cache](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0460-lfu-cache) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/JayaChandraDadi/leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
+| [0705-design-hashset](https://github.com/JayaChandraDadi/leetcode/tree/master/0705-design-hashset) |
 | [0895-maximum-frequency-stack](https://github.com/JayaChandraDadi/leetcode/tree/master/0895-maximum-frequency-stack) |
 | [0901-online-stock-span](https://github.com/JayaChandraDadi/leetcode/tree/master/0901-online-stock-span) |
 | [0937-online-stock-span](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0937-online-stock-span) |
@@ -1376,6 +1380,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0572-subtree-of-another-tree) |
+| [0705-design-hashset](https://github.com/JayaChandraDadi/leetcode/tree/master/0705-design-hashset) |
 ## Graph Theory
 |  |
 | ------- |
