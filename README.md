@@ -90,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0288-unique-word-abbreviation](https://github.com/JayaChandraDadi/leetcode/tree/master/0288-unique-word-abbreviation) |
 | [0300-longest-increasing-subsequence](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0300-longest-increasing-subsequence) |
+| [0304-range-sum-query-2d-immutable](https://github.com/JayaChandraDadi/leetcode/tree/master/0304-range-sum-query-2d-immutable) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0312-burst-balloons](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0322-coin-change) |
@@ -564,6 +565,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/JayaChandraDadi/leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0238-product-of-array-except-self) |
 | [0253-meeting-rooms-ii](https://github.com/JayaChandraDadi/leetcode/tree/master/0253-meeting-rooms-ii) |
+| [0304-range-sum-query-2d-immutable](https://github.com/JayaChandraDadi/leetcode/tree/master/0304-range-sum-query-2d-immutable) |
 | [0410-split-array-largest-sum](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0410-split-array-largest-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0966-binary-subarrays-with-sum) |
@@ -596,6 +598,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0286-walls-and-gates](https://github.com/JayaChandraDadi/leetcode/tree/master/0286-walls-and-gates) |
+| [0304-range-sum-query-2d-immutable](https://github.com/JayaChandraDadi/leetcode/tree/master/0304-range-sum-query-2d-immutable) |
 | [0417-pacific-atlantic-water-flow](https://github.com/JayaChandraDadi/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0463-island-perimeter](https://github.com/JayaChandraDadi/leetcode/tree/master/0463-island-perimeter) |
 | [0542-01-matrix](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0542-01-matrix) |
@@ -973,6 +976,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0288-unique-word-abbreviation](https://github.com/JayaChandraDadi/leetcode/tree/master/0288-unique-word-abbreviation) |
 | [0295-find-median-from-data-stream](https://github.com/JayaChandraDadi/leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0304-range-sum-query-2d-immutable](https://github.com/JayaChandraDadi/leetcode/tree/master/0304-range-sum-query-2d-immutable) |
 | [0346-moving-average-from-data-stream](https://github.com/JayaChandraDadi/leetcode/tree/master/0346-moving-average-from-data-stream) |
 | [0355-design-twitter](https://github.com/JayaChandraDadi/leetcode/tree/master/0355-design-twitter) |
 | [0449-serialize-and-deserialize-bst](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
