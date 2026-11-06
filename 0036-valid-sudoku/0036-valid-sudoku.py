@@ -1,15 +1,15 @@
 class Solution:
-    def isValidSudoku(self, board: List[List[str]]) -> bool:
-        row_map = defaultdict(set)
-        col_map = defaultdict(set)
-        box_map = defaultdict(set)
+    def isValidSudoku(self, board: list[list[str]]) -> bool:
+        rowmap = defaultdict(set)
+        colmap = defaultdict(set)
+        boxmap = defaultdict(set)
         for i in range(9):
             for j in range(9):
                 if board[i][j]=='.':
                     continue
-                if board[i][j] in row_map[i] or board[i][j] in col_map[j] or board[i][j] in box_map[(i//3,j//3)]:
+                if board[i][j] in rowmap[i] or board[i][j] in colmap[j] or board[i][j] in boxmap[(i//3,j//3)]:
                     return False
-                row_map[i].add(board[i][j])
-                col_map[j].add(board[i][j])
-                box_map[(i//3,j//3)].add(board[i][j])
+                rowmap[i].add(board[i][j])
+                colmap[j].add(board[i][j])
+                boxmap[(i//3,j//3)].add(board[i][j])
         return True
