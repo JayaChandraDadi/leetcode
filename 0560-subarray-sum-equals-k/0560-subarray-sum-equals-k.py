@@ -1,18 +1,18 @@
-class Solution(object):
-    def subarraySum(self, nums, k):
-        sum1 = 0
-        ct = 0
+class Solution:
+    def subarraySum(self, nums: List[int], k: int) -> int:
+        hashmap = {}
         n = len(nums)
-        presummap = {}
+        sum1 = 0
+        ans = 0
         for i in range(n):
             sum1+=nums[i]
+            rem = sum1 - k
+            if rem in hashmap:
+                ans+=hashmap[rem]
+            if sum1 not in hashmap:
+                hashmap[sum1] = 0
+            hashmap[sum1]+=1
             if sum1==k:
-                ct+=1
-            rem = sum1-k
-            if rem in presummap:
-                ct+=presummap[rem]
-            if sum1 not in presummap:
-                presummap[sum1]=1
-            else:
-                presummap[sum1]+=1
-        return ct
+                ans+=1
+        return ans
+            
