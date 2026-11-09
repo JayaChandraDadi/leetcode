@@ -1,29 +1,29 @@
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
-        freq = {}
-        for i in range(len(t)):
-            if t[i] not in freq:
-                freq[t[i]] = 0
-            freq[t[i]]+=1
+        hashmap = {}
+        for ch in t:
+            if ch not in hashmap:
+                hashmap[ch] = 0
+            hashmap[ch]+=1
         l = 0
         r = 0
         ct = len(t)
+        ans = ''
         minlength = float('inf')
-        minstring = ""
+        ans = ''
         while(r<len(s)):
-            if s[r] in freq:
-                if freq[s[r]]>0:
+            if s[r] in hashmap:
+                if hashmap[s[r]]>0:
                     ct-=1
-                freq[s[r]]-=1
+                hashmap[s[r]]-=1
             while(ct==0):
                 if r-l+1<minlength:
+                    ans = s[l:r+1]
                     minlength = r-l+1
-                    minstring = s[l:r+1]
-                if s[l] in freq:
-                    freq[s[l]]+=1
-                    if freq[s[l]]>0:
+                if s[l] in hashmap:
+                    hashmap[s[l]]+=1
+                    if hashmap[s[l]]>0:
                         ct+=1
                 l+=1
             r+=1
-        return minstring
-                
+        return ans
