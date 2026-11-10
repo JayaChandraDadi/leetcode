@@ -187,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1672-richest-customer-wealth](https://github.com/JayaChandraDadi/leetcode/tree/master/1672-richest-customer-wealth) |
 | [1753-path-with-minimum-effort](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1753-path-with-minimum-effort) |
+| [1760-minimum-limit-of-balls-in-a-bag](https://github.com/JayaChandraDadi/leetcode/tree/master/1760-minimum-limit-of-balls-in-a-bag) |
 | [1762-buildings-with-an-ocean-view](https://github.com/JayaChandraDadi/leetcode/tree/master/1762-buildings-with-an-ocean-view) |
 | [1834-single-threaded-cpu](https://github.com/JayaChandraDadi/leetcode/tree/master/1834-single-threaded-cpu) |
 | [1851-minimum-interval-to-include-each-query](https://github.com/JayaChandraDadi/leetcode/tree/master/1851-minimum-interval-to-include-each-query) |
@@ -504,6 +505,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1646-kth-missing-positive-number](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1646-kth-missing-positive-number) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/JayaChandraDadi/leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1753-path-with-minimum-effort](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1753-path-with-minimum-effort) |
+| [1760-minimum-limit-of-balls-in-a-bag](https://github.com/JayaChandraDadi/leetcode/tree/master/1760-minimum-limit-of-balls-in-a-bag) |
 | [1851-minimum-interval-to-include-each-query](https://github.com/JayaChandraDadi/leetcode/tree/master/1851-minimum-interval-to-include-each-query) |
 | [2024-maximize-the-confusion-of-an-exam](https://github.com/JayaChandraDadi/leetcode/tree/master/2024-maximize-the-confusion-of-an-exam) |
 | [2047-find-a-peak-element-ii](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2047-find-a-peak-element-ii) |
