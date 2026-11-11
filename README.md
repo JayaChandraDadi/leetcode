@@ -135,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0766-toeplitz-matrix](https://github.com/JayaChandraDadi/leetcode/tree/master/0766-toeplitz-matrix) |
 | [0792-binary-search](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0792-binary-search) |
 | [0794-swim-in-rising-water](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0794-swim-in-rising-water) |
+| [0815-bus-routes](https://github.com/JayaChandraDadi/leetcode/tree/master/0815-bus-routes) |
 | [0839-similar-string-groups](https://github.com/JayaChandraDadi/leetcode/tree/master/0839-similar-string-groups) |
 | [0846-hand-of-straights](https://github.com/JayaChandraDadi/leetcode/tree/master/0846-hand-of-straights) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/JayaChandraDadi/leetcode/tree/master/0852-peak-index-in-a-mountain-array) |
@@ -445,6 +446,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0721-accounts-merge) |
 | [0752-open-the-lock](https://github.com/JayaChandraDadi/leetcode/tree/master/0752-open-the-lock) |
 | [0767-reorganize-string](https://github.com/JayaChandraDadi/leetcode/tree/master/0767-reorganize-string) |
+| [0815-bus-routes](https://github.com/JayaChandraDadi/leetcode/tree/master/0815-bus-routes) |
 | [0839-similar-string-groups](https://github.com/JayaChandraDadi/leetcode/tree/master/0839-similar-string-groups) |
 | [0846-hand-of-straights](https://github.com/JayaChandraDadi/leetcode/tree/master/0846-hand-of-straights) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -1282,6 +1284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0794-swim-in-rising-water](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0794-swim-in-rising-water) |
 | [0801-is-graph-bipartite](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
+| [0815-bus-routes](https://github.com/JayaChandraDadi/leetcode/tree/master/0815-bus-routes) |
 | [0820-find-eventual-safe-states](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0820-find-eventual-safe-states) |
 | [0839-similar-string-groups](https://github.com/JayaChandraDadi/leetcode/tree/master/0839-similar-string-groups) |
 | [0854-making-a-large-island](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0854-making-a-large-island) |
