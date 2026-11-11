@@ -368,6 +368,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1871-jump-game-vii](https://github.com/JayaChandraDadi/leetcode/tree/master/1871-jump-game-vii) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+| [2712-minimum-cost-to-make-all-characters-equal](https://github.com/JayaChandraDadi/leetcode/tree/master/2712-minimum-cost-to-make-all-characters-equal) |
 | [3573-best-time-to-buy-and-sell-stock-v](https://github.com/JayaChandraDadi/leetcode/tree/master/3573-best-time-to-buy-and-sell-stock-v) |
 | [3620-network-recovery-pathways](https://github.com/JayaChandraDadi/leetcode/tree/master/3620-network-recovery-pathways) |
 ## Math
@@ -700,6 +701,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1899-merge-triplets-to-form-target-triplet](https://github.com/JayaChandraDadi/leetcode/tree/master/1899-merge-triplets-to-form-target-triplet) |
 | [2032-largest-odd-number-in-string](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2032-largest-odd-number-in-string) |
 | [2600-k-items-with-the-maximum-sum](https://github.com/JayaChandraDadi/leetcode/tree/master/2600-k-items-with-the-maximum-sum) |
+| [2712-minimum-cost-to-make-all-characters-equal](https://github.com/JayaChandraDadi/leetcode/tree/master/2712-minimum-cost-to-make-all-characters-equal) |
 | [2938-separate-black-and-white-balls](https://github.com/JayaChandraDadi/leetcode/tree/master/2938-separate-black-and-white-balls) |
 | [3413-maximum-coins-from-k-consecutive-bags](https://github.com/JayaChandraDadi/leetcode/tree/master/3413-maximum-coins-from-k-consecutive-bags) |
 ## String
@@ -770,6 +772,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2024-maximize-the-confusion-of-an-exam](https://github.com/JayaChandraDadi/leetcode/tree/master/2024-maximize-the-confusion-of-an-exam) |
 | [2032-largest-odd-number-in-string](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2032-largest-odd-number-in-string) |
 | [2379-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/JayaChandraDadi/leetcode/tree/master/2379-minimum-recolors-to-get-k-consecutive-black-blocks) |
+| [2712-minimum-cost-to-make-all-characters-equal](https://github.com/JayaChandraDadi/leetcode/tree/master/2712-minimum-cost-to-make-all-characters-equal) |
 | [2938-separate-black-and-white-balls](https://github.com/JayaChandraDadi/leetcode/tree/master/2938-separate-black-and-white-balls) |
 | [3484-design-spreadsheet](https://github.com/JayaChandraDadi/leetcode/tree/master/3484-design-spreadsheet) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/JayaChandraDadi/leetcode/tree/master/3517-smallest-palindromic-rearrangement-i) |
