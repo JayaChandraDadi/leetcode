@@ -965,6 +965,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1300-critical-connections-in-a-network](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1300-critical-connections-in-a-network) |
 | [1325-delete-leaves-with-a-given-value](https://github.com/JayaChandraDadi/leetcode/tree/master/1325-delete-leaves-with-a-given-value) |
 | [1376-time-needed-to-inform-all-employees](https://github.com/JayaChandraDadi/leetcode/tree/master/1376-time-needed-to-inform-all-employees) |
+| [1377-frog-position-after-t-seconds](https://github.com/JayaChandraDadi/leetcode/tree/master/1377-frog-position-after-t-seconds) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1462-course-schedule-iv](https://github.com/JayaChandraDadi/leetcode/tree/master/1462-course-schedule-iv) |
@@ -1180,6 +1181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1325-delete-leaves-with-a-given-value](https://github.com/JayaChandraDadi/leetcode/tree/master/1325-delete-leaves-with-a-given-value) |
 | [1376-time-needed-to-inform-all-employees](https://github.com/JayaChandraDadi/leetcode/tree/master/1376-time-needed-to-inform-all-employees) |
+| [1377-frog-position-after-t-seconds](https://github.com/JayaChandraDadi/leetcode/tree/master/1377-frog-position-after-t-seconds) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1490-clone-n-ary-tree](https://github.com/JayaChandraDadi/leetcode/tree/master/1490-clone-n-ary-tree) |
 | [1522-diameter-of-n-ary-tree](https://github.com/JayaChandraDadi/leetcode/tree/master/1522-diameter-of-n-ary-tree) |
@@ -1309,6 +1311,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1254-number-of-closed-islands](https://github.com/JayaChandraDadi/leetcode/tree/master/1254-number-of-closed-islands) |
 | [1267-count-servers-that-communicate](https://github.com/JayaChandraDadi/leetcode/tree/master/1267-count-servers-that-communicate) |
 | [1376-time-needed-to-inform-all-employees](https://github.com/JayaChandraDadi/leetcode/tree/master/1376-time-needed-to-inform-all-employees) |
+| [1377-frog-position-after-t-seconds](https://github.com/JayaChandraDadi/leetcode/tree/master/1377-frog-position-after-t-seconds) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1462-course-schedule-iv](https://github.com/JayaChandraDadi/leetcode/tree/master/1462-course-schedule-iv) |
@@ -1442,6 +1445,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0743-network-delay-time](https://github.com/JayaChandraDadi/leetcode/tree/master/0743-network-delay-time) |
 | [0990-satisfiability-of-equality-equations](https://github.com/JayaChandraDadi/leetcode/tree/master/0990-satisfiability-of-equality-equations) |
 | [0997-find-the-town-judge](https://github.com/JayaChandraDadi/leetcode/tree/master/0997-find-the-town-judge) |
+| [1377-frog-position-after-t-seconds](https://github.com/JayaChandraDadi/leetcode/tree/master/1377-frog-position-after-t-seconds) |
 | [1462-course-schedule-iv](https://github.com/JayaChandraDadi/leetcode/tree/master/1462-course-schedule-iv) |
 | [1514-path-with-maximum-probability](https://github.com/JayaChandraDadi/leetcode/tree/master/1514-path-with-maximum-probability) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/JayaChandraDadi/leetcode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
