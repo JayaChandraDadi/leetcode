@@ -1,36 +1,37 @@
-class Solution(object):
-    def findmax(self, nums):
-        n = len(nums)
+class Solution:
+    def maximumrectangle(self,heights):
+        n = len(heights)
         st = []
         maxarea = float('-inf')
         for i in range(n):
-            while st and nums[st[-1]]>=nums[i]:
-                el = st.pop()
-                nse = i
-                pse = st[-1] if st else -1
-                maxarea = max(maxarea,(nse-pse-1)*nums[el])
-            st.append(i)
-        while st:
-            el = st.pop()
-            nse = n
-            pse = st[-1] if st else -1
-            maxarea = max(maxarea,(nse-pse-1)*nums[el])
-        return maxarea
-    def maximalRectangle(self, matrix):
-        m = len(matrix)
-        n = len(matrix[0]) if matrix else 0
-        premat = [[0]*n for _ in range(m)]
-        for i in range(m):
-            presum = 0
-            for j in range(n):
-                if int(matrix[i][j])==0:
-                    premat[i][j] = 0
+            while st and heights[st[-1]]>=heights[i]:
+                idx = st.pop()
+                nse_idx = i
+                if st:
+                    pse_idx = st[-1] 
                 else:
-                    premat[i][j] = int(matrix[i][j])+(int(premat[i-1][j]) if i>0 else 0)
-        maxarea = float('-inf')
-        for i in range(m):
-            maxarea = max(maxarea,self.findmax(premat[i]))
+                    pse_idx = -1
+                maxarea = max(maxarea,heights[idx]*(nse_idx-pse_idx-1))
+            st.append(i)
+        while(st):
+            idx = st.pop()
+            nse_idx = n
+            if st:
+                pse_idx = st[-1]
+            else:
+                pse_idx = -1
+            maxarea = max(maxarea,heights[idx]*(nse_idx-pse_idx-1))
         return maxarea
-
-
-        
+    def maximalRectangle(self, matrix: List[List[str]]) -> int:
+        m = len(matrix)
+        n = len(matrix[0]) if m else 0
+        maxarea = float('-inf')
+        heights = [0]*n
+        for i in range(m):
+            for j in range(n):
+                if matrix[i][j]=='1':
+                    heights[j]+=1
+                else:
+                    heights[j] = 0
+            maxarea = max(maxarea,self.maximumrectangle(heights))
+        return maxarea
