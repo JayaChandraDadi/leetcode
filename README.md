@@ -120,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0502-ipo](https://github.com/JayaChandraDadi/leetcode/tree/master/0502-ipo) |
 | [0503-next-greater-element-ii](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0503-next-greater-element-ii) |
 | [0518-coin-change-ii](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0518-coin-change-ii) |
+| [0528-random-pick-with-weight](https://github.com/JayaChandraDadi/leetcode/tree/master/0528-random-pick-with-weight) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0542-01-matrix](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0560-subarray-sum-equals-k) |
@@ -402,6 +403,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0368-largest-divisible-subset](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0368-largest-divisible-subset) |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/JayaChandraDadi/leetcode/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/JayaChandraDadi/leetcode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
+| [0528-random-pick-with-weight](https://github.com/JayaChandraDadi/leetcode/tree/master/0528-random-pick-with-weight) |
 | [0628-maximum-product-of-three-numbers](https://github.com/JayaChandraDadi/leetcode/tree/master/0628-maximum-product-of-three-numbers) |
 | [0973-k-closest-points-to-origin](https://github.com/JayaChandraDadi/leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [1013-fibonacci-number](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1013-fibonacci-number) |
@@ -504,6 +506,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0374-guess-number-higher-or-lower](https://github.com/JayaChandraDadi/leetcode/tree/master/0374-guess-number-higher-or-lower) |
 | [0410-split-array-largest-sum](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0410-split-array-largest-sum) |
 | [0493-reverse-pairs](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0493-reverse-pairs) |
+| [0528-random-pick-with-weight](https://github.com/JayaChandraDadi/leetcode/tree/master/0528-random-pick-with-weight) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0704-binary-search](https://github.com/JayaChandraDadi/leetcode/tree/master/0704-binary-search) |
 | [0792-binary-search](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0792-binary-search) |
@@ -589,6 +592,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0253-meeting-rooms-ii](https://github.com/JayaChandraDadi/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0304-range-sum-query-2d-immutable](https://github.com/JayaChandraDadi/leetcode/tree/master/0304-range-sum-query-2d-immutable) |
 | [0410-split-array-largest-sum](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0410-split-array-largest-sum) |
+| [0528-random-pick-with-weight](https://github.com/JayaChandraDadi/leetcode/tree/master/0528-random-pick-with-weight) |
 | [0560-subarray-sum-equals-k](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1046-max-consecutive-ones-iii) |
@@ -1598,4 +1602,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/JayaChandraDadi/leetcode/tree/master/0204-count-primes) |
+## Randomized
+|  |
+| ------- |
+| [0528-random-pick-with-weight](https://github.com/JayaChandraDadi/leetcode/tree/master/0528-random-pick-with-weight) |
 <!---LeetCode Topics End-->
