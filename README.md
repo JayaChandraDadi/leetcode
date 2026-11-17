@@ -259,6 +259,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0986-interval-list-intersections](https://github.com/JayaChandraDadi/leetcode/tree/master/0986-interval-list-intersections) |
 | [1129-longest-string-chain](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/1129-longest-string-chain) |
 | [1768-merge-strings-alternately](https://github.com/JayaChandraDadi/leetcode/tree/master/1768-merge-strings-alternately) |
+| [1963-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/JayaChandraDadi/leetcode/tree/master/1963-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/JayaChandraDadi/leetcode/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
@@ -723,6 +724,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0890-lemonade-change](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0890-lemonade-change) |
 | [1405-longest-happy-string](https://github.com/JayaChandraDadi/leetcode/tree/master/1405-longest-happy-string) |
 | [1899-merge-triplets-to-form-target-triplet](https://github.com/JayaChandraDadi/leetcode/tree/master/1899-merge-triplets-to-form-target-triplet) |
+| [1963-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/JayaChandraDadi/leetcode/tree/master/1963-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2032-largest-odd-number-in-string](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2032-largest-odd-number-in-string) |
 | [2600-k-items-with-the-maximum-sum](https://github.com/JayaChandraDadi/leetcode/tree/master/2600-k-items-with-the-maximum-sum) |
 | [2712-minimum-cost-to-make-all-characters-equal](https://github.com/JayaChandraDadi/leetcode/tree/master/2712-minimum-cost-to-make-all-characters-equal) |
@@ -796,6 +798,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/JayaChandraDadi/leetcode/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [1768-merge-strings-alternately](https://github.com/JayaChandraDadi/leetcode/tree/master/1768-merge-strings-alternately) |
 | [1871-jump-game-vii](https://github.com/JayaChandraDadi/leetcode/tree/master/1871-jump-game-vii) |
+| [1963-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/JayaChandraDadi/leetcode/tree/master/1963-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2024-maximize-the-confusion-of-an-exam](https://github.com/JayaChandraDadi/leetcode/tree/master/2024-maximize-the-confusion-of-an-exam) |
 | [2032-largest-odd-number-in-string](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2032-largest-odd-number-in-string) |
 | [2379-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/JayaChandraDadi/leetcode/tree/master/2379-minimum-recolors-to-get-k-consecutive-black-blocks) |
@@ -848,6 +851,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/JayaChandraDadi/leetcode/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [1762-buildings-with-an-ocean-view](https://github.com/JayaChandraDadi/leetcode/tree/master/1762-buildings-with-an-ocean-view) |
 | [1944-number-of-visible-people-in-a-queue](https://github.com/JayaChandraDadi/leetcode/tree/master/1944-number-of-visible-people-in-a-queue) |
+| [1963-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/JayaChandraDadi/leetcode/tree/master/1963-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/JayaChandraDadi/leetcode/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [2227-sum-of-subarray-ranges](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/2227-sum-of-subarray-ranges) |
 ## Linked List
@@ -1575,6 +1579,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0032-longest-valid-parentheses](https://github.com/JayaChandraDadi/leetcode/tree/master/0032-longest-valid-parentheses) |
 | [1021-remove-outermost-parentheses](https://github.com/JayaChandraDadi/leetcode/tree/master/1021-remove-outermost-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/JayaChandraDadi/leetcode/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
+| [1963-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/JayaChandraDadi/leetcode/tree/master/1963-minimum-number-of-swaps-to-make-the-string-balanced) |
 ## Boyer–Moore Majority Vote Algorithm
 |  |
 | ------- |
