@@ -763,6 +763,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0271-encode-and-decode-strings](https://github.com/JayaChandraDadi/leetcode/tree/master/0271-encode-and-decode-strings) |
 | [0288-unique-word-abbreviation](https://github.com/JayaChandraDadi/leetcode/tree/master/0288-unique-word-abbreviation) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0301-remove-invalid-parentheses](https://github.com/JayaChandraDadi/leetcode/tree/master/0301-remove-invalid-parentheses) |
 | [0332-reconstruct-itinerary](https://github.com/JayaChandraDadi/leetcode/tree/master/0332-reconstruct-itinerary) |
 | [0394-decode-string](https://github.com/JayaChandraDadi/leetcode/tree/master/0394-decode-string) |
 | [0399-evaluate-division](https://github.com/JayaChandraDadi/leetcode/tree/master/0399-evaluate-division) |
@@ -897,6 +898,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0131-palindrome-partitioning](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0216-combination-sum-iii) |
 | [0257-binary-tree-paths](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0257-binary-tree-paths) |
+| [0301-remove-invalid-parentheses](https://github.com/JayaChandraDadi/leetcode/tree/master/0301-remove-invalid-parentheses) |
 | [0494-target-sum](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0494-target-sum) |
 ## Depth-First Search
 |  |
@@ -1286,6 +1288,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0269-alien-dictionary](https://github.com/JayaChandraDadi/leetcode/tree/master/0269-alien-dictionary) |
 | [0286-walls-and-gates](https://github.com/JayaChandraDadi/leetcode/tree/master/0286-walls-and-gates) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0301-remove-invalid-parentheses](https://github.com/JayaChandraDadi/leetcode/tree/master/0301-remove-invalid-parentheses) |
 | [0310-minimum-height-trees](https://github.com/JayaChandraDadi/leetcode/tree/master/0310-minimum-height-trees) |
 | [0322-coin-change](https://github.com/Jaichandra242003-aiml/leetcode/tree/master/0322-coin-change) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/JayaChandraDadi/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
